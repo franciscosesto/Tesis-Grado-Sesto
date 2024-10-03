@@ -1,0 +1,157 @@
+\chapter{Obtención de $B(t,\tau)$}\label{Apendice_F}
+
+En este apéndice, abordaremos la derivación del cambio en la utilidad como una función lineal de $\varepsilon(t)$. Esto nos permitirá reescribir $\Delta U(\tau)$ de manera más conveniente.
+
+\section{Derivación del cambio de utilidad lineal}
+Definamos primeramente a $x(t)$ para simplificar $\Delta U(\tau)$
+\begin{equation}
+\label{apf_1}
+    x(t)=\ln\left(D(t)\frac{\ds \int_{0}^{T-t}D(z)d z}{\ds \int_{0}^{T}D(z^{\prime})d z^{\prime}}\right)+\int_{0}^{t}\frac{d s}{\ds \int_{0}^{T-s}D(s^{\prime})d s^{\prime}},
+\end{equation}
+
+de manera tal que
+\begin{equation}
+    \label{apf_2}
+    \Delta U(\tau)=\int_{\tau}^{T}D(t-\tau)x(t)d t.
+\end{equation}
+
+Usando \ref{eq 2}, que nos muestra que la función de descuento es la función exponencial más un desvío en cada momento podemos reemplazar la función de descuento $D(t)$ en \ref{apf_1} y reescribirlo como
+\begin{equation}
+\label{apf_3}
+    \begin{split}
+        x(t)~&=~-\rho t+\ln\!\left(1+\varepsilon(t)\right)+\ln\left(\int_{0}^{T-t}\exp(-\rho z)(1+\varepsilon(z))d z\right) \\
+        &-\ln\left(\int_{0}^{T}\exp(-\rho z^{\prime})(1+\varepsilon(z^{\prime}))d z^{\prime}\right)+\int_{0}^{t}\frac{d s}{\ds \int_{0}^{T-s}\exp(-\rho s^{\prime})(1+\varepsilon(s^{\prime}))d s^{\prime}}.
+    \end{split}
+\end{equation}
+
+Podemos aproximar $x(t)$ a primer orden en $\varepsilon$ simplificando cada término en (\ref{apf_3}) como sigue.
+$$\ln(1+\varepsilon(t))=\varepsilon(t)+O(\varepsilon^{2}).$$
+
+Por tanto
+\begin{equation*}
+    \begin{split}
+        \ln \biggl(\int_{0}^{T-t}\exp(-\rho z) & (1+\varepsilon(z))d z\biggl)\ =\ \ln\left[\int_{0}^{T-t}\exp(-\rho z)dz + \int_{0}^{T-t}\exp(-\rho z^{\prime})\varepsilon(z^{\prime})dz^{\prime}\right] \\
+        &=\ \ln\left[\int_{0}^{T-t}\exp(-\rho z)d z\left(1+\frac{\int_{0}^{T-t}\exp(-\rho z^{\prime})\varepsilon(z^{\prime})d z^{\prime}}{\int_{0}^{T-t}\exp(-\rho z^{\prime\prime})d z^{\prime\prime}}\right)\right] \\
+        &= \ln\left(\int_{0}^{T-t}\exp(-\rho z)d z\right)+\ln\left[1+{\frac{\int_{0}^{T-t}\exp(-\rho z^{\prime})\varepsilon(z^{\prime})d z^{\prime}}{\int_{0}^{T-t}\exp(-\rho z^{\prime\prime})d z^{\prime\prime}}}\right] \\
+        &= \ln\left(\int_{0}^{T-t}\exp(-\rho z)d z\right)+\frac{\int_{0}^{T-t}\exp(-\rho z^{\prime})\varepsilon(z^{\prime})d z^{\prime}}{\int_{0}^{T-t}\exp(-\rho z^{\prime\prime})d z^{\prime\prime}}+O(\varepsilon^{2})
+    \end{split}
+\end{equation*}
+
+\begin{equation*}
+    \begin{split}
+        \int_{0}^{t}{\frac{d s}{\int_{0}^{T-s}\exp(-\rho s^{\prime})(1+\varepsilon(s^{\prime}))d s^{\prime}}}=\int_{0}^{t}\frac{d s}{\int_{0}^{T-s}\exp(-\rho s^{\prime})d s^{\prime}\left(1+\frac{\int_{0}^{T-s}\exp(-\rho z^{\prime})\varepsilon(z^{\prime})d z^{\prime}}{\int_{0}^{T-s}\exp(-\rho z)d z}\right)}
+    \end{split}
+\end{equation*}
+
+\begin{equation*}
+    \begin{split}
+        \int_{0}^{t}\frac{d s}{\int_{0}^{T-s}\exp(-\rho s^{\prime})d s^{\prime}}~&=~\int_{0}^{t}\frac{d s}{\int_{s}^{T}\exp(-\rho^{*}(s^{\prime}-s))d s^{\prime}} \\
+        &= \int_{0}^{t}{\frac{\exp(-\rho s)d s}{\int_{s}^{T}\exp(-\rho s^{\prime})d s^{\prime}}}
+    \end{split}
+\end{equation*}
+
+\begin{equation*}
+    \begin{split}
+     u&=\int_{s}^{T}\exp(-\rho s^{\prime})d s^{\prime} \\
+     du &= - \exp(- \rho s) ds
+    \end{split}
+\end{equation*}
+
+\begin{equation*}
+    \begin{split}
+     \int_{0}^{t}\frac{d s}{\int_{0}^{T-s}\exp(-\rho s^{\prime})d s^{\prime}}~~&=~~ - \int^{\int_{t}^{T}\exp(-\rho s)ds}_{\int_{0}^{T}\exp(-\rho^{*} s)ds}\frac{d u}{u} \\ 
+     &= -\ln\left(\int_{t}^{T}\exp(-\rho s)d s\right)+\ln\left(\int_{0}^{T}\exp(-\rho s)d s\right)
+    \end{split}
+\end{equation*}
+
+\begin{equation*}
+    \begin{split}
+\ln\left(\int_{0}^{T-t}\exp(-\rho z)d z\right)~&-~\ln\left(\int_{0}^{T}\exp(-\rho z^{\prime})d z^{\prime}\right) \\
+&= \ln\left(\int_{t}^{T}\exp(-\rho(z-t))d z\right)-\ln\left(\int_{0}^{T}\exp(-\rho z)d z\right) \\
+&= \rho t+\ln\left(\int_{t}^{T}\exp(-\rho z)d z\right)-\ln\left(\int_{0}^{T}\exp(-\rho z)d z\right)
+    \end{split}
+\end{equation*}
+
+Reemplazando estas igualdades en \ref{apf_3} obtenemos 
+\begin{equation}
+\label{apf_4}
+    \begin{split}
+        x(t)=\varepsilon(t)+{\frac{\int_{0}^{T-t}\exp(-\rho z)\varepsilon(z)d z}{\int_{0}^{T-t}\exp(-\rho z^{\prime})d z^{\prime}}}-{\frac{\int_{0}^{T}\exp(-\rho z)\varepsilon(z)d z}{\int_{0}^{T}\exp(-\rho z^{\prime})d z^{\prime}}} \\ 
+       - \int_{0}^{t}{\frac{\int_{0}^{T-s}\exp(-\rho z)\varepsilon(z)d z}{\left(\int_{0}^{T-s}\exp(-\rho z^{\prime})d z^{\prime}\right)^2}}d s+O(\varepsilon^{2})
+    \end{split}
+\end{equation}
+
+Cabe destacar que $x(t)$ desaparecerá cuando los factores de ponderación futuros son iguales a cero $\varepsilon(t)=0$, por lo que podemos reescribir \ref{apf_2} como
+
+\begin{equation}
+\label{apf_5}
+    \begin{split}
+        \Delta U(\tau) = \int_{\tau}^T \exp(-\rho^{*} (t- \tau)) \left[\ln \left(D(t) \dfrac{\int_0^{T-t}D(z)dz}{\int_0^T D(z^{\prime})dz^{\prime}} \right) + \int_0^t \dfrac{ds}{\int_0^{T-s}D(s^{\prime})ds^{\prime}} \right] dt \\ 
+        + O(\varepsilon^2)
+    \end{split}
+\end{equation}
+
+El conjunto de valores de integración para el último término en la ecuación (\ref{apf_4}) se define como $S = \{ (s, z): 0 \leq s \leq t \land 0 \leq z \leq T - s \} .$
+$\left(a \right)$
+
+Ahora, definamos un nuevo conjunto $S^{\prime}$ como $\{(s, z) : 0 \leq z \leq T \land 0 \leq s \leq \min\left(t, T - z\right)\}$.
+
+Si tenemos un par ordenado $(s, z)$ que pertenece a $S$, entonces debe cumplirse que $0 \leq s \leq t$ y $0 \leq z \leq T - s$. Por lo tanto, $0 \leq z \leq T$. Luego, tenemos que $0 \leq s$ y $s \leq t$, y también $s \leq T - z$. Esto significa que $(s, z)$ también pertenece a $S^{\prime}$.
+
+Por otro lado, si $(s, z)$ pertenece a $S^{\prime}$, entonces tenemos que $0 \leq z \leq T$ y $0 \leq s \leq \min\left(t, T - z\right)$. Esto implica que $0 \leq s \leq t$. Además, tenemos $0 \leq z$ y $s \leq T - z$, lo que nos lleva a $0 \leq z \leq T - s$. Por lo tanto, $(s, z)$ también pertenece a $S$.
+
+En resumen, los conjuntos $S$ y $S^{\prime}$ contienen los mismos pares ordenados $(s, z)$, ya que cualquier par que pertenezca a uno también pertenecerá al otro.
+
+$$\int_0^t \dfrac{\int_0^{T-s}\exp(-\rho z)\varepsilon(z)dz}{\left( \int_0^{T-s}\exp(-\rho z^{\prime})\varepsilon(z)dz^{\prime}\right)^2}ds= \int_0^T \exp(-\rho z)\varepsilon(z) \int_0^{\min\left(t, T - z\right)} \dfrac{ds}{\left( \int_0^{T-s}\exp(-\rho z^{\prime})\varepsilon(z)dz^{\prime}\right)^2}$$
+
+Por tanto podemos reescribir \ref{apf_2} como
+
+\begin{equation*}
+    \begin{split}
+        \Delta U(\tau) &= \int_{\tau}^T \exp(- \rho^{*}(t- \tau)) \left[ \varepsilon(t) + \dfrac{\int_0^{T-t}\exp(-\rho^{*}z) \varepsilon(z)dz}{\int_0^{T-t}\exp(-\rho^{*}z^{\prime}) dz^{\prime}} - \dfrac{\int_0^{T}\exp(-\rho^{*}z) \varepsilon(z)dz}{\int_0^{T}\exp(-\rho^{*}z^{\prime}) dz^{\prime}}\right. \\ &-\left. \int_0^T \exp(- \rho^*z) \varepsilon(z) \int_0^{\min\left(t, T - z\right)} \dfrac{ds}{\left( \int_0^{T-s}\exp(-\rho z^{\prime})\varepsilon(z)dz^{\prime}\right)^2dz} \right]dt + O(\varepsilon^2).
+    \end{split}
+\end{equation*}
+
+
+Usando \ref{eq 62}, se simplifica a 
+\begin{equation}
+\label{apf_6}
+    \begin{split}
+        \Delta U(\tau) &= \int_{\tau}^T \exp(- \rho^{*}(t- \tau)) \left[ \varepsilon(t) + \dfrac{\int_0^{T-t}\exp(-\rho^{*}z) \varepsilon(z)dz}{\int_0^{T-t}\exp(-\rho^{*}z^{\prime}) dz^{\prime}} \right. \\
+        &-\left. \int_0^T \exp(- \rho^*z) \varepsilon(z) M(t,z)dz \right]dt + O(\varepsilon^2).
+    \end{split}
+\end{equation}
+
+Siendo en \ref{eq 62}
+\begin{equation}
+M(t, z)=\dfrac{1}{\ds \int_0^T \exp \left(-\rho z^{\prime}\right) d z^{\prime}}+\ds \int_0^{\min \{t, T-z\}} \dfrac{d s}{\left(\ds \int_0^{T-s} \exp \left(-\rho z^{\prime}\right) d z^{\prime}\right)^2}
+\end{equation}
+
+Entonces el primer término en \ref{apf_6} usando la función de salto $\Theta$ \ref{eq 63} es
+$$\int_{\tau}^{T}\exp(\rho^{\ast}(t-\tau))\varepsilon(t)d t=\int_{0}^{T}\exp(\rho^{\ast}(z-\tau))\varepsilon(z)\Theta(z-\tau)dz.$$
+
+Usando la misma función el segundo término es
+\begin{equation*}
+    \begin{split}
+        &\int_{\tau}^{T}\exp(-\rho^{\ast}(t-\tau)){\frac{\int_{0}^{T-t}\exp(-\rho^{\ast}z)\varepsilon(z)d z}{\int_{0}^{T-t}\exp(-\rho^{\ast}z^{\prime})d z^{\prime}}}\\
+        &=~\int_{0}^{T}\exp(-\rho^{\ast}(t-\tau))\Theta(t-\tau){\dfrac{\int_{0}^{T-t}\exp(-\rho^{\ast}z)\varepsilon(z) dz}{\int_{0}^{T-t}\exp(-\rho^{\ast}z^{\prime})d z^{\prime}}} \\
+        &=~\int_{0}^{T}\exp(-\rho^{\ast}z)\varepsilon(z)\int_0^{T-z}{\dfrac{\exp(-\rho^{\ast}(t- \tau))\Theta(t- \tau)}{\int_{0}^{T-t}\exp(-\rho^{\ast}z^{\prime})d z^{\prime}}}dt dz.
+    \end{split}
+\end{equation*}
+
+El tercer término se simplifica a 
+\begin{equation*}
+    \begin{split}
+        \int_{\tau}^{T}\exp(-\rho^{\ast}(t-\tau))\int_{0}^{T}\exp(-\rho^{\ast}z)\varepsilon(z)M(t,z)dz=\\
+        \int_{0}^{T}\exp(-\rho^{\ast}z)\varepsilon(z)\int_{\tau}^{T}\exp(-\rho^{\ast}(t-\tau))M(t,z)d z.
+    \end{split}
+\end{equation*}
+
+Por tanto
+\begin{equation*}
+    \begin{split}
+        \Delta U(\tau)~&=~\int_{0}^{T}\mathrm{exp}(-\rho^{\ast}z)\varepsilon(z)\biggl[\exp(\rho^{\ast}\tau)\Theta(z-\tau) \\
+        &+\int_{0}^{T-z}\frac{\exp(-\rho^{\ast}(t-\tau))\Theta(t-\tau)}{\int_{0}^{T-t}\exp(-\rho^{\ast}z^{\prime})d z^{\prime}}d t-\int_{\tau}^{T}\exp(-\rho^{\ast}(t-\tau))M(t,z)d t\biggl]d z,
+    \end{split}
+\end{equation*}
+y $B(t,z)$ es el integrando dividido por el factor de ponderación futuro $\varepsilon(z)$

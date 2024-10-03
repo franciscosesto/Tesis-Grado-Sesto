@@ -1,0 +1,19 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'Tesis (Version Definitiva).blg'
+[212] biber-MSWIN64:340> INFO - === 
+[289] Biber.pm:419> INFO - Reading 'Tesis (Version Definitiva).bcf'
+[559] Biber.pm:979> INFO - Found 40 citekeys in bib section 0
+[597] Biber.pm:4419> INFO - Processing section 0
+[619] Biber.pm:4610> INFO - Looking for bibtex file 'bibliografia.bib' for section 0
+[697] bibtex.pm:1713> INFO - LaTeX decoding ...
+[861] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografia.bib'
+[1332] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1332] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1332] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[1471] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1471] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1471] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[1547] bbl.pm:660> INFO - Writing 'Tesis (Version Definitiva).bbl' with encoding 'UTF-8'
+[1615] bbl.pm:763> INFO - Output to Tesis (Version Definitiva).bbl
+[1615] Biber.pm:131> WARN - ISBN '978111106113' in entry 'miltenberger2012behavior' is invalid - run biber with '--validate_datamodel' for details.
+[1615] Biber.pm:133> INFO - WARNINGS: 1

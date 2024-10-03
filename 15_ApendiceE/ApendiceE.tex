@@ -1,0 +1,26 @@
+\chapter{Simplificación de la Utilidad de la senda de compromiso}\label{Apendice_E}
+
+En este apéndice, se explorará la simplificación de la utilidad según \parencite{feigenbaum2021deviation} en el contexto de la senda de consumo, especialmente cuando se asume un compromiso con el plan inicial. 
+
+\section{Simplificación}
+Para poder demostrar que la utilidad reflejada en \ref{eq 55} es equivalente a la que se muestra en \ref{eq 56}, se necesita probar que 
+\begin{equation}
+    \label{ap_e 1}
+    \dfrac{1}{\ds \int_t^T D(s)ds} \exp \left(- \ds \int_0^t \dfrac{D(s)ds}{\ds \int_t^T D(s')ds'} \right)= \dfrac{1}{\ds \int_0^T D(s)ds},
+\end{equation}
+o de manera equivalente pasando la integral de la derecha a multiplicar y la exponencial al otro lado
+
+$$\dfrac{\ds \int_0^T D(s)ds}{\ds \int_t^T D(s)ds} = \dfrac{1}{\exp \left(- \ds \int_0^t \dfrac{D(s)ds}{\ds \int_t^T D(s')ds'} \right)} \Rightarrow
+\dfrac{\ds \int_0^T D(s)ds}{\ds \int_t^T D(s)ds} = \exp \left( \ds \int_0^t \dfrac{D(s)ds}{\ds \int_t^T D(s')ds'} \right).$$
+
+Si se realiza la siguiente sustitución 
+$$u=\int_s^TD(s')ds' \Rightarrow
+du=-D(s)ds,$$
+entonces se resuelve del siguiente modo
+$$\ds \int_0^t \dfrac{D(s)ds}{\ds \int_t^T D(s')ds'}= - \ds \int_{ \int_0^T D(s)ds}^{ \int_t^T D(s)ds} \dfrac{du}{u}$$
+resolviendo la integral,
+$$\ds \int_0^t \dfrac{D(s)ds}{\ds \int_t^T D(s')ds'}= \ln \left( \int_0^T D(s)ds\right) - \ln \left( \int_t^T D(s)ds\right)$$
+aplicando exponencial a ambos lados,
+$$\exp \left(\ds \int_0^t \dfrac{D(s)ds}{\ds \int_t^T D(s')ds'}\right)=\exp \left( \ln \left( \ds \dfrac{\int_0^T D(s)ds}{\ds \int_t^T D(s)ds} \right) \right)$$
+simplificando resulta en,
+$$\exp \left(\ds \int_0^t \dfrac{D(s)ds}{\ds \int_t^T D(s')ds'}\right)=\dfrac{\ds \int_0^T D(s)ds}{ \ds \int_t^T D(s)ds}$$

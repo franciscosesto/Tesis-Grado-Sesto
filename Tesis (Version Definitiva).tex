@@ -1,0 +1,245 @@
+\documentclass[12pt, a4paper]{report}
+
+\usepackage[spanish]{babel}   % Para el idioma
+\usepackage{amssymb,amsfonts,amsmath,latexsym}   % Para las fuentes, simbolos matematicos ect
+\usepackage{csquotes}
+\usepackage[style=apa, backend=biber]{biblatex}
+%\usepackage[]{natbib}
+\addbibresource{bibliografia.bib}
+
+%\usepackage{cite}          % Para citar bibliografia
+%\usepackage[backref=page]{hyperref} % Para referenciar
+\usepackage{hyperref}     % Para referenciar
+\usepackage{graphicx}     % Para incluir graficos
+\usepackage{fancyhdr}     % Para los encabezados
+\usepackage{xcolor}      % Para definir colores
+\usepackage{setspace}    % Para incluir interlineados
+\usepackage{booktabs}    % Para hacer tablas
+\usepackage{longtable}   % Para el tipo de tablas utilizados
+\usepackage{textcomp}    % Para algunos signos y simbolos
+\usepackage{makeidx}     % Para hacer el indice alfabetico
+\usepackage{bm}         % Para escribir simbología en negrita
+\usepackage{pdfpages}    % Para incluir un pdf en el escrito
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+
+%%%%%%%%%%%%%%%%%%%%% DEFINICION DE LA HOJA %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagestyle{headings}  % Encabezados
+% \topmargin 0cm
+% \oddsidemargin 0.7cm   
+% \textheight 21cm
+% \textwidth 15cm
+\parindent 0cm
+\parskip 0.2cm
+\usepackage[top=3.5cm, bottom=3cm, left=3cm, right=2.5cm]{geometry}
+
+
+\def \ds{\displaystyle}
+\def\sqr#1#2{{\vcenter{\vbox{\hrule height.#2pt\hbox{\vrule width.#2pt height#1pt \kern#1pt \vrule width.#2pt} \hrule height.#2pt}}}}
+\def\square{\mathchoice\sqr34\sqr34\sqr{2.1}3\sqr{1.5}3}
+
+\setcounter{secnumdepth}{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% -------------------- Letras Especiales -------------------------
+
+\def \N{\mathbb{N}}
+\def \Z{\mathbb{Z}}
+\def \Q{\mathbb{Q}}
+\def \R{\mathbb{R}}
+\def \C{\mathbb{C}}
+\def \ds{\displaystyle}
+
+\newcommand{\argmin}{\mathop{\mathrm{argmin}}\limits}
+\newcommand{\minimo}{\mathop{\mathrm{min}}\limits}
+\newcommand{\maximo}{\mathop{\mathrm{max}}\limits}
+
+% -------------------- Environment delimiters --------------------
+
+\newtheorem{defn}{Definici\'on}[chapter]
+\newtheorem{lem}[defn]{Lema}
+\newtheorem{prop}[defn]{Proposici\'on}
+\newtheorem{theorem}[defn]{Teorema}
+\newtheorem{cor}[defn]{Corolario}
+\newtheorem{rem}[defn]{Observaci\'on}
+\newtheorem{exmpl}[defn]{Ejemplo}
+
+\DeclareUnicodeCharacter{0301}{\'{e}}
+% \newenvironment{undef}[1]
+%    {\vspace{3.3mm}\noindent{\bf #1}\it}
+%    {\vspace{3.3mm}}
+
+\newenvironment{proof}[1]
+   {\trivlist \item[\hskip \labelsep{\it #1}]}
+   {\hfill\mbox{$\square$}
+   \endtrivlist}
+
+% -------------------- Mi Tesis --------------------
+
+\setlength{\headheight}{0.5cm}
+\rhead{\begin{picture}(0,0) \put(-99.7,0){\includegraphics[width=40mm]{0_1_Caratula/austral_logo.jpg}} \end{picture}} % Encabezado
+\renewcommand{\headrulewidth}{0.5pt}
+\pagestyle{fancy} %Estilo de pagina
+
+\renewcommand{\baselinestretch}{1.5
+} % interlineado 1.5
+
+\makeindex % para que cree el índice alfabetico 
+
+\begin{document}
+%
+\renewcommand{\listfigurename}{\'Indice de Figuras} % Para que titule con inicial en mayuscula
+%
+\renewcommand{\listtablename}{\'Indice de Cuadros}  % Para que titule con inicial en mayuscula
+%
+\renewcommand{\indexname}{\'Indice Alfab\'etico} % Para que titule con inicial en mayuscula
+%
+\pagenumbering{Roman} % Inicia pagimación en números Romanos 
+%
+%\includepdf[pages=1-12]{Portada_y_Formulario_E.pdf}   % Para incluir la portada y el formulario E
+%
+%\addcontentsline{toc}{chapter}{Portada y Formulario E}  % Agrega el formulario al indice general
+%
+%
+\input{0_1_Caratula/Caratula}  %%%%%%% Carátula
+%
+\thispagestyle{empty}  % No la enumera
+%
+\newpage % Deja una hoja en blanco
+$\ $
+%
+\thispagestyle{empty}  % No la enumera
+%
+% \input{0_2_Dedicatoria/Dedicatoria}  %%%%%%% Dedicatoria
+% %
+% \newpage % Deja una hoja en blanco
+% $\ $
+% \thispagestyle{empty}  % No la enumera
+% %
+% \input{0_3_Agradecimientos/Agradecimientos}  %%%%%%% Agradecimientos
+% %
+% \singlespace     % interlineado simple para el indice, las figuras y las tablas
+% %
+\tableofcontents  %%%%%%% Índice
+% %
+% \addcontentsline{toc}{chapter}{\'Indice General}  % Agrega la lista al indice general
+% %
+% \newpage % Deja una hoja en blanco
+% $\ $
+% %
+% \thispagestyle{empty}  % No la enumera
+% %
+% \listoffigures    %%%%%%% Índice de figuras
+% %
+% \addcontentsline{toc}{chapter}{\'Indice de Figuras} % Agrega la lista al indice general 
+% %
+% \listoftables     %%%%%%% Índice de tablas
+% %
+% \addcontentsline{toc}{chapter}{\'Indice de Cuadros} % Agrega la lista al indice general 
+% %
+% \spacing{1.5}       %interlineado 1.5 para el resto.
+% %
+% \input{0_4_Nomenclatura/Nomenclatura} % Nomenclatura
+% %
+\newpage % Deja una hoja en blanco
+ $\ $
+\thispagestyle{empty}  % No la enumera
+% %
+ \input{0_5_Resumen/Resumen}  %%%%%%% resumen
+% %
+% \newpage % Deja una hoja en blanco
+% $\ $
+% \thispagestyle{empty}  % No la enumera
+% %
+% \input{0_6_Abstract/Abstract}  %%%%%%% Abstract
+% %
+% \newpage % Deja una hoja en blanco
+% $\ $
+% \thispagestyle{empty}  % No la enumera
+% %
+\input{0_7_Introduccion/Introduccion} %%%%%%% Introducción 
+% %
+% \input{0_8_Publicaciones/Publicaciones} %%%%%%%  Publicaciones
+% %
+\input{1_Capitulo1/Capitulo1} %%%%%%% Conceptos Preliminares
+\newpage % Deja una hoja en blanco
+ $\ $
+\thispagestyle{empty}  % No la enumera
+\input{2_Capitulo2/Capitulo2} %%%%%%% Un problema de transporte
+% %
+% \newpage% Deja una hoja en blanco
+% $\ $
+% \thispagestyle{empty}  % No la enumera
+%
+\input{3_Capitulo3/Capitulo3} %%%%%%% Determinacion de la difusividad térmica
+% %
+ \input{4_Capitulo4/Capitulo4} %%%%%%% Estimacion del coeficiente de Pelicula
+% %
+\input{5_Capitulo5/Capitulo5} %%%%%%% Identificacion de la fuente
+% %
+% \input{6_Capitulo6/Capitulo6} %%%%%%% Un problema con interfaz
+% %
+% \input{7_Capitulo7/Capitulo7} %%%%%%% Aproximacion de la ubicacion del punto de contacto
+\newpage % Deja una hoja en blanco
+ $\ $
+\thispagestyle{empty}  % No la enumera
+\input{8_Conclusiones/Conclusiones} %%%%%%% Conclusiones Generales
+% %
+\input{9_Trabajos_Futuros/Trabajos_Futuros} %%%%%%% Trabajos Futuros
+% %
+\phantomsection  % para una correcta referencia del Apendice
+% %
+ \addcontentsline{toc}{chapter}{Ap\'endices}  %%%% Para que ponga la palabra "`apendices"' en el indice
+% %
+\begin{appendix}                     %%%%%%% Comienzan los apendices
+%
+\newpage % Deja una hoja en blanco
+ $\ $
+\thispagestyle{empty}  % No la enumera
+\input{10_ApendiceA/ApendiceA} %%%%%%% ApendiceA (Diferencias Finitas)
+%
+\newpage % Deja una hoja en blanco
+ $\ $
+\thispagestyle{empty}  % No la enumera
+%
+\input{11_ApendiceB/ApendiceB} %%%%%%% ApendiceB (Fundamentacion Fisica de la Conveccion)
+%
+\newpage % Deja una hoja en blanco
+ $\ $
+\thispagestyle{empty}  % No la enumera
+\input{13_ApendiceC/ApendiceC} %%%%%%% ApendiceB (Fundamentacion Fisica de la Conveccion)
+%
+\input{14_ApendiceD/ApendiceD} %%%%%%% ApendiceB (Fundamentacion Fisica de la Conveccion)
+
+%\input{15_ApendiceE/ApendiceE} %%%%%%% ApendiceB (Fundamentacion Fisica de la Conveccion)
+
+%\input{16_ApendiceF/ApendiceF} %%%%%%% ApendiceB (Fundamentacion Fisica de la Conveccion)
+
+\input{17_ApendiceG/ApendiceG} %%%%%%% ApendiceB (Fundamentacion Fisica de la Conveccion)
+\end{appendix}
+
+\newpage % Deja una hoja en blanco
+ $\ $
+ 
+\thispagestyle{empty}  % No la enumera
+\phantomsection 
+\addcontentsline{toc}{chapter}{Referencias}
+ \markright{REFERENCIAS}
+\chapter*{Referencias}
+
+
+%\input{12_Bibliografia/Bibliografia} %%%%%%% Bibliografia
+%
+\printbibliography[heading=none]
+\singlespace % interlineado simple para el indice alfabetico
+%
+
+ % para una correcta referencia del indice alfabetico
+%
+%\addcontentsline{toc}{chapter}{\'Indice Alfab\'etico} % para que lo añada al índice de contenidos
+%
+\printindex % para que ponga el índice alfabetico aqui
+%
+\end{document}

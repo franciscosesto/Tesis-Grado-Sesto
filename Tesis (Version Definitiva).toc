@@ -1,0 +1,52 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Resumen}{VII}{chapter*.2}%
+\contentsline {chapter}{Introducci\'on}{IX}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Conceptos Preliminares}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Modelos de consumo intertemporal}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Funciones de descuento}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Función de descuento de Samuelson}{3}{subsection.1.2.1}%
+\contentsline {section}{\numberline {1.3}Sesgo de presente}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Óptimo de pareto}{4}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Dominancia en pareto}{4}{subsection.1.4.1}%
+\contentsline {section}{\numberline {1.5}Propensión marginal a consumir}{4}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Entorno del modelo}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Función de descuento}{9}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Caso discreto}{10}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Caso continuo}{11}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Sesgo de presente}{15}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Problema del hogar}{18}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Condición de Pareto}{29}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Caso de lo realizado}{30}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Caso del compromiso}{32}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Contrastando acción y compromiso}{34}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Forma del perfil de consumo}{43}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Primera condición}{43}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Segunda condición}{44}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Tercera condición}{44}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Primera proposición de concavidad }{44}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Segunda proposición de concavidad }{45}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Condiciones en el descuento hiperbólico}{45}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Modelando decisiones con mayor precisión}{47}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Valor de la recompensa y reforzamiento}{48}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Medición del valor de la recompensa}{49}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Recompensas diferidas y descuento}{50}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Revisión de la ponderación futura fuerte}{54}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Revisión del sesgo de presente}{56}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Revisión de la condición de Pareto}{58}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Primera subcondición}{60}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Segunda subcondición}{62}{subsection.5.6.2}%
+\contentsline {section}{\numberline {5.7}Revisión de la concavidad}{63}{section.5.7}%
+\contentsline {chapter}{Conclusiones generales}{65}{chapter*.4}%
+\contentsline {chapter}{Posibles l\'ineas de investigaci\'on futura}{67}{chapter*.5}%
+\contentsline {chapter}{Ap\'endices}{67}{section*.6}%
+\contentsline {chapter}{\numberline {A}Función exponencial}{69}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Comparación}{69}{section.Alph1.1}%
+\contentsline {chapter}{\numberline {B}Relación del sesgo presente y los factores de ponderación futuros}{71}{appendix.Alph2}%
+\contentsline {section}{\numberline {B.1}Preferencias}{71}{section.Alph2.1}%
+\contentsline {chapter}{\numberline {C}Tasas de crecimiento relativas}{75}{appendix.Alph3}%
+\contentsline {section}{\numberline {C.1}Tasas de cambio y de crecimiento}{75}{section.Alph3.1}%
+\contentsline {section}{\numberline {C.2}Ejemplo de tasa de crecimiento}{76}{section.Alph3.2}%
+\contentsline {chapter}{\numberline {D}Análisis de la propensión marginal al consumo}{77}{appendix.Alph4}%
+\contentsline {section}{\numberline {D.1}Análisis de signos}{77}{section.Alph4.1}%
+\contentsline {chapter}{\numberline {E}Desarrollo de integrales}{79}{appendix.Alph5}%
+\contentsline {chapter}{Referencias}{82}{section*.7}%

@@ -1,0 +1,15 @@
+\chapter{Análisis de la propensión marginal al consumo}\label{Apendice_D}
+
+En este apéndice, se explorará la Propensión marginal al consumo (PMC) según \parencite{feigenbaum2021deviation} en el contexto de un $W(t)$ dado y cómo varía dependiendo de si la función de descuento es mayor que la exponencial (ponderación futura fuerte) o menor (ponderación futura ligera). 
+
+\section{Análisis de signos}
+Obsérvese que, dado que $\rho>0$ y $T-t > 0$, entonces $\exp (-\rho (T-t))<1$ y por lo tanto
+$$\dfrac{\rho}{1 - \exp (-\rho (T-t))}>0.$$
+
+Si se considera el escenario en el que la función de descuento es mayor que la función exponencial, esto se traduce en una ponderación futura fuerte, lo que implica que $\varepsilon(t) \geq 0$. En este caso, a medida que $\ds \int_0^{T-t} \exp (- \rho s) \varepsilon(s) ds$ aumenta, la PMC dada por (\ref{pmc}) disminuye. Lo cual se traduce en una reducción del consumo.
+\begin{equation}
+\label{pmc}    
+m(t)=\dfrac{\rho}{1 - \exp (-\rho (T-t))}  \left[ 1 - \dfrac{\rho}{1 - \exp (-\rho (T-t))}\ds  \int_0^{T-t} \exp (- \rho s) \varepsilon(s) ds \right]\end{equation}
+
+
+Ahora si se considera el escenario en el que la función de descuento es menor, lo cual se traduce en una ponderación futura ligera, implica que $\varepsilon(t)\leq 0$. En este caso, a medida que $\ds \int_0^{T-t} \exp (- \rho s) \varepsilon(s) ds$ disminuye, la PMC descrita en (\ref{pmc}) aumenta. Esto se traduce en un aumento en el consumo.

@@ -1,0 +1,131 @@
+\chapter{Desarrollo de integrales}\label{Apendice_G}
+
+En este apéndice, se procederá al desarrollo de las integrales necesarias con la finalidad de poner a prueba la condición de Pareto para la función de descuento cuasi-hiperbólica presentada en \parencite{myerson1995discounting}.
+
+\begin{lem}{Desarrollo 1er integral}
+$$\ds \int_0^{t} \dfrac{1}{(1+\eta s)^j} ds.$$
+%
+Se sustituye $w=1+\eta s \rightarrow dw=\eta ds$ y la integral se puede presentar convenientemente de la siguiente manera
+$$\ds \int (1+\eta s)^{-j} ds=\ds \dfrac{1}{\eta}\int  w^{-j} dw=\dfrac{1}{\eta} \dfrac{w^{1-j}}{(1-j)}.$$
+Se reemplaza $w=1+\eta s$ y se procede a evaluar la integral
+$$\ds \int_0^t (1+\eta s)^{-j} ds=\left.\dfrac{1}{\eta} \dfrac{(1+\eta s)^{1-j}}{(1-j)}\right|_0^t=\dfrac{1}{\eta} \dfrac{(1+\eta t)^{1-j}}{(1-j)}-\dfrac{1}{\eta(1-j)}. $$
+Simplificando la integral para $j\ne 1$, se presenta de la siguiente manera 
+$$\ds \int_0^t (1+\eta s)^{-j} ds=\dfrac{1}{\eta(1-j)}((1+\eta t)^{1-j}-1).$$
+\end{lem}
+
+\begin{lem}{Desarrollo 2da integral}
+$$\ds \int_0^{T} \dfrac{1 - \dfrac{1}{(1+\eta t)^j}}{\dfrac{1}{\eta(1-j)}((1+\eta t)^{1-j}-1)} dt.$$
+Se reescribe la integral en dos partes
+$$\ds \int_0^{T} \dfrac{1}{\dfrac{1}{\eta(1-j)}((1+\eta t)^{1-j}-1)} dt -\ds \int_0^{T} \dfrac{\dfrac{1}{(1+\eta t)^j}}{\dfrac{1}{\eta(1-j)}((1+\eta t)^{1-j}-1)} dt.$$
+
+La resolución de la primera integral plantea dificultades significativas, lo que motiva la decisión de aplazar su solución dentro de este contexto.
+
+La segunda integral se expresa de la siguiente manera
+$$\ds \int_0^{T} \dfrac{\dfrac{1}{(1+\eta t)^j}}{\dfrac{1}{\eta(1-j)}((1+\eta t)^{1-j}-1)} dt.$$
+
+Sustituyendo $w=(1+\eta t)^{1-j}-1 \rightarrow dw=\eta(1-j)(1+\eta t)^{-j} dt$ la integral se puede presentar de la siguiente forma
+$$\ds \int \dfrac{\dfrac{1}{(1+\eta t)^j}}{\dfrac{1}{\eta(1-j)}((1+\eta t)^{1-j}-1)} dt=\ds \int \dfrac{1}{w} dw=\ln(\left| w\right|)$$
+Se sustituye $w=(1+\eta t)^{1-j}-1 $ y se procede a evaluar la integral
+$$\ds \int_0^{T} \dfrac{\dfrac{1}{(1+\eta t)^j}}{\dfrac{1}{\eta(1-j)}((1+\eta t)^{1-j}-1)} dt=\left.\ln\left(\left| (1+\eta t)^{1-j}-1\right|\right)\right|_0^T=$$
+$$=\ln\left(\left| (1+\eta T)^{1-j}-1\right|\right)-\lim_{t \to 0} \ln\left(\left| (1+\eta t)^{1-j}-1\right|\right)$$
+
+Se destaca que como $\eta>0$ y $j \in (0,1)$ entonces $\left| (1+\eta t)^{1-j}-1\right|= (1+\eta t)^{1-j}-1$. Por tanto la integral final resulta
+\begin{equation*}
+    \begin{split}
+        &\ds \int_0^{T} \dfrac{1 - \dfrac{1}{(1+\eta t)^j}}{\dfrac{1}{\eta(1-j)}((1+\eta t)^{1-j}-1)} dt=\\
+        &=\ds \int_0^{T} \dfrac{1}{\dfrac{1}{\eta(1-j)}((1+\eta t)^{1-j}-1)} dt-\ln\left((1+\eta T)^{1-j}-1\right)+\lim_{t \to 0} \ln\left((1+\eta t)^{1-j}-1\right)
+    \end{split}
+\end{equation*}
+\end{lem}
+
+
+% \begin{lem}{Desarrollo integral de $q(t)$}
+% $$\ds \int_0^{T}q(t)dt=\ds \int_0^{T}\dfrac{1 - \dfrac{1}{(1+\eta t)^j}}{\dfrac{1}{\eta(1-j)}(1+\eta t)^{1-j}}dt.$$
+% Simplificando resulta en 
+% $$\ds \int_0^{T}\eta(1-j)(1+\eta t)^{j-1} \left(1 - \dfrac{1}{(1+\eta t)^j} \right) dt=$$
+% $$=-\eta(1-j) \ds \int_0^{T}(1+\eta t)^{j-1} \left(\dfrac{1}{(1+\eta t)^j} -1\right)dt.$$
+% Reescribiendo los términos sobre un común denominador 
+% \begin{equation}
+% \label{ap_g_signo_eq}
+% -\eta(1-j) \ds \int_0^{T}(1+\eta t)^{j-1} \left(\dfrac{1}{(1+\eta t)^j} -1\right)dt=-\eta(1-j) \ds \int_0^{T}\dfrac{1-(1+\eta t)^j}{1+\eta t}dt.
+% \end{equation}
+% Simplificando resulta en 
+% \begin{equation}
+% \label{ap_g_simplif_signo_eq}
+%     -\eta(1-j) \ds \int_0^{T}\dfrac{1-(1+\eta t)^j}{1+\eta t}dt=\eta(1-j) \ds \int_0^{T}\dfrac{(1+\eta t)^j-1}{1+\eta t}dt.
+% \end{equation}
+
+% Sustituyendo $w=-(1+\eta t) \rightarrow dw=-\eta dt$ la integral se puede presentar de la siguiente manera
+% \begin{equation}
+% \label{ap_g_w_eq}
+% \eta(1-j) \ds \int\dfrac{(1+\eta t)^j-1}{1+\eta t}dt=(1-j) \ds \int \dfrac{(-w)^j-1}{w}dw.
+% \end{equation}
+% Sustituyendo $u=-w \rightarrow du=-dw$ la integral se puede presentar de la siguiente manera
+% \begin{equation}
+% \label{ap_g_u_eq}
+% (1-j) \ds \int\dfrac{(-w)^j-1}{w}dw=(1-j) \ds \int\dfrac{u^j-1}{u}du=(1-j) \ds \int u^{j-1}- \dfrac{1}{u}du. 
+% \end{equation}
+
+% Analizando ahora
+% \begin{equation}
+% \label{ap_g_isolated_u_eq}
+% \ds \int u^{j-1}- \dfrac{1}{u}du=\ds \int u^{j-1}du-\ds \int \dfrac{1}{u}du.\end{equation}
+
+% Se resuelve la primer integral de \ref{ap_g_isolated_u_eq}
+% \begin{equation}
+% \label{ap_g_isolated_u_eq_1}
+%     \ds \int u^{j-1}du = \dfrac{u^j}{j}.
+% \end{equation}
+
+% Se resuelve la segunda integral de \ref{ap_g_isolated_u_eq}
+% \begin{equation}
+% \label{ap_g_isolated_u_eq_2}
+%     \ds \int \dfrac{1}{u}du= \ln(\left|u\right|) .
+% \end{equation}
+
+% Se reemplazan \ref{ap_g_isolated_u_eq_1}
+% y \ref{ap_g_isolated_u_eq_2} en \ref{ap_g_isolated_u_eq}, resultando
+
+% \begin{equation}
+% \label{solved_ap_g_isolated_u_eq}
+% \ds \int u^{j-1}- \dfrac{1}{u}du=\dfrac{u^j}{j} - \ln(\left|u\right|).\end{equation}
+
+% Se reemplaza \ref{solved_ap_g_isolated_u_eq} en \ref{ap_g_u_eq} sustituyendo $u=-w$
+% \begin{equation}
+% \label{solved_ap_g_isolated_w_eq}
+% (1-j) \ds \int\dfrac{(-w)^j-1}{w}dw=(1-j)\left(\dfrac{u^j}{j} - \ln(\left|u\right|)\right)=(1-j)\left(\dfrac{(-w)^j}{j} - \ln(\left|-w\right|)\right)
+% \end{equation}
+
+% Se reemplaza \ref{solved_ap_g_isolated_w_eq} en \ref{ap_g_w_eq} sustituyendo $w=-(1+\eta t)$ 
+% \begin{equation}
+% \label{ap_g_final_signo_eq}
+% \eta(1-j) \ds \int\dfrac{(1+\eta t)^j-1}{1+\eta t}dt=(1-j)\left(\dfrac{(1+\eta t)^j}{j} - \ln(\left|1+\eta t\right|)\right). 
+% \end{equation}
+
+% Se reemplaza \ref{ap_g_final_signo_eq} en \ref{ap_g_simplif_signo_eq} y luego en \ref{ap_g_signo_eq} 
+% $$-\eta(1-j) \ds \int_0^{T}(1+\eta t)^{j-1} \left(\dfrac{1}{(1+\eta t)^j} -1\right)dt=(1-j)\left(\dfrac{(1+\eta t)^j}{j} - \ln(\left|1+\eta t\right|)\right)$$
+
+% Se procede a evaluar la integral
+% $$\ds \int_0^{T}\dfrac{1 - \dfrac{1}{(1+\eta t)^j}}{\dfrac{1}{\eta(1-j)}(1+\eta t)^{1-j}}dt=\left.(1-j)\left(\dfrac{(1+\eta t)^j}{j} - \ln(\left|1+\eta t\right|)\right)\right|_0^T=$$
+% $$=(1-j)\left(\dfrac{(1+\eta T)^j}{j} - \ln(\left|1+\eta T\right|)\right)- \dfrac{(1-j)}{j}$$
+% Se destaca que como $\eta>0$ y $T>0$ entonces $\left| 1+\eta T\right|= 1+\eta T$. Por tanto la integral final resulta
+% $$\ds \int_0^{T}\dfrac{1 - \dfrac{1}{(1+\eta t)^j}}{\dfrac{1}{\eta(1-j)}(1+\eta t)^{1-j}}dt=(1-j)\left(\dfrac{(1+\eta T)^j}{j} - \ln(1+\eta T)\right)- \dfrac{(1-j)}{j}$$
+
+% \end{lem}
+
+% \begin{lem}{Estudio del límite del integrando de\ref{right_int_condi_pareto}}
+
+% Se estudiará el límite de $t \to 0$ del integrando de  \ref{right_int_condi_pareto}. El integrando propiamente es
+% $$\dfrac{1 - \dfrac{1}{(1+\eta t)^j}}{\dfrac{1}{\eta(1-j)}((1+\eta t)^{1-j}-1)} .$$
+% Simplificando el integrando
+% $$\eta(1-j) \dfrac{1 - \dfrac{1}{(1+\eta t)^j}}{((1+\eta t)^{1-j}-1)}$$
+% Límite del integrando cuando $t$ se acerca a 0
+% $$\lim_{t \to 0}  \eta(1-j) \dfrac{1 - \dfrac{1}{(1+\eta t)^j}}{((1+\eta t)^{1-j}-1)}$$
+% Al ser $\eta (1-j)$ un escalar entonces se puede utilizar propiedades de límite del siguiente modo
+% $$\lim_{t \to 0}  \eta(1-j) \dfrac{1 - \dfrac{1}{(1+\eta t)^j}}{((1+\eta t)^{1-j}-1)}=\eta(1-j) \lim_{t \to 0}  \dfrac{1 - \dfrac{1}{(1+\eta t)^j}}{((1+\eta t)^{1-j}-1)}$$
+% Analizando únicamente el límite
+% $$\lim_{t \to 0}  \dfrac{1 - \dfrac{1}{(1+\eta t)^j}}{((1+\eta t)^{1-j}-1)} =\dfrac{0}{0}$$
+% Utilizando L'hopital para resolver la indeterminación
+% $$\lim_{t \to 0}  \dfrac{\dfrac{d}{dt}\left(1 - (1+\eta t)^{-j}\right)}{\dfrac{d}{dt}\left((1+\eta t)^{1-j}-1\right)}=\lim_{t \to 0}  \dfrac{j (1+\eta t)^{-j-1}\eta}{(1-j)(1+\eta t)^{-j}\eta} =\dfrac{0}{0}$$
+
+% \end{lem}

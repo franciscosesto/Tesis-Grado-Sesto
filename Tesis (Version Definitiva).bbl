@@ -1,0 +1,3419 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{ainslie1975specious}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=411ff14bf3b9daf13903888226bab367}{%
+           family={Ainslie},
+           familyi={A\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{411ff14bf3b9daf13903888226bab367}
+      \strng{fullhash}{411ff14bf3b9daf13903888226bab367}
+      \strng{bibnamehash}{411ff14bf3b9daf13903888226bab367}
+      \strng{authorbibnamehash}{411ff14bf3b9daf13903888226bab367}
+      \strng{authornamehash}{411ff14bf3b9daf13903888226bab367}
+      \strng{authorfullhash}{411ff14bf3b9daf13903888226bab367}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Bulletin}
+      \field{number}{4}
+      \field{title}{Specious Reward: A Behavioral Theory of Impulsiveness and Impulse Control}
+      \field{volume}{82}
+      \field{year}{1975}
+      \field{pages}{463\bibrangedash 496}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1037/h0076860
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{ando1963life}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c620229431dd7e2437f8b363866c2b63}{%
+           family={Ando},
+           familyi={A\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7dc8055ba1f80fed2d1eeba6cc2e246}{%
+           family={Modigliani},
+           familyi={M\bibinitperiod},
+           given={Franco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{bcb7be9c67ec4e65623718bdc61a29af}
+      \strng{fullhash}{bcb7be9c67ec4e65623718bdc61a29af}
+      \strng{bibnamehash}{bcb7be9c67ec4e65623718bdc61a29af}
+      \strng{authorbibnamehash}{bcb7be9c67ec4e65623718bdc61a29af}
+      \strng{authornamehash}{bcb7be9c67ec4e65623718bdc61a29af}
+      \strng{authorfullhash}{bcb7be9c67ec4e65623718bdc61a29af}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American economic review}
+      \field{number}{1}
+      \field{title}{The" life cycle" hypothesis of saving: Aggregate implications and tests}
+      \field{volume}{53}
+      \field{year}{1963}
+      \field{pages}{55\bibrangedash 84}
+      \range{pages}{30}
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/1817129
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/1817129
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{buritica2016valor}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=77aa006cbe483585e59541a18d959360}{%
+           family={Buriticá},
+           familyi={B\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=976cb6beaf3937730a0355c2f3029d64}{%
+           family={Dos\bibnamedelima Santos},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Cristiano},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b688e7e08655f7c23948e3cfb5d52fb2}
+      \strng{fullhash}{b688e7e08655f7c23948e3cfb5d52fb2}
+      \strng{bibnamehash}{b688e7e08655f7c23948e3cfb5d52fb2}
+      \strng{authorbibnamehash}{b688e7e08655f7c23948e3cfb5d52fb2}
+      \strng{authornamehash}{b688e7e08655f7c23948e3cfb5d52fb2}
+      \strng{authorfullhash}{b688e7e08655f7c23948e3cfb5d52fb2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Colombiana de Psicología}
+      \field{month}{7}
+      \field{title}{Valor del Reforzador: ¿Cómo se Usa y Para qué se Usa el Concepto?}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.15446/rcp.v25n2.50405
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.15446/rcp.v25n2.50405
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.15446/rcp.v25n2.50405
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{chib2009evidence}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=533bc9b94c477bde4ee387443d028bfc}{%
+           family={Chib},
+           familyi={C\bibinitperiod},
+           given={V.\bibnamedelimi S.},
+           giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6f40f9076733a20cb6ea0881550d28f}{%
+           family={Rangel},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eada3e4c93507682b635af73ce9f2e24}{%
+           family={Shimojo},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ff7f23d05155804eb683529bf7686f2}{%
+           family={O'Doherty},
+           familyi={O\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{84e00ce75d67ca2b75e7df00b6c7fc22}
+      \strng{fullhash}{293826389587ad41098a05014f35d106}
+      \strng{bibnamehash}{293826389587ad41098a05014f35d106}
+      \strng{authorbibnamehash}{293826389587ad41098a05014f35d106}
+      \strng{authornamehash}{84e00ce75d67ca2b75e7df00b6c7fc22}
+      \strng{authorfullhash}{293826389587ad41098a05014f35d106}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Neuroscience}
+      \field{number}{39}
+      \field{title}{Evidence for a Common Representation of Decision Values for Dissimilar Goods in Human Ventromedial Prefrontal Cortex}
+      \field{volume}{29}
+      \field{year}{2009}
+      \field{pages}{12315\bibrangedash 12320}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1523/jneurosci.2575-09.2009
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{estes1956problem}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0b78912050ef75a9519bdd8ca285d20d}{%
+           family={Estes},
+           familyi={E\bibinitperiod},
+           given={W.\bibnamedelimi K.},
+           giveni={W\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0b78912050ef75a9519bdd8ca285d20d}
+      \strng{fullhash}{0b78912050ef75a9519bdd8ca285d20d}
+      \strng{bibnamehash}{0b78912050ef75a9519bdd8ca285d20d}
+      \strng{authorbibnamehash}{0b78912050ef75a9519bdd8ca285d20d}
+      \strng{authornamehash}{0b78912050ef75a9519bdd8ca285d20d}
+      \strng{authorfullhash}{0b78912050ef75a9519bdd8ca285d20d}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Bulletin}
+      \field{number}{2}
+      \field{title}{The Problem of Inference from Curves Based on Group Data}
+      \field{volume}{53}
+      \field{year}{1956}
+      \field{pages}{134\bibrangedash 140}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1037/h0045156
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{Feigenbaum16}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4869eae6c40aa8ec2a0928a60f948f1b}{%
+           family={Feigenbaum},
+           familyi={F\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{4869eae6c40aa8ec2a0928a60f948f1b}
+      \strng{fullhash}{4869eae6c40aa8ec2a0928a60f948f1b}
+      \strng{bibnamehash}{4869eae6c40aa8ec2a0928a60f948f1b}
+      \strng{authorbibnamehash}{4869eae6c40aa8ec2a0928a60f948f1b}
+      \strng{authornamehash}{4869eae6c40aa8ec2a0928a60f948f1b}
+      \strng{authorfullhash}{4869eae6c40aa8ec2a0928a60f948f1b}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Mathematical Economics}
+      \field{month}{10}
+      \field{title}{Equivalent representations of non-exponential discounting models}
+      \field{volume}{66}
+      \field{year}{2016}
+      \field{pages}{58\bibrangedash 71}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.jmateco.2016.08.001
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016%2Fj.jmateco.2016.08.001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016%2Fj.jmateco.2016.08.001
+      \endverb
+      \keyw{sec}
+    \endentry
+    \entry{feigenbaum2021deviation}{report}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4869eae6c40aa8ec2a0928a60f948f1b}{%
+           family={Feigenbaum},
+           familyi={F\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=766b362b269884a7de73542ad65b6c42}{%
+           family={Raei},
+           familyi={R\bibinitperiod},
+           given={Sepideh},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {working paper}%
+      }
+      \strng{namehash}{768c558b0e65a9130ec136d490369327}
+      \strng{fullhash}{768c558b0e65a9130ec136d490369327}
+      \strng{bibnamehash}{768c558b0e65a9130ec136d490369327}
+      \strng{authorbibnamehash}{768c558b0e65a9130ec136d490369327}
+      \strng{authornamehash}{768c558b0e65a9130ec136d490369327}
+      \strng{authorfullhash}{768c558b0e65a9130ec136d490369327}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Deviation from exponential discounting and present bias in continuous time}
+      \field{type}{techreport}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb http://www.platonicadventures.com/uploads/3/8/7/0/38707599/expdeviationcont21sep20.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.platonicadventures.com/uploads/3/8/7/0/38707599/expdeviationcont21sep20.pdf
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{Feigenbaum21}{unpublished}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4869eae6c40aa8ec2a0928a60f948f1b}{%
+           family={Feigenbaum},
+           familyi={F\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=766b362b269884a7de73542ad65b6c42}{%
+           family={Raei},
+           familyi={R\bibinitperiod},
+           given={Sepideh},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{768c558b0e65a9130ec136d490369327}
+      \strng{fullhash}{768c558b0e65a9130ec136d490369327}
+      \strng{bibnamehash}{768c558b0e65a9130ec136d490369327}
+      \strng{authorbibnamehash}{768c558b0e65a9130ec136d490369327}
+      \strng{authornamehash}{768c558b0e65a9130ec136d490369327}
+      \strng{authorfullhash}{768c558b0e65a9130ec136d490369327}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Working Paper}
+      \field{title}{Explaining the consumption hump in terms of deviations from exponential discounting}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb http://www.platonicadventures.com/uploads/3/8/7/0/38707599/humpexpdeviation21aug17.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.platonicadventures.com/uploads/3/8/7/0/38707599/humpexpdeviation21aug17.pdf
+      \endverb
+      \keyw{sec}
+    \endentry
+    \entry{fisher1930theory}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=220c89c7f75cf8428045e124c21b5ba5}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Irving},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{220c89c7f75cf8428045e124c21b5ba5}
+      \strng{fullhash}{220c89c7f75cf8428045e124c21b5ba5}
+      \strng{bibnamehash}{220c89c7f75cf8428045e124c21b5ba5}
+      \strng{authorbibnamehash}{220c89c7f75cf8428045e124c21b5ba5}
+      \strng{authornamehash}{220c89c7f75cf8428045e124c21b5ba5}
+      \strng{authorfullhash}{220c89c7f75cf8428045e124c21b5ba5}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New York}
+      \field{title}{The theory of interest}
+      \field{volume}{43}
+      \field{year}{1930}
+      \field{pages}{1\bibrangedash 19}
+      \range{pages}{19}
+      \verb{urlraw}
+      \verb http://files.libertyfund.org/files/1416/0219_Bk.pdf
+      \endverb
+      \verb{url}
+      \verb http://files.libertyfund.org/files/1416/0219_Bk.pdf
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{friedman1957theory}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ed599767cda235bc9b7bb0e787374d60}{%
+           family={Friedman},
+           familyi={F\bibinitperiod},
+           given={Milton},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{fullhash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{bibnamehash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{authorbibnamehash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{authornamehash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{authorfullhash}{ed599767cda235bc9b7bb0e787374d60}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{Theory of the Consumption Function}
+      \field{year}{1957}
+      \verb{doi}
+      \verb 10.1515/9780691188485
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1515%2F9780691188485
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1515%2F9780691188485
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{green1994discounting}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=28670d2f125d05c100e84182c2930630}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d2cf80a8afd9ce1dfc18c82bb1e50f72}{%
+           family={Fry},
+           familyi={F\bibinitperiod},
+           given={A.\bibnamedelimi F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10db7c7cc8157e519882f825b2033350}{%
+           family={Myerson},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{59431c7451e927c1e02e238cdf4a5d84}
+      \strng{fullhash}{f613667b2b747efb1adaeda946bb0748}
+      \strng{bibnamehash}{f613667b2b747efb1adaeda946bb0748}
+      \strng{authorbibnamehash}{f613667b2b747efb1adaeda946bb0748}
+      \strng{authornamehash}{59431c7451e927c1e02e238cdf4a5d84}
+      \strng{authorfullhash}{f613667b2b747efb1adaeda946bb0748}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Science}
+      \field{number}{1}
+      \field{title}{Discounting of Delayed Rewards: A Life-Span Comparison}
+      \field{volume}{5}
+      \field{year}{1994}
+      \field{pages}{33\bibrangedash 36}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1111/j.1467-9280.1994.tb00610.x
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{harrod1948towards}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aa2b85bafff6792e7f972175e3f3a3e5}{%
+           family={Harrod},
+           familyi={H\bibinitperiod},
+           given={R.F.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Macmillan \& Co.}%
+      }
+      \strng{namehash}{aa2b85bafff6792e7f972175e3f3a3e5}
+      \strng{fullhash}{aa2b85bafff6792e7f972175e3f3a3e5}
+      \strng{bibnamehash}{aa2b85bafff6792e7f972175e3f3a3e5}
+      \strng{authorbibnamehash}{aa2b85bafff6792e7f972175e3f3a3e5}
+      \strng{authornamehash}{aa2b85bafff6792e7f972175e3f3a3e5}
+      \strng{authorfullhash}{aa2b85bafff6792e7f972175e3f3a3e5}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Towards a dynamic economics: Some Recent Developments of Economic Theory and their Application to Policy}
+      \field{year}{1948}
+      \verb{urlraw}
+      \verb https://doi.org/10.2307%2F2984185
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307%2F2984185
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{hodos1961progressive}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e83e8bd90d35acea98cb58890678e6d2}{%
+           family={Hodos},
+           familyi={H\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e83e8bd90d35acea98cb58890678e6d2}
+      \strng{fullhash}{e83e8bd90d35acea98cb58890678e6d2}
+      \strng{bibnamehash}{e83e8bd90d35acea98cb58890678e6d2}
+      \strng{authorbibnamehash}{e83e8bd90d35acea98cb58890678e6d2}
+      \strng{authornamehash}{e83e8bd90d35acea98cb58890678e6d2}
+      \strng{authorfullhash}{e83e8bd90d35acea98cb58890678e6d2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{3483}
+      \field{title}{Progressive Ratio as a Measure of Reward Strength}
+      \field{volume}{134}
+      \field{year}{1961}
+      \field{pages}{943\bibrangedash 944}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.2307/1708217
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{hursh2008economic}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=00f9af9d9ea408ca5d6ec1d0b5a2c423}{%
+           family={Hursh},
+           familyi={H\bibinitperiod},
+           given={S.\bibnamedelimi R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9624bbfaefe4c6abc842a63970395417}{%
+           family={Silberberg},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d02feee6fe70dcf83b2c61c5795f7e42}
+      \strng{fullhash}{d02feee6fe70dcf83b2c61c5795f7e42}
+      \strng{bibnamehash}{d02feee6fe70dcf83b2c61c5795f7e42}
+      \strng{authorbibnamehash}{d02feee6fe70dcf83b2c61c5795f7e42}
+      \strng{authornamehash}{d02feee6fe70dcf83b2c61c5795f7e42}
+      \strng{authorfullhash}{d02feee6fe70dcf83b2c61c5795f7e42}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Review}
+      \field{title}{Economic Demand and Essential Value}
+      \field{volume}{115}
+      \field{year}{2008}
+      \field{pages}{186\bibrangedash 198}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1037/0033-295x.115.1.186
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{keynes1936general}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=612862f6008b8bea8cd4a13783af9a93}{%
+           family={Keynes},
+           familyi={K\bibinitperiod},
+           given={John\bibnamedelima Maynard},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Macmillan}%
+      }
+      \strng{namehash}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{fullhash}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{bibnamehash}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{authorbibnamehash}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{authornamehash}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{authorfullhash}{612862f6008b8bea8cd4a13783af9a93}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The General Theory of Employment, Interest, and Money}
+      \field{year}{1936}
+      \verb{urlraw}
+      \verb https://link.springer.com/book/10.1007/978-3-319-70344-2
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/book/10.1007/978-3-319-70344-2
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{kirby1997bidding}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c09d996a448938622318229a9e250b33}{%
+           family={Kirby},
+           familyi={K\bibinitperiod},
+           given={K.\bibnamedelimi N.},
+           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c09d996a448938622318229a9e250b33}
+      \strng{fullhash}{c09d996a448938622318229a9e250b33}
+      \strng{bibnamehash}{c09d996a448938622318229a9e250b33}
+      \strng{authorbibnamehash}{c09d996a448938622318229a9e250b33}
+      \strng{authornamehash}{c09d996a448938622318229a9e250b33}
+      \strng{authorfullhash}{c09d996a448938622318229a9e250b33}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Experimental Psychology: General}
+      \field{number}{1}
+      \field{title}{Bidding on the Future: Evidence Against Normative Discounting of Delayed Rewards}
+      \field{volume}{126}
+      \field{year}{1997}
+      \field{pages}{54\bibrangedash 70}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1037/0096-3445.126.1.54
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{Laibson97}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=fe1c3d28e3aae89ae008b6a2f5d013d9}{%
+           family={Laibson},
+           familyi={L\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press ({OUP})}%
+      }
+      \strng{namehash}{fe1c3d28e3aae89ae008b6a2f5d013d9}
+      \strng{fullhash}{fe1c3d28e3aae89ae008b6a2f5d013d9}
+      \strng{bibnamehash}{fe1c3d28e3aae89ae008b6a2f5d013d9}
+      \strng{authorbibnamehash}{fe1c3d28e3aae89ae008b6a2f5d013d9}
+      \strng{authornamehash}{fe1c3d28e3aae89ae008b6a2f5d013d9}
+      \strng{authorfullhash}{fe1c3d28e3aae89ae008b6a2f5d013d9}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{Golden Eggs and Hyperbolic Discounting}
+      \field{volume}{112}
+      \field{year}{1997}
+      \field{pages}{443\bibrangedash 478}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1162/003355397555253
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1162%2F003355397555253
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1162%2F003355397555253
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{Laibson96}{report}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=5e4ad755422ce455d1ff7a3dc1eaef0e}{%
+           family={Laibson},
+           familyi={L\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \strng{fullhash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \strng{bibnamehash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \strng{authorbibnamehash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \strng{authornamehash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \strng{authorfullhash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Hyperbolic Discount Functions, Undersaving, and Savings Policy}
+      \field{type}{techreport}
+      \field{year}{1996}
+      \verb{doi}
+      \verb 10.3386/w5635
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3386%2Fw5635
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3386%2Fw5635
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{Laibson98}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=5e4ad755422ce455d1ff7a3dc1eaef0e}{%
+           family={Laibson},
+           familyi={L\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \strng{fullhash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \strng{bibnamehash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \strng{authorbibnamehash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \strng{authornamehash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \strng{authorfullhash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \field{extraname}{3}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Economic Review}
+      \field{month}{5}
+      \field{number}{3-5}
+      \field{title}{Life-cycle consumption and hyperbolic discount functions}
+      \field{volume}{42}
+      \field{year}{1998}
+      \field{pages}{861\bibrangedash 871}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/s0014-2921(97)00132-3
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016%2Fs0014-2921%2897%2900132-3
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016%2Fs0014-2921%2897%2900132-3
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{Laibson98b}{article}{}
+      \name{author}{6}{}{%
+        {{un=1,uniquepart=given,hash=d6a00fa5108c02b54018bf0017164eb9}{%
+           family={Laibson},
+           familyi={L\bibinitperiod},
+           given={David\bibnamedelima I.},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=205aa4e12295de2556d0e7ff89343547}{%
+           family={Repetto},
+           familyi={R\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06297786e5bd51b60363a78434a15229}{%
+           family={Tobacman},
+           familyi={T\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77c1ed02c587f0e6bce66c7ab5b5ea39}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Robert\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91cebf99de555758ee4e9f3f903a05a6}{%
+           family={Gale},
+           familyi={G\bibinitperiod},
+           given={William\bibnamedelima G.},
+           giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f198b417f1390a0f8ff279349b43f47d}{%
+           family={Akerlof},
+           familyi={A\bibinitperiod},
+           given={George\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{94076eb6d7de1686e16a4c1d3c31579c}
+      \strng{fullhash}{ee6419d659831d4a408c3cc6666423af}
+      \strng{bibnamehash}{ee6419d659831d4a408c3cc6666423af}
+      \strng{authorbibnamehash}{ee6419d659831d4a408c3cc6666423af}
+      \strng{authornamehash}{94076eb6d7de1686e16a4c1d3c31579c}
+      \strng{authorfullhash}{ee6419d659831d4a408c3cc6666423af}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Brookings Papers on Economic Activity}
+      \field{number}{1}
+      \field{title}{Self-Control and Saving for Retirement}
+      \field{volume}{1998}
+      \field{year}{1998}
+      \field{pages}{91}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/2534671
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2307%2F2534671
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307%2F2534671
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{larrain2002macroeconomia}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bb2161a7d25f32ce471cfdc3d2ee80fb}{%
+           family={Larraín},
+           familyi={L\bibinitperiod},
+           given={Felipe},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f49fa8d4c5a359424f8d716560c7e2a4}{%
+           family={Sachs},
+           familyi={S\bibinitperiod},
+           given={Jeffrey\bibnamedelima D},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Educación}%
+      }
+      \strng{namehash}{0f852ebc8d90a14568c4e46d2d9f7ed0}
+      \strng{fullhash}{0f852ebc8d90a14568c4e46d2d9f7ed0}
+      \strng{bibnamehash}{0f852ebc8d90a14568c4e46d2d9f7ed0}
+      \strng{authorbibnamehash}{0f852ebc8d90a14568c4e46d2d9f7ed0}
+      \strng{authornamehash}{0f852ebc8d90a14568c4e46d2d9f7ed0}
+      \strng{authorfullhash}{0f852ebc8d90a14568c4e46d2d9f7ed0}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Macroeconomía en la economía global}
+      \field{year}{2002}
+      \keyw{prin}
+    \endentry
+    \entry{loewenstein1992anomalies}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=30df2f38c3e754328067e52e52e46a64}{%
+           family={Loewenstein},
+           familyi={L\bibinitperiod},
+           given={G.\bibnamedelimi F.},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4baab76b032b9f5594660ee9f0e80899}{%
+           family={Prelec},
+           familyi={P\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fcf59a9471d7fe3e60f39b147b5befc7}
+      \strng{fullhash}{fcf59a9471d7fe3e60f39b147b5befc7}
+      \strng{bibnamehash}{fcf59a9471d7fe3e60f39b147b5befc7}
+      \strng{authorbibnamehash}{fcf59a9471d7fe3e60f39b147b5befc7}
+      \strng{authornamehash}{fcf59a9471d7fe3e60f39b147b5befc7}
+      \strng{authorfullhash}{fcf59a9471d7fe3e60f39b147b5befc7}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quarterly Journal of Economics}
+      \field{title}{Anomalies in Intertemporal Choice: Evidence and an Interpretation}
+      \field{volume}{107}
+      \field{year}{1992}
+      \field{pages}{573\bibrangedash 597}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.2307/2118482
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{Lucas_1976}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d75b1c25901858e9d7cbfbb24d9dc0de}{%
+           family={Lucas},
+           familyi={L\bibinitperiod},
+           given={Robert\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{d75b1c25901858e9d7cbfbb24d9dc0de}
+      \strng{fullhash}{d75b1c25901858e9d7cbfbb24d9dc0de}
+      \strng{bibnamehash}{d75b1c25901858e9d7cbfbb24d9dc0de}
+      \strng{authorbibnamehash}{d75b1c25901858e9d7cbfbb24d9dc0de}
+      \strng{authornamehash}{d75b1c25901858e9d7cbfbb24d9dc0de}
+      \strng{authorfullhash}{d75b1c25901858e9d7cbfbb24d9dc0de}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Carnegie-Rochester Conference Series on Public Policy}
+      \field{month}{1}
+      \field{title}{Econometric policy evaluation: A critique}
+      \field{volume}{1}
+      \field{year}{1976}
+      \field{pages}{19\bibrangedash 46}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1016/s0167-2231(76)80003-6
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016%2Fs0167-2231%2876%2980003-6
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016%2Fs0167-2231%2876%2980003-6
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{madden2010delaydiscounting}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=565915f701ca3fd9a225a268afaf3bfc}{%
+           family={Madden},
+           familyi={M\bibinitperiod},
+           given={G.\bibnamedelimi J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb769a8e94bece5ec6a3ec3f11b19485}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={P.\bibnamedelimi S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=565915f701ca3fd9a225a268afaf3bfc}{%
+           family={Madden},
+           familyi={M\bibinitperiod},
+           given={G.\bibnamedelimi J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=6a449d860621c4d5a34e63d8967120de}{%
+           family={Bickel},
+           familyi={B\bibinitperiod},
+           given={W.\bibnamedelimi K.},
+           giveni={W\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{c5608fcbf949fa65064fa76fcdee1b5f}
+      \strng{fullhash}{c5608fcbf949fa65064fa76fcdee1b5f}
+      \strng{bibnamehash}{c5608fcbf949fa65064fa76fcdee1b5f}
+      \strng{authorbibnamehash}{c5608fcbf949fa65064fa76fcdee1b5f}
+      \strng{authornamehash}{c5608fcbf949fa65064fa76fcdee1b5f}
+      \strng{authorfullhash}{c5608fcbf949fa65064fa76fcdee1b5f}
+      \strng{editorbibnamehash}{89d675255b7509b3cca51d879e62b353}
+      \strng{editornamehash}{89d675255b7509b3cca51d879e62b353}
+      \strng{editorfullhash}{89d675255b7509b3cca51d879e62b353}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Impulsivity: The Behavioral and Neurological Science of Discounting}
+      \field{title}{A Delay-Discounting Primer}
+      \field{year}{2010}
+      \field{pages}{11\bibrangedash 37}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1037/12069-001
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{mankiw2012}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=474cb51282bc298228df113afdfd755f}{%
+           family={Mankiw},
+           familyi={M\bibinitperiod},
+           given={N.\bibnamedelimi Gregory},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Distrito Federal, México}%
+      }
+      \list{publisher}{1}{%
+        {Cengage Learning}%
+      }
+      \strng{namehash}{474cb51282bc298228df113afdfd755f}
+      \strng{fullhash}{474cb51282bc298228df113afdfd755f}
+      \strng{bibnamehash}{474cb51282bc298228df113afdfd755f}
+      \strng{authorbibnamehash}{474cb51282bc298228df113afdfd755f}
+      \strng{authornamehash}{474cb51282bc298228df113afdfd755f}
+      \strng{authorfullhash}{474cb51282bc298228df113afdfd755f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Sexta}
+      \field{isbn}{978-607-481-829-1}
+      \field{title}{Principios de Economía}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://clea.edu.mx/biblioteca/files/original/bd2711c3969d92b67fcf71d844bcbaed.pdf
+      \endverb
+      \verb{url}
+      \verb https://clea.edu.mx/biblioteca/files/original/bd2711c3969d92b67fcf71d844bcbaed.pdf
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{mazur1987adjusting}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0ddf6b716029a6ca8631a991ea90540a}{%
+           family={Mazur},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=14774934c2ba5ee1bd2c998f2a4451ce}{%
+           family={Commons},
+           familyi={C\bibinitperiod},
+           given={M.\bibnamedelimi L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=0ddf6b716029a6ca8631a991ea90540a}{%
+           family={Mazur},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=a07f11858afc83cf6c3dd7e6a0031f31}{%
+           family={Nevin},
+           familyi={N\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ad9c3951dba016dbb045492b5a2a267a}{%
+           family={Rachlin},
+           familyi={R\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Lawrence Erlbaum Associates, Inc.}%
+      }
+      \strng{namehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{fullhash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{bibnamehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{authorbibnamehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{authornamehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{authorfullhash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{editorbibnamehash}{197c67dfe5494677397fbce16917e2bd}
+      \strng{editornamehash}{cce5cfccca190bd050947aa5c249e158}
+      \strng{editorfullhash}{197c67dfe5494677397fbce16917e2bd}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Effect of Delay and of Intervening Events on Reinforcement Value}
+      \field{title}{An Adjusting Procedure for Studying Delayed Reinforcement}
+      \field{year}{1987}
+      \field{pages}{55\bibrangedash 73}
+      \range{pages}{19}
+      \keyw{prin}
+    \endentry
+    \entry{mazur1997choice}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0ddf6b716029a6ca8631a991ea90540a}{%
+           family={Mazur},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{fullhash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{bibnamehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{authorbibnamehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{authornamehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{authorfullhash}{0ddf6b716029a6ca8631a991ea90540a}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Animal Learning \& Behavior}
+      \field{number}{2}
+      \field{title}{Choice, Delay, Probability, and Conditioned Reinforcement}
+      \field{volume}{25}
+      \field{year}{1997}
+      \field{pages}{131\bibrangedash 147}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.3758/BF03199051
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{mazur2001hyperbolic}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0ddf6b716029a6ca8631a991ea90540a}{%
+           family={Mazur},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{fullhash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{bibnamehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{authorbibnamehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{authornamehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{authorfullhash}{0ddf6b716029a6ca8631a991ea90540a}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Review}
+      \field{number}{1}
+      \field{title}{Hyperbolic value addition and general models of animal choice}
+      \field{volume}{108}
+      \field{year}{2001}
+      \field{pages}{96\bibrangedash 112}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1037/0033-295x.108.1.96
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1037/0033-295x.108.1.96
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1037/0033-295x.108.1.96
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{miltenberger2012behavior}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c79344a6a41ff976cfc3382244f6a6db}{%
+           family={Miltenberger},
+           familyi={M\bibinitperiod},
+           given={Raymond\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c79344a6a41ff976cfc3382244f6a6db}
+      \strng{fullhash}{c79344a6a41ff976cfc3382244f6a6db}
+      \strng{bibnamehash}{c79344a6a41ff976cfc3382244f6a6db}
+      \strng{authorbibnamehash}{c79344a6a41ff976cfc3382244f6a6db}
+      \strng{authornamehash}{c79344a6a41ff976cfc3382244f6a6db}
+      \strng{authorfullhash}{c79344a6a41ff976cfc3382244f6a6db}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{5th}
+      \field{isbn}{978111106113}
+      \field{title}{Behavior Modification. Principles \& Procedures}
+      \field{year}{2012}
+      \keyw{prin}
+    \endentry
+    \entry{modigliani86}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e7dc8055ba1f80fed2d1eeba6cc2e246}{%
+           family={Modigliani},
+           familyi={M\bibinitperiod},
+           given={Franco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e7dc8055ba1f80fed2d1eeba6cc2e246}
+      \strng{fullhash}{e7dc8055ba1f80fed2d1eeba6cc2e246}
+      \strng{bibnamehash}{e7dc8055ba1f80fed2d1eeba6cc2e246}
+      \strng{authorbibnamehash}{e7dc8055ba1f80fed2d1eeba6cc2e246}
+      \strng{authornamehash}{e7dc8055ba1f80fed2d1eeba6cc2e246}
+      \strng{authorfullhash}{e7dc8055ba1f80fed2d1eeba6cc2e246}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{One theory of the determinants of individual and national thrift has come to be known as the life cycle hypothesis of saving. The state of the art on the eve of the formulation of the hypothesis some 30 years ago is reviewed. Then the theoretical foundations of the model in its original formulation and later amendment are set forth, calling attention to various implications, some distinctive to it and some counterintuitive. A number of crucial empirical tests, both at the individual and the aggregate level, are presented as well as some applications of the life cycle hypothesis of saving to current policy issues.}
+      \field{journaltitle}{Science}
+      \field{number}{4777}
+      \field{title}{Life Cycle, Individual Thrift, and the Wealth of Nations}
+      \field{volume}{234}
+      \field{year}{1986}
+      \field{pages}{704\bibrangedash 712}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1126/science.234.4777.704
+      \endverb
+      \verb{eprint}
+      \verb https://www.science.org/doi/pdf/10.1126/science.234.4777.704
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.234.4777.704
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.234.4777.704
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{modigliani1954utility}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e7dc8055ba1f80fed2d1eeba6cc2e246}{%
+           family={Modigliani},
+           familyi={M\bibinitperiod},
+           given={Franco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7dcfc8d1e450c4a433485d4e04ea2cc1}{%
+           family={Brumberg},
+           familyi={B\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b397b0b518ede0ab86f20e26a6a112bf}
+      \strng{fullhash}{b397b0b518ede0ab86f20e26a6a112bf}
+      \strng{bibnamehash}{b397b0b518ede0ab86f20e26a6a112bf}
+      \strng{authorbibnamehash}{b397b0b518ede0ab86f20e26a6a112bf}
+      \strng{authornamehash}{b397b0b518ede0ab86f20e26a6a112bf}
+      \strng{authorfullhash}{b397b0b518ede0ab86f20e26a6a112bf}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Franco Modigliani}
+      \field{number}{1}
+      \field{title}{Utility analysis and the consumption function: An interpretation of cross-section data}
+      \field{volume}{1}
+      \field{year}{1954}
+      \field{pages}{388\bibrangedash 436}
+      \range{pages}{49}
+      \verb{urlraw}
+      \verb https://www.arabictrader.com/cdn/application/2009/08/15/pdf/v202/B4E8E626-EFEE-42B4-FE04-862C02B7AC83.pdf#page=18
+      \endverb
+      \verb{url}
+      \verb https://www.arabictrader.com/cdn/application/2009/08/15/pdf/v202/B4E8E626-EFEE-42B4-FE04-862C02B7AC83.pdf#page=18
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{myerson1995discounting}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fb499f633eafd20e2ebbd184081c11c1}{%
+           family={Myerson},
+           familyi={M\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2f3f0e24c16d43b6dbbcd25e1dfd84d}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={Leonard},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{58d7980ee70c708db688080f54d43d77}
+      \strng{fullhash}{58d7980ee70c708db688080f54d43d77}
+      \strng{bibnamehash}{58d7980ee70c708db688080f54d43d77}
+      \strng{authorbibnamehash}{58d7980ee70c708db688080f54d43d77}
+      \strng{authornamehash}{58d7980ee70c708db688080f54d43d77}
+      \strng{authorfullhash}{58d7980ee70c708db688080f54d43d77}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the experimental analysis of behavior}
+      \field{number}{3}
+      \field{title}{Discounting of delayed rewards: Models of individual choice}
+      \field{volume}{64}
+      \field{year}{1995}
+      \field{pages}{263\bibrangedash 276}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1901/jeab.1995.64-263
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{ODonoghue01}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=22477e28bfd1f0477c58fdc4c1019722}{%
+           family={O{'}Donoghue},
+           familyi={O\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca603078b913cdf8a70cdf974e901faa}{%
+           family={Rabin},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press ({OUP})}%
+      }
+      \strng{namehash}{35fabb399b76814a7a36f67340c789c6}
+      \strng{fullhash}{35fabb399b76814a7a36f67340c789c6}
+      \strng{bibnamehash}{35fabb399b76814a7a36f67340c789c6}
+      \strng{authorbibnamehash}{35fabb399b76814a7a36f67340c789c6}
+      \strng{authornamehash}{35fabb399b76814a7a36f67340c789c6}
+      \strng{authorfullhash}{35fabb399b76814a7a36f67340c789c6}
+      \field{extraname}{1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Choice and Procrastination}
+      \field{volume}{116}
+      \field{year}{2001}
+      \field{pages}{121\bibrangedash 160}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1162/003355301556365
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1162%2F003355301556365
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1162%2F003355301556365
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{ODonoghue99}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d22b6824713187daf0d983a7dd3fd756}{%
+           family={O{'}Donoghue},
+           familyi={O\bibinitperiod},
+           given={Ted},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d58017f407382aff3b1c661d8dd2b59}{%
+           family={Rabin},
+           familyi={R\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Economic Association}%
+      }
+      \strng{namehash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \strng{fullhash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \strng{bibnamehash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \strng{authorbibnamehash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \strng{authornamehash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \strng{authorfullhash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \field{extraname}{2}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Doing It Now or Later}
+      \field{volume}{89}
+      \field{year}{1999}
+      \field{pages}{103\bibrangedash 124}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1257/aer.89.1.103
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1257%2Faer.89.1.103
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1257%2Faer.89.1.103
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{ODonoghue00}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d22b6824713187daf0d983a7dd3fd756}{%
+           family={O{'}Donoghue},
+           familyi={O\bibinitperiod},
+           given={Ted},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d58017f407382aff3b1c661d8dd2b59}{%
+           family={Rabin},
+           familyi={R\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \strng{fullhash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \strng{bibnamehash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \strng{authorbibnamehash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \strng{authornamehash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \strng{authorfullhash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \field{extraname}{3}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Behavioral Decision Making}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{The economics of immediate gratification}
+      \field{volume}{13}
+      \field{year}{2000}
+      \field{pages}{233\bibrangedash 250}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1002/(sici)1099-0771(200004/06)13:2<233::aid-bdm325>3.0.co;2-u
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1002%2F%28sici%291099-0771%28200004%2F06%2913%3A2%3C233%3A%3Aaid-bdm325%3E3.0.co%3B2-u
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1002%2F%28sici%291099-0771%28200004%2F06%2913%3A2%3C233%3A%3Aaid-bdm325%3E3.0.co%3B2-u
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{rachlin1991subjective}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ad9c3951dba016dbb045492b5a2a267a}{%
+           family={Rachlin},
+           familyi={R\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53f7f1439b64b3e044e5071ad6f75a0e}{%
+           family={Raineri},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f110ae3b888d990a56bd2ce350176e04}{%
+           family={Cross},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bce7b131d069e3e89a8708701c91b9d1}
+      \strng{fullhash}{df19c5a30057d2901332e2a0475676fd}
+      \strng{bibnamehash}{df19c5a30057d2901332e2a0475676fd}
+      \strng{authorbibnamehash}{df19c5a30057d2901332e2a0475676fd}
+      \strng{authornamehash}{bce7b131d069e3e89a8708701c91b9d1}
+      \strng{authorfullhash}{df19c5a30057d2901332e2a0475676fd}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Experimental Analysis of Behavior}
+      \field{number}{2}
+      \field{title}{Subjective Probability and Delay}
+      \field{volume}{55}
+      \field{year}{1991}
+      \field{pages}{233\bibrangedash 244}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1901/jeab.1991.55-233
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{Samuelson37}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=78270c793a8e0c5fa92c64dca4b6a2b8}{%
+           family={Samuelson},
+           familyi={S\bibinitperiod},
+           given={Paul\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press ({OUP})}%
+      }
+      \strng{namehash}{78270c793a8e0c5fa92c64dca4b6a2b8}
+      \strng{fullhash}{78270c793a8e0c5fa92c64dca4b6a2b8}
+      \strng{bibnamehash}{78270c793a8e0c5fa92c64dca4b6a2b8}
+      \strng{authorbibnamehash}{78270c793a8e0c5fa92c64dca4b6a2b8}
+      \strng{authornamehash}{78270c793a8e0c5fa92c64dca4b6a2b8}
+      \strng{authorfullhash}{78270c793a8e0c5fa92c64dca4b6a2b8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Review of Economic Studies}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{A Note on Measurement of Utility}
+      \field{volume}{4}
+      \field{year}{1937}
+      \field{pages}{155}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/2967612
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2307%2F2967612
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307%2F2967612
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{sidman1952note}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd0c49423cc75127c235c0ebf07c5afd}{%
+           family={Sidman},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fd0c49423cc75127c235c0ebf07c5afd}
+      \strng{fullhash}{fd0c49423cc75127c235c0ebf07c5afd}
+      \strng{bibnamehash}{fd0c49423cc75127c235c0ebf07c5afd}
+      \strng{authorbibnamehash}{fd0c49423cc75127c235c0ebf07c5afd}
+      \strng{authornamehash}{fd0c49423cc75127c235c0ebf07c5afd}
+      \strng{authorfullhash}{fd0c49423cc75127c235c0ebf07c5afd}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Bulletin}
+      \field{number}{3}
+      \field{title}{A Note on Functional Relations Obtained from Group Data}
+      \field{volume}{49}
+      \field{year}{1952}
+      \field{pages}{263\bibrangedash 269}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1037/h0063643
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{Strotz55}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a4dd696f61394a70e82cd13de5243734}{%
+           family={Strotz},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press ({OUP})}%
+      }
+      \strng{namehash}{a4dd696f61394a70e82cd13de5243734}
+      \strng{fullhash}{a4dd696f61394a70e82cd13de5243734}
+      \strng{bibnamehash}{a4dd696f61394a70e82cd13de5243734}
+      \strng{authorbibnamehash}{a4dd696f61394a70e82cd13de5243734}
+      \strng{authornamehash}{a4dd696f61394a70e82cd13de5243734}
+      \strng{authorfullhash}{a4dd696f61394a70e82cd13de5243734}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Review of Economic Studies}
+      \field{number}{3}
+      \field{title}{Myopia and Inconsistency in Dynamic Utility Maximization}
+      \field{volume}{23}
+      \field{year}{1955}
+      \field{pages}{165}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/2295722
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2307%2F2295722
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307%2F2295722
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{verhave1963toward}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=536a5ce8b2eba5c84a97150e8e93d8b3}{%
+           family={Verhave},
+           familyi={V\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{536a5ce8b2eba5c84a97150e8e93d8b3}
+      \strng{fullhash}{536a5ce8b2eba5c84a97150e8e93d8b3}
+      \strng{bibnamehash}{536a5ce8b2eba5c84a97150e8e93d8b3}
+      \strng{authorbibnamehash}{536a5ce8b2eba5c84a97150e8e93d8b3}
+      \strng{authornamehash}{536a5ce8b2eba5c84a97150e8e93d8b3}
+      \strng{authorfullhash}{536a5ce8b2eba5c84a97150e8e93d8b3}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Experimental Analysis of Behavior}
+      \field{title}{Toward an Empirical Calculus of Reinforcement Value}
+      \field{volume}{6}
+      \field{year}{1963}
+      \field{pages}{525\bibrangedash 536}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1901/jeab.1963.6-525
+      \endverb
+      \keyw{prin}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{ainslie1975specious}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=411ff14bf3b9daf13903888226bab367}{%
+           family={Ainslie},
+           familyi={A\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{411ff14bf3b9daf13903888226bab367}
+      \strng{fullhash}{411ff14bf3b9daf13903888226bab367}
+      \strng{bibnamehash}{411ff14bf3b9daf13903888226bab367}
+      \strng{authorbibnamehash}{411ff14bf3b9daf13903888226bab367}
+      \strng{authornamehash}{411ff14bf3b9daf13903888226bab367}
+      \strng{authorfullhash}{411ff14bf3b9daf13903888226bab367}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Bulletin}
+      \field{number}{4}
+      \field{title}{Specious Reward: A Behavioral Theory of Impulsiveness and Impulse Control}
+      \field{volume}{82}
+      \field{year}{1975}
+      \field{pages}{463\bibrangedash 496}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1037/h0076860
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{ando1963life}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c620229431dd7e2437f8b363866c2b63}{%
+           family={Ando},
+           familyi={A\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7dc8055ba1f80fed2d1eeba6cc2e246}{%
+           family={Modigliani},
+           familyi={M\bibinitperiod},
+           given={Franco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{bcb7be9c67ec4e65623718bdc61a29af}
+      \strng{fullhash}{bcb7be9c67ec4e65623718bdc61a29af}
+      \strng{bibnamehash}{bcb7be9c67ec4e65623718bdc61a29af}
+      \strng{authorbibnamehash}{bcb7be9c67ec4e65623718bdc61a29af}
+      \strng{authornamehash}{bcb7be9c67ec4e65623718bdc61a29af}
+      \strng{authorfullhash}{bcb7be9c67ec4e65623718bdc61a29af}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American economic review}
+      \field{number}{1}
+      \field{title}{The" life cycle" hypothesis of saving: Aggregate implications and tests}
+      \field{volume}{53}
+      \field{year}{1963}
+      \field{pages}{55\bibrangedash 84}
+      \range{pages}{30}
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/1817129
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/1817129
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{buritica2016valor}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=77aa006cbe483585e59541a18d959360}{%
+           family={Buriticá},
+           familyi={B\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=976cb6beaf3937730a0355c2f3029d64}{%
+           family={Dos\bibnamedelima Santos},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Cristiano},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b688e7e08655f7c23948e3cfb5d52fb2}
+      \strng{fullhash}{b688e7e08655f7c23948e3cfb5d52fb2}
+      \strng{bibnamehash}{b688e7e08655f7c23948e3cfb5d52fb2}
+      \strng{authorbibnamehash}{b688e7e08655f7c23948e3cfb5d52fb2}
+      \strng{authornamehash}{b688e7e08655f7c23948e3cfb5d52fb2}
+      \strng{authorfullhash}{b688e7e08655f7c23948e3cfb5d52fb2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Colombiana de Psicología}
+      \field{month}{7}
+      \field{title}{Valor del Reforzador: ¿Cómo se Usa y Para qué se Usa el Concepto?}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.15446/rcp.v25n2.50405
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.15446/rcp.v25n2.50405
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.15446/rcp.v25n2.50405
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{chib2009evidence}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=533bc9b94c477bde4ee387443d028bfc}{%
+           family={Chib},
+           familyi={C\bibinitperiod},
+           given={V.\bibnamedelimi S.},
+           giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6f40f9076733a20cb6ea0881550d28f}{%
+           family={Rangel},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eada3e4c93507682b635af73ce9f2e24}{%
+           family={Shimojo},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ff7f23d05155804eb683529bf7686f2}{%
+           family={O'Doherty},
+           familyi={O\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{84e00ce75d67ca2b75e7df00b6c7fc22}
+      \strng{fullhash}{293826389587ad41098a05014f35d106}
+      \strng{bibnamehash}{293826389587ad41098a05014f35d106}
+      \strng{authorbibnamehash}{293826389587ad41098a05014f35d106}
+      \strng{authornamehash}{84e00ce75d67ca2b75e7df00b6c7fc22}
+      \strng{authorfullhash}{293826389587ad41098a05014f35d106}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Neuroscience}
+      \field{number}{39}
+      \field{title}{Evidence for a Common Representation of Decision Values for Dissimilar Goods in Human Ventromedial Prefrontal Cortex}
+      \field{volume}{29}
+      \field{year}{2009}
+      \field{pages}{12315\bibrangedash 12320}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1523/jneurosci.2575-09.2009
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{estes1956problem}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0b78912050ef75a9519bdd8ca285d20d}{%
+           family={Estes},
+           familyi={E\bibinitperiod},
+           given={W.\bibnamedelimi K.},
+           giveni={W\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0b78912050ef75a9519bdd8ca285d20d}
+      \strng{fullhash}{0b78912050ef75a9519bdd8ca285d20d}
+      \strng{bibnamehash}{0b78912050ef75a9519bdd8ca285d20d}
+      \strng{authorbibnamehash}{0b78912050ef75a9519bdd8ca285d20d}
+      \strng{authornamehash}{0b78912050ef75a9519bdd8ca285d20d}
+      \strng{authorfullhash}{0b78912050ef75a9519bdd8ca285d20d}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Bulletin}
+      \field{number}{2}
+      \field{title}{The Problem of Inference from Curves Based on Group Data}
+      \field{volume}{53}
+      \field{year}{1956}
+      \field{pages}{134\bibrangedash 140}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1037/h0045156
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{Feigenbaum16}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4869eae6c40aa8ec2a0928a60f948f1b}{%
+           family={Feigenbaum},
+           familyi={F\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{4869eae6c40aa8ec2a0928a60f948f1b}
+      \strng{fullhash}{4869eae6c40aa8ec2a0928a60f948f1b}
+      \strng{bibnamehash}{4869eae6c40aa8ec2a0928a60f948f1b}
+      \strng{authorbibnamehash}{4869eae6c40aa8ec2a0928a60f948f1b}
+      \strng{authornamehash}{4869eae6c40aa8ec2a0928a60f948f1b}
+      \strng{authorfullhash}{4869eae6c40aa8ec2a0928a60f948f1b}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Mathematical Economics}
+      \field{month}{10}
+      \field{title}{Equivalent representations of non-exponential discounting models}
+      \field{volume}{66}
+      \field{year}{2016}
+      \field{pages}{58\bibrangedash 71}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.jmateco.2016.08.001
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016%2Fj.jmateco.2016.08.001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016%2Fj.jmateco.2016.08.001
+      \endverb
+      \keyw{sec}
+    \endentry
+    \entry{feigenbaum2021deviation}{report}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4869eae6c40aa8ec2a0928a60f948f1b}{%
+           family={Feigenbaum},
+           familyi={F\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=766b362b269884a7de73542ad65b6c42}{%
+           family={Raei},
+           familyi={R\bibinitperiod},
+           given={Sepideh},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {working paper}%
+      }
+      \strng{namehash}{768c558b0e65a9130ec136d490369327}
+      \strng{fullhash}{768c558b0e65a9130ec136d490369327}
+      \strng{bibnamehash}{768c558b0e65a9130ec136d490369327}
+      \strng{authorbibnamehash}{768c558b0e65a9130ec136d490369327}
+      \strng{authornamehash}{768c558b0e65a9130ec136d490369327}
+      \strng{authorfullhash}{768c558b0e65a9130ec136d490369327}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Deviation from exponential discounting and present bias in continuous time}
+      \field{type}{techreport}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb http://www.platonicadventures.com/uploads/3/8/7/0/38707599/expdeviationcont21sep20.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.platonicadventures.com/uploads/3/8/7/0/38707599/expdeviationcont21sep20.pdf
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{Feigenbaum21}{unpublished}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4869eae6c40aa8ec2a0928a60f948f1b}{%
+           family={Feigenbaum},
+           familyi={F\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=766b362b269884a7de73542ad65b6c42}{%
+           family={Raei},
+           familyi={R\bibinitperiod},
+           given={Sepideh},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{768c558b0e65a9130ec136d490369327}
+      \strng{fullhash}{768c558b0e65a9130ec136d490369327}
+      \strng{bibnamehash}{768c558b0e65a9130ec136d490369327}
+      \strng{authorbibnamehash}{768c558b0e65a9130ec136d490369327}
+      \strng{authornamehash}{768c558b0e65a9130ec136d490369327}
+      \strng{authorfullhash}{768c558b0e65a9130ec136d490369327}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Working Paper}
+      \field{title}{Explaining the consumption hump in terms of deviations from exponential discounting}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb http://www.platonicadventures.com/uploads/3/8/7/0/38707599/humpexpdeviation21aug17.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.platonicadventures.com/uploads/3/8/7/0/38707599/humpexpdeviation21aug17.pdf
+      \endverb
+      \keyw{sec}
+    \endentry
+    \entry{fisher1930theory}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=220c89c7f75cf8428045e124c21b5ba5}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Irving},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{220c89c7f75cf8428045e124c21b5ba5}
+      \strng{fullhash}{220c89c7f75cf8428045e124c21b5ba5}
+      \strng{bibnamehash}{220c89c7f75cf8428045e124c21b5ba5}
+      \strng{authorbibnamehash}{220c89c7f75cf8428045e124c21b5ba5}
+      \strng{authornamehash}{220c89c7f75cf8428045e124c21b5ba5}
+      \strng{authorfullhash}{220c89c7f75cf8428045e124c21b5ba5}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New York}
+      \field{title}{The theory of interest}
+      \field{volume}{43}
+      \field{year}{1930}
+      \field{pages}{1\bibrangedash 19}
+      \range{pages}{19}
+      \verb{urlraw}
+      \verb http://files.libertyfund.org/files/1416/0219_Bk.pdf
+      \endverb
+      \verb{url}
+      \verb http://files.libertyfund.org/files/1416/0219_Bk.pdf
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{friedman1957theory}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ed599767cda235bc9b7bb0e787374d60}{%
+           family={Friedman},
+           familyi={F\bibinitperiod},
+           given={Milton},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{fullhash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{bibnamehash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{authorbibnamehash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{authornamehash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{authorfullhash}{ed599767cda235bc9b7bb0e787374d60}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{Theory of the Consumption Function}
+      \field{year}{1957}
+      \verb{doi}
+      \verb 10.1515/9780691188485
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1515%2F9780691188485
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1515%2F9780691188485
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{green1994discounting}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=28670d2f125d05c100e84182c2930630}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d2cf80a8afd9ce1dfc18c82bb1e50f72}{%
+           family={Fry},
+           familyi={F\bibinitperiod},
+           given={A.\bibnamedelimi F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10db7c7cc8157e519882f825b2033350}{%
+           family={Myerson},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{59431c7451e927c1e02e238cdf4a5d84}
+      \strng{fullhash}{f613667b2b747efb1adaeda946bb0748}
+      \strng{bibnamehash}{f613667b2b747efb1adaeda946bb0748}
+      \strng{authorbibnamehash}{f613667b2b747efb1adaeda946bb0748}
+      \strng{authornamehash}{59431c7451e927c1e02e238cdf4a5d84}
+      \strng{authorfullhash}{f613667b2b747efb1adaeda946bb0748}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Science}
+      \field{number}{1}
+      \field{title}{Discounting of Delayed Rewards: A Life-Span Comparison}
+      \field{volume}{5}
+      \field{year}{1994}
+      \field{pages}{33\bibrangedash 36}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1111/j.1467-9280.1994.tb00610.x
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{harrod1948towards}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aa2b85bafff6792e7f972175e3f3a3e5}{%
+           family={Harrod},
+           familyi={H\bibinitperiod},
+           given={R.F.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Macmillan \& Co.}%
+      }
+      \strng{namehash}{aa2b85bafff6792e7f972175e3f3a3e5}
+      \strng{fullhash}{aa2b85bafff6792e7f972175e3f3a3e5}
+      \strng{bibnamehash}{aa2b85bafff6792e7f972175e3f3a3e5}
+      \strng{authorbibnamehash}{aa2b85bafff6792e7f972175e3f3a3e5}
+      \strng{authornamehash}{aa2b85bafff6792e7f972175e3f3a3e5}
+      \strng{authorfullhash}{aa2b85bafff6792e7f972175e3f3a3e5}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Towards a dynamic economics: Some Recent Developments of Economic Theory and their Application to Policy}
+      \field{year}{1948}
+      \verb{urlraw}
+      \verb https://doi.org/10.2307%2F2984185
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307%2F2984185
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{hodos1961progressive}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e83e8bd90d35acea98cb58890678e6d2}{%
+           family={Hodos},
+           familyi={H\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e83e8bd90d35acea98cb58890678e6d2}
+      \strng{fullhash}{e83e8bd90d35acea98cb58890678e6d2}
+      \strng{bibnamehash}{e83e8bd90d35acea98cb58890678e6d2}
+      \strng{authorbibnamehash}{e83e8bd90d35acea98cb58890678e6d2}
+      \strng{authornamehash}{e83e8bd90d35acea98cb58890678e6d2}
+      \strng{authorfullhash}{e83e8bd90d35acea98cb58890678e6d2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{3483}
+      \field{title}{Progressive Ratio as a Measure of Reward Strength}
+      \field{volume}{134}
+      \field{year}{1961}
+      \field{pages}{943\bibrangedash 944}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.2307/1708217
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{hursh2008economic}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=00f9af9d9ea408ca5d6ec1d0b5a2c423}{%
+           family={Hursh},
+           familyi={H\bibinitperiod},
+           given={S.\bibnamedelimi R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9624bbfaefe4c6abc842a63970395417}{%
+           family={Silberberg},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d02feee6fe70dcf83b2c61c5795f7e42}
+      \strng{fullhash}{d02feee6fe70dcf83b2c61c5795f7e42}
+      \strng{bibnamehash}{d02feee6fe70dcf83b2c61c5795f7e42}
+      \strng{authorbibnamehash}{d02feee6fe70dcf83b2c61c5795f7e42}
+      \strng{authornamehash}{d02feee6fe70dcf83b2c61c5795f7e42}
+      \strng{authorfullhash}{d02feee6fe70dcf83b2c61c5795f7e42}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Review}
+      \field{title}{Economic Demand and Essential Value}
+      \field{volume}{115}
+      \field{year}{2008}
+      \field{pages}{186\bibrangedash 198}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1037/0033-295x.115.1.186
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{keynes1936general}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=612862f6008b8bea8cd4a13783af9a93}{%
+           family={Keynes},
+           familyi={K\bibinitperiod},
+           given={John\bibnamedelima Maynard},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Macmillan}%
+      }
+      \strng{namehash}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{fullhash}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{bibnamehash}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{authorbibnamehash}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{authornamehash}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{authorfullhash}{612862f6008b8bea8cd4a13783af9a93}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The General Theory of Employment, Interest, and Money}
+      \field{year}{1936}
+      \verb{urlraw}
+      \verb https://link.springer.com/book/10.1007/978-3-319-70344-2
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/book/10.1007/978-3-319-70344-2
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{kirby1997bidding}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c09d996a448938622318229a9e250b33}{%
+           family={Kirby},
+           familyi={K\bibinitperiod},
+           given={K.\bibnamedelimi N.},
+           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c09d996a448938622318229a9e250b33}
+      \strng{fullhash}{c09d996a448938622318229a9e250b33}
+      \strng{bibnamehash}{c09d996a448938622318229a9e250b33}
+      \strng{authorbibnamehash}{c09d996a448938622318229a9e250b33}
+      \strng{authornamehash}{c09d996a448938622318229a9e250b33}
+      \strng{authorfullhash}{c09d996a448938622318229a9e250b33}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Experimental Psychology: General}
+      \field{number}{1}
+      \field{title}{Bidding on the Future: Evidence Against Normative Discounting of Delayed Rewards}
+      \field{volume}{126}
+      \field{year}{1997}
+      \field{pages}{54\bibrangedash 70}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1037/0096-3445.126.1.54
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{Laibson97}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=fe1c3d28e3aae89ae008b6a2f5d013d9}{%
+           family={Laibson},
+           familyi={L\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press ({OUP})}%
+      }
+      \strng{namehash}{fe1c3d28e3aae89ae008b6a2f5d013d9}
+      \strng{fullhash}{fe1c3d28e3aae89ae008b6a2f5d013d9}
+      \strng{bibnamehash}{fe1c3d28e3aae89ae008b6a2f5d013d9}
+      \strng{authorbibnamehash}{fe1c3d28e3aae89ae008b6a2f5d013d9}
+      \strng{authornamehash}{fe1c3d28e3aae89ae008b6a2f5d013d9}
+      \strng{authorfullhash}{fe1c3d28e3aae89ae008b6a2f5d013d9}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{Golden Eggs and Hyperbolic Discounting}
+      \field{volume}{112}
+      \field{year}{1997}
+      \field{pages}{443\bibrangedash 478}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1162/003355397555253
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1162%2F003355397555253
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1162%2F003355397555253
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{Laibson96}{report}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=5e4ad755422ce455d1ff7a3dc1eaef0e}{%
+           family={Laibson},
+           familyi={L\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \strng{fullhash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \strng{bibnamehash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \strng{authorbibnamehash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \strng{authornamehash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \strng{authorfullhash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Hyperbolic Discount Functions, Undersaving, and Savings Policy}
+      \field{type}{techreport}
+      \field{year}{1996}
+      \verb{doi}
+      \verb 10.3386/w5635
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3386%2Fw5635
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3386%2Fw5635
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{Laibson98}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=5e4ad755422ce455d1ff7a3dc1eaef0e}{%
+           family={Laibson},
+           familyi={L\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \strng{fullhash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \strng{bibnamehash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \strng{authorbibnamehash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \strng{authornamehash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \strng{authorfullhash}{5e4ad755422ce455d1ff7a3dc1eaef0e}
+      \field{extraname}{3}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Economic Review}
+      \field{month}{5}
+      \field{number}{3-5}
+      \field{title}{Life-cycle consumption and hyperbolic discount functions}
+      \field{volume}{42}
+      \field{year}{1998}
+      \field{pages}{861\bibrangedash 871}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/s0014-2921(97)00132-3
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016%2Fs0014-2921%2897%2900132-3
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016%2Fs0014-2921%2897%2900132-3
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{Laibson98b}{article}{}
+      \name{author}{6}{}{%
+        {{un=1,uniquepart=given,hash=d6a00fa5108c02b54018bf0017164eb9}{%
+           family={Laibson},
+           familyi={L\bibinitperiod},
+           given={David\bibnamedelima I.},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=205aa4e12295de2556d0e7ff89343547}{%
+           family={Repetto},
+           familyi={R\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06297786e5bd51b60363a78434a15229}{%
+           family={Tobacman},
+           familyi={T\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77c1ed02c587f0e6bce66c7ab5b5ea39}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Robert\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91cebf99de555758ee4e9f3f903a05a6}{%
+           family={Gale},
+           familyi={G\bibinitperiod},
+           given={William\bibnamedelima G.},
+           giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f198b417f1390a0f8ff279349b43f47d}{%
+           family={Akerlof},
+           familyi={A\bibinitperiod},
+           given={George\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{94076eb6d7de1686e16a4c1d3c31579c}
+      \strng{fullhash}{ee6419d659831d4a408c3cc6666423af}
+      \strng{bibnamehash}{ee6419d659831d4a408c3cc6666423af}
+      \strng{authorbibnamehash}{ee6419d659831d4a408c3cc6666423af}
+      \strng{authornamehash}{94076eb6d7de1686e16a4c1d3c31579c}
+      \strng{authorfullhash}{ee6419d659831d4a408c3cc6666423af}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Brookings Papers on Economic Activity}
+      \field{number}{1}
+      \field{title}{Self-Control and Saving for Retirement}
+      \field{volume}{1998}
+      \field{year}{1998}
+      \field{pages}{91}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/2534671
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2307%2F2534671
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307%2F2534671
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{larrain2002macroeconomia}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bb2161a7d25f32ce471cfdc3d2ee80fb}{%
+           family={Larraín},
+           familyi={L\bibinitperiod},
+           given={Felipe},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f49fa8d4c5a359424f8d716560c7e2a4}{%
+           family={Sachs},
+           familyi={S\bibinitperiod},
+           given={Jeffrey\bibnamedelima D},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Educación}%
+      }
+      \strng{namehash}{0f852ebc8d90a14568c4e46d2d9f7ed0}
+      \strng{fullhash}{0f852ebc8d90a14568c4e46d2d9f7ed0}
+      \strng{bibnamehash}{0f852ebc8d90a14568c4e46d2d9f7ed0}
+      \strng{authorbibnamehash}{0f852ebc8d90a14568c4e46d2d9f7ed0}
+      \strng{authornamehash}{0f852ebc8d90a14568c4e46d2d9f7ed0}
+      \strng{authorfullhash}{0f852ebc8d90a14568c4e46d2d9f7ed0}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Macroeconomía en la economía global}
+      \field{year}{2002}
+      \keyw{prin}
+    \endentry
+    \entry{loewenstein1992anomalies}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=30df2f38c3e754328067e52e52e46a64}{%
+           family={Loewenstein},
+           familyi={L\bibinitperiod},
+           given={G.\bibnamedelimi F.},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4baab76b032b9f5594660ee9f0e80899}{%
+           family={Prelec},
+           familyi={P\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fcf59a9471d7fe3e60f39b147b5befc7}
+      \strng{fullhash}{fcf59a9471d7fe3e60f39b147b5befc7}
+      \strng{bibnamehash}{fcf59a9471d7fe3e60f39b147b5befc7}
+      \strng{authorbibnamehash}{fcf59a9471d7fe3e60f39b147b5befc7}
+      \strng{authornamehash}{fcf59a9471d7fe3e60f39b147b5befc7}
+      \strng{authorfullhash}{fcf59a9471d7fe3e60f39b147b5befc7}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quarterly Journal of Economics}
+      \field{title}{Anomalies in Intertemporal Choice: Evidence and an Interpretation}
+      \field{volume}{107}
+      \field{year}{1992}
+      \field{pages}{573\bibrangedash 597}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.2307/2118482
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{Lucas_1976}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d75b1c25901858e9d7cbfbb24d9dc0de}{%
+           family={Lucas},
+           familyi={L\bibinitperiod},
+           given={Robert\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{d75b1c25901858e9d7cbfbb24d9dc0de}
+      \strng{fullhash}{d75b1c25901858e9d7cbfbb24d9dc0de}
+      \strng{bibnamehash}{d75b1c25901858e9d7cbfbb24d9dc0de}
+      \strng{authorbibnamehash}{d75b1c25901858e9d7cbfbb24d9dc0de}
+      \strng{authornamehash}{d75b1c25901858e9d7cbfbb24d9dc0de}
+      \strng{authorfullhash}{d75b1c25901858e9d7cbfbb24d9dc0de}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Carnegie-Rochester Conference Series on Public Policy}
+      \field{month}{1}
+      \field{title}{Econometric policy evaluation: A critique}
+      \field{volume}{1}
+      \field{year}{1976}
+      \field{pages}{19\bibrangedash 46}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1016/s0167-2231(76)80003-6
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016%2Fs0167-2231%2876%2980003-6
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016%2Fs0167-2231%2876%2980003-6
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{madden2010delaydiscounting}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=565915f701ca3fd9a225a268afaf3bfc}{%
+           family={Madden},
+           familyi={M\bibinitperiod},
+           given={G.\bibnamedelimi J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb769a8e94bece5ec6a3ec3f11b19485}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={P.\bibnamedelimi S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=565915f701ca3fd9a225a268afaf3bfc}{%
+           family={Madden},
+           familyi={M\bibinitperiod},
+           given={G.\bibnamedelimi J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=6a449d860621c4d5a34e63d8967120de}{%
+           family={Bickel},
+           familyi={B\bibinitperiod},
+           given={W.\bibnamedelimi K.},
+           giveni={W\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{c5608fcbf949fa65064fa76fcdee1b5f}
+      \strng{fullhash}{c5608fcbf949fa65064fa76fcdee1b5f}
+      \strng{bibnamehash}{c5608fcbf949fa65064fa76fcdee1b5f}
+      \strng{authorbibnamehash}{c5608fcbf949fa65064fa76fcdee1b5f}
+      \strng{authornamehash}{c5608fcbf949fa65064fa76fcdee1b5f}
+      \strng{authorfullhash}{c5608fcbf949fa65064fa76fcdee1b5f}
+      \strng{editorbibnamehash}{89d675255b7509b3cca51d879e62b353}
+      \strng{editornamehash}{89d675255b7509b3cca51d879e62b353}
+      \strng{editorfullhash}{89d675255b7509b3cca51d879e62b353}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Impulsivity: The Behavioral and Neurological Science of Discounting}
+      \field{title}{A Delay-Discounting Primer}
+      \field{year}{2010}
+      \field{pages}{11\bibrangedash 37}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1037/12069-001
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{mankiw2012}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=474cb51282bc298228df113afdfd755f}{%
+           family={Mankiw},
+           familyi={M\bibinitperiod},
+           given={N.\bibnamedelimi Gregory},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Distrito Federal, México}%
+      }
+      \list{publisher}{1}{%
+        {Cengage Learning}%
+      }
+      \strng{namehash}{474cb51282bc298228df113afdfd755f}
+      \strng{fullhash}{474cb51282bc298228df113afdfd755f}
+      \strng{bibnamehash}{474cb51282bc298228df113afdfd755f}
+      \strng{authorbibnamehash}{474cb51282bc298228df113afdfd755f}
+      \strng{authornamehash}{474cb51282bc298228df113afdfd755f}
+      \strng{authorfullhash}{474cb51282bc298228df113afdfd755f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Sexta}
+      \field{isbn}{978-607-481-829-1}
+      \field{title}{Principios de Economía}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://clea.edu.mx/biblioteca/files/original/bd2711c3969d92b67fcf71d844bcbaed.pdf
+      \endverb
+      \verb{url}
+      \verb https://clea.edu.mx/biblioteca/files/original/bd2711c3969d92b67fcf71d844bcbaed.pdf
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{mazur1987adjusting}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0ddf6b716029a6ca8631a991ea90540a}{%
+           family={Mazur},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=14774934c2ba5ee1bd2c998f2a4451ce}{%
+           family={Commons},
+           familyi={C\bibinitperiod},
+           given={M.\bibnamedelimi L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=0ddf6b716029a6ca8631a991ea90540a}{%
+           family={Mazur},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=a07f11858afc83cf6c3dd7e6a0031f31}{%
+           family={Nevin},
+           familyi={N\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ad9c3951dba016dbb045492b5a2a267a}{%
+           family={Rachlin},
+           familyi={R\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Lawrence Erlbaum Associates, Inc.}%
+      }
+      \strng{namehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{fullhash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{bibnamehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{authorbibnamehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{authornamehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{authorfullhash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{editorbibnamehash}{197c67dfe5494677397fbce16917e2bd}
+      \strng{editornamehash}{cce5cfccca190bd050947aa5c249e158}
+      \strng{editorfullhash}{197c67dfe5494677397fbce16917e2bd}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Effect of Delay and of Intervening Events on Reinforcement Value}
+      \field{title}{An Adjusting Procedure for Studying Delayed Reinforcement}
+      \field{year}{1987}
+      \field{pages}{55\bibrangedash 73}
+      \range{pages}{19}
+      \keyw{prin}
+    \endentry
+    \entry{mazur1997choice}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0ddf6b716029a6ca8631a991ea90540a}{%
+           family={Mazur},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{fullhash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{bibnamehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{authorbibnamehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{authornamehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{authorfullhash}{0ddf6b716029a6ca8631a991ea90540a}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Animal Learning \& Behavior}
+      \field{number}{2}
+      \field{title}{Choice, Delay, Probability, and Conditioned Reinforcement}
+      \field{volume}{25}
+      \field{year}{1997}
+      \field{pages}{131\bibrangedash 147}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.3758/BF03199051
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{mazur2001hyperbolic}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0ddf6b716029a6ca8631a991ea90540a}{%
+           family={Mazur},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{fullhash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{bibnamehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{authorbibnamehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{authornamehash}{0ddf6b716029a6ca8631a991ea90540a}
+      \strng{authorfullhash}{0ddf6b716029a6ca8631a991ea90540a}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Review}
+      \field{number}{1}
+      \field{title}{Hyperbolic value addition and general models of animal choice}
+      \field{volume}{108}
+      \field{year}{2001}
+      \field{pages}{96\bibrangedash 112}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1037/0033-295x.108.1.96
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1037/0033-295x.108.1.96
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1037/0033-295x.108.1.96
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{miltenberger2012behavior}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c79344a6a41ff976cfc3382244f6a6db}{%
+           family={Miltenberger},
+           familyi={M\bibinitperiod},
+           given={Raymond\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c79344a6a41ff976cfc3382244f6a6db}
+      \strng{fullhash}{c79344a6a41ff976cfc3382244f6a6db}
+      \strng{bibnamehash}{c79344a6a41ff976cfc3382244f6a6db}
+      \strng{authorbibnamehash}{c79344a6a41ff976cfc3382244f6a6db}
+      \strng{authornamehash}{c79344a6a41ff976cfc3382244f6a6db}
+      \strng{authorfullhash}{c79344a6a41ff976cfc3382244f6a6db}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{5th}
+      \field{isbn}{978111106113}
+      \field{title}{Behavior Modification. Principles \& Procedures}
+      \field{year}{2012}
+      \keyw{prin}
+    \endentry
+    \entry{modigliani86}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e7dc8055ba1f80fed2d1eeba6cc2e246}{%
+           family={Modigliani},
+           familyi={M\bibinitperiod},
+           given={Franco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e7dc8055ba1f80fed2d1eeba6cc2e246}
+      \strng{fullhash}{e7dc8055ba1f80fed2d1eeba6cc2e246}
+      \strng{bibnamehash}{e7dc8055ba1f80fed2d1eeba6cc2e246}
+      \strng{authorbibnamehash}{e7dc8055ba1f80fed2d1eeba6cc2e246}
+      \strng{authornamehash}{e7dc8055ba1f80fed2d1eeba6cc2e246}
+      \strng{authorfullhash}{e7dc8055ba1f80fed2d1eeba6cc2e246}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{One theory of the determinants of individual and national thrift has come to be known as the life cycle hypothesis of saving. The state of the art on the eve of the formulation of the hypothesis some 30 years ago is reviewed. Then the theoretical foundations of the model in its original formulation and later amendment are set forth, calling attention to various implications, some distinctive to it and some counterintuitive. A number of crucial empirical tests, both at the individual and the aggregate level, are presented as well as some applications of the life cycle hypothesis of saving to current policy issues.}
+      \field{journaltitle}{Science}
+      \field{number}{4777}
+      \field{title}{Life Cycle, Individual Thrift, and the Wealth of Nations}
+      \field{volume}{234}
+      \field{year}{1986}
+      \field{pages}{704\bibrangedash 712}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1126/science.234.4777.704
+      \endverb
+      \verb{eprint}
+      \verb https://www.science.org/doi/pdf/10.1126/science.234.4777.704
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.234.4777.704
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.234.4777.704
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{modigliani1954utility}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e7dc8055ba1f80fed2d1eeba6cc2e246}{%
+           family={Modigliani},
+           familyi={M\bibinitperiod},
+           given={Franco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7dcfc8d1e450c4a433485d4e04ea2cc1}{%
+           family={Brumberg},
+           familyi={B\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b397b0b518ede0ab86f20e26a6a112bf}
+      \strng{fullhash}{b397b0b518ede0ab86f20e26a6a112bf}
+      \strng{bibnamehash}{b397b0b518ede0ab86f20e26a6a112bf}
+      \strng{authorbibnamehash}{b397b0b518ede0ab86f20e26a6a112bf}
+      \strng{authornamehash}{b397b0b518ede0ab86f20e26a6a112bf}
+      \strng{authorfullhash}{b397b0b518ede0ab86f20e26a6a112bf}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Franco Modigliani}
+      \field{number}{1}
+      \field{title}{Utility analysis and the consumption function: An interpretation of cross-section data}
+      \field{volume}{1}
+      \field{year}{1954}
+      \field{pages}{388\bibrangedash 436}
+      \range{pages}{49}
+      \verb{urlraw}
+      \verb https://www.arabictrader.com/cdn/application/2009/08/15/pdf/v202/B4E8E626-EFEE-42B4-FE04-862C02B7AC83.pdf#page=18
+      \endverb
+      \verb{url}
+      \verb https://www.arabictrader.com/cdn/application/2009/08/15/pdf/v202/B4E8E626-EFEE-42B4-FE04-862C02B7AC83.pdf#page=18
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{myerson1995discounting}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fb499f633eafd20e2ebbd184081c11c1}{%
+           family={Myerson},
+           familyi={M\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2f3f0e24c16d43b6dbbcd25e1dfd84d}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={Leonard},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{58d7980ee70c708db688080f54d43d77}
+      \strng{fullhash}{58d7980ee70c708db688080f54d43d77}
+      \strng{bibnamehash}{58d7980ee70c708db688080f54d43d77}
+      \strng{authorbibnamehash}{58d7980ee70c708db688080f54d43d77}
+      \strng{authornamehash}{58d7980ee70c708db688080f54d43d77}
+      \strng{authorfullhash}{58d7980ee70c708db688080f54d43d77}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the experimental analysis of behavior}
+      \field{number}{3}
+      \field{title}{Discounting of delayed rewards: Models of individual choice}
+      \field{volume}{64}
+      \field{year}{1995}
+      \field{pages}{263\bibrangedash 276}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1901/jeab.1995.64-263
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{ODonoghue01}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=22477e28bfd1f0477c58fdc4c1019722}{%
+           family={O{'}Donoghue},
+           familyi={O\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca603078b913cdf8a70cdf974e901faa}{%
+           family={Rabin},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press ({OUP})}%
+      }
+      \strng{namehash}{35fabb399b76814a7a36f67340c789c6}
+      \strng{fullhash}{35fabb399b76814a7a36f67340c789c6}
+      \strng{bibnamehash}{35fabb399b76814a7a36f67340c789c6}
+      \strng{authorbibnamehash}{35fabb399b76814a7a36f67340c789c6}
+      \strng{authornamehash}{35fabb399b76814a7a36f67340c789c6}
+      \strng{authorfullhash}{35fabb399b76814a7a36f67340c789c6}
+      \field{extraname}{1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Choice and Procrastination}
+      \field{volume}{116}
+      \field{year}{2001}
+      \field{pages}{121\bibrangedash 160}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1162/003355301556365
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1162%2F003355301556365
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1162%2F003355301556365
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{ODonoghue99}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d22b6824713187daf0d983a7dd3fd756}{%
+           family={O{'}Donoghue},
+           familyi={O\bibinitperiod},
+           given={Ted},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d58017f407382aff3b1c661d8dd2b59}{%
+           family={Rabin},
+           familyi={R\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Economic Association}%
+      }
+      \strng{namehash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \strng{fullhash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \strng{bibnamehash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \strng{authorbibnamehash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \strng{authornamehash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \strng{authorfullhash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \field{extraname}{2}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Doing It Now or Later}
+      \field{volume}{89}
+      \field{year}{1999}
+      \field{pages}{103\bibrangedash 124}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1257/aer.89.1.103
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1257%2Faer.89.1.103
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1257%2Faer.89.1.103
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{ODonoghue00}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d22b6824713187daf0d983a7dd3fd756}{%
+           family={O{'}Donoghue},
+           familyi={O\bibinitperiod},
+           given={Ted},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d58017f407382aff3b1c661d8dd2b59}{%
+           family={Rabin},
+           familyi={R\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \strng{fullhash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \strng{bibnamehash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \strng{authorbibnamehash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \strng{authornamehash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \strng{authorfullhash}{0dd15983067b0b8bbcbd13e27d8e9815}
+      \field{extraname}{3}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Behavioral Decision Making}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{The economics of immediate gratification}
+      \field{volume}{13}
+      \field{year}{2000}
+      \field{pages}{233\bibrangedash 250}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1002/(sici)1099-0771(200004/06)13:2<233::aid-bdm325>3.0.co;2-u
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1002%2F%28sici%291099-0771%28200004%2F06%2913%3A2%3C233%3A%3Aaid-bdm325%3E3.0.co%3B2-u
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1002%2F%28sici%291099-0771%28200004%2F06%2913%3A2%3C233%3A%3Aaid-bdm325%3E3.0.co%3B2-u
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{rachlin1991subjective}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ad9c3951dba016dbb045492b5a2a267a}{%
+           family={Rachlin},
+           familyi={R\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53f7f1439b64b3e044e5071ad6f75a0e}{%
+           family={Raineri},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f110ae3b888d990a56bd2ce350176e04}{%
+           family={Cross},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bce7b131d069e3e89a8708701c91b9d1}
+      \strng{fullhash}{df19c5a30057d2901332e2a0475676fd}
+      \strng{bibnamehash}{df19c5a30057d2901332e2a0475676fd}
+      \strng{authorbibnamehash}{df19c5a30057d2901332e2a0475676fd}
+      \strng{authornamehash}{bce7b131d069e3e89a8708701c91b9d1}
+      \strng{authorfullhash}{df19c5a30057d2901332e2a0475676fd}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Experimental Analysis of Behavior}
+      \field{number}{2}
+      \field{title}{Subjective Probability and Delay}
+      \field{volume}{55}
+      \field{year}{1991}
+      \field{pages}{233\bibrangedash 244}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1901/jeab.1991.55-233
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{Samuelson37}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=78270c793a8e0c5fa92c64dca4b6a2b8}{%
+           family={Samuelson},
+           familyi={S\bibinitperiod},
+           given={Paul\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press ({OUP})}%
+      }
+      \strng{namehash}{78270c793a8e0c5fa92c64dca4b6a2b8}
+      \strng{fullhash}{78270c793a8e0c5fa92c64dca4b6a2b8}
+      \strng{bibnamehash}{78270c793a8e0c5fa92c64dca4b6a2b8}
+      \strng{authorbibnamehash}{78270c793a8e0c5fa92c64dca4b6a2b8}
+      \strng{authornamehash}{78270c793a8e0c5fa92c64dca4b6a2b8}
+      \strng{authorfullhash}{78270c793a8e0c5fa92c64dca4b6a2b8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Review of Economic Studies}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{A Note on Measurement of Utility}
+      \field{volume}{4}
+      \field{year}{1937}
+      \field{pages}{155}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/2967612
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2307%2F2967612
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307%2F2967612
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{sidman1952note}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd0c49423cc75127c235c0ebf07c5afd}{%
+           family={Sidman},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fd0c49423cc75127c235c0ebf07c5afd}
+      \strng{fullhash}{fd0c49423cc75127c235c0ebf07c5afd}
+      \strng{bibnamehash}{fd0c49423cc75127c235c0ebf07c5afd}
+      \strng{authorbibnamehash}{fd0c49423cc75127c235c0ebf07c5afd}
+      \strng{authornamehash}{fd0c49423cc75127c235c0ebf07c5afd}
+      \strng{authorfullhash}{fd0c49423cc75127c235c0ebf07c5afd}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Bulletin}
+      \field{number}{3}
+      \field{title}{A Note on Functional Relations Obtained from Group Data}
+      \field{volume}{49}
+      \field{year}{1952}
+      \field{pages}{263\bibrangedash 269}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1037/h0063643
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{Strotz55}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a4dd696f61394a70e82cd13de5243734}{%
+           family={Strotz},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press ({OUP})}%
+      }
+      \strng{namehash}{a4dd696f61394a70e82cd13de5243734}
+      \strng{fullhash}{a4dd696f61394a70e82cd13de5243734}
+      \strng{bibnamehash}{a4dd696f61394a70e82cd13de5243734}
+      \strng{authorbibnamehash}{a4dd696f61394a70e82cd13de5243734}
+      \strng{authornamehash}{a4dd696f61394a70e82cd13de5243734}
+      \strng{authorfullhash}{a4dd696f61394a70e82cd13de5243734}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Review of Economic Studies}
+      \field{number}{3}
+      \field{title}{Myopia and Inconsistency in Dynamic Utility Maximization}
+      \field{volume}{23}
+      \field{year}{1955}
+      \field{pages}{165}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/2295722
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2307%2F2295722
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307%2F2295722
+      \endverb
+      \keyw{prin}
+    \endentry
+    \entry{verhave1963toward}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=536a5ce8b2eba5c84a97150e8e93d8b3}{%
+           family={Verhave},
+           familyi={V\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{536a5ce8b2eba5c84a97150e8e93d8b3}
+      \strng{fullhash}{536a5ce8b2eba5c84a97150e8e93d8b3}
+      \strng{bibnamehash}{536a5ce8b2eba5c84a97150e8e93d8b3}
+      \strng{authorbibnamehash}{536a5ce8b2eba5c84a97150e8e93d8b3}
+      \strng{authornamehash}{536a5ce8b2eba5c84a97150e8e93d8b3}
+      \strng{authorfullhash}{536a5ce8b2eba5c84a97150e8e93d8b3}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Experimental Analysis of Behavior}
+      \field{title}{Toward an Empirical Calculus of Reinforcement Value}
+      \field{volume}{6}
+      \field{year}{1963}
+      \field{pages}{525\bibrangedash 536}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1901/jeab.1963.6-525
+      \endverb
+      \keyw{prin}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

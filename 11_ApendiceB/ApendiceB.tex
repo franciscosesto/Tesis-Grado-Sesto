@@ -1,0 +1,68 @@
+\chapter{Relación del sesgo presente y los factores de ponderación futuros}\label{Apendice_B}
+
+En este apéndice, se realiza una deducción de la relación que vincula los sesgos de presente y futuro con los factores de ponderación futuros según \parencite{feigenbaum2021deviation}. 
+
+\section{Preferencias}
+Las preferencias manifiestan un sesgo hacia el presente si la utilidad marginal que un hogar obtiene de un incremento en el consumo $c_0$ en el momento $t = 0$ es mayor que la utilidad marginal, descontada, de un incremento en el consumo $c_{\Delta t}$ que se produce después de esperar un período de tiempo $\Delta t > 0$.
+Sin embargo, en caso de que el consumo $c_0$ se ubique en el instante $t > 0$ y consecuentemente el consumo $c_{\Delta t}$ se presente en el momento $t + \Delta t$, el hogar experimenta una utilidad marginal superior al aumentar el consumo de $c_{\Delta t}$ en comparación con el aumento en el consumo de $c_0$. En \parencite{feigenbaum2021deviation} señalan que en el contexto matemático, esto conlleva la existencia de un valor $c>0$ con la función de descuento $D(\cdot)$ tal que:
+%
+\begin{equation}\label{1eqbias}
+  u'(c_0) \Delta c_0 - D (\Delta t) u'(c_{\Delta t}) \Delta c_{\Delta t}>0,
+\end{equation}
+%
+mientras que para $t>0$ en \parencite{feigenbaum2021deviation} se obtiene 
+
+\begin{equation}\label{2eqbias}
+    D(t) u'(c_0) \Delta c_0 - D (t+\Delta t) u'(c_{\Delta t}) \Delta c_{\Delta t}<0.
+\end{equation}
+%
+Se opera algebraicamente en (\ref{1eqbias}) se puede expresar 
+\begin{equation}
+\label{1eqbiaschanged}
+    u'(c_0) \Delta c_0 > D (\Delta t) u'(c_{\Delta t}) \Delta c_{\Delta t} \Rightarrow
+\dfrac{u'(c_0) \Delta c_0}{u'(c_{\Delta t}) \Delta c_{\Delta t}} > D (\Delta t).
+\end{equation}  
+%
+Se procede con manipulaciones algebraicas también en (\ref{2eqbias}) quedando
+ \begin{equation}
+\label{2eqbiaschanged}
+ D(t) u'(c_0) \Delta c_0 < D (t+\Delta t) u'(c_{\Delta t}) \Delta c_{\Delta t} \Rightarrow
+ \dfrac{u'(c_0) \Delta c_0 }{u'(c_{\Delta t}) \Delta c_{\Delta t}} < \frac{D (t+\Delta t)}{D(t)}, \end{equation}
+%
+entonces (\ref{1eqbiaschanged}) y (\ref{2eqbiaschanged}) pueden combinarse para establecer la condición
+\begin{equation}
+\label{condeqbias}
+    D(\Delta t) < \dfrac{u'(c_0)\Delta c_0}{u'(c_{\Delta t})\Delta c_{\Delta t}}< \dfrac{D(t+\Delta t)}{D(t)}.
+\end{equation}
+%
+Se reemplaza (\ref{eq 2}) en (\ref{condeqbias}) y se obtiene 
+$$\exp(-\rho \Delta t)(1+ \varepsilon(\Delta t))< \dfrac{\exp(-\rho (t + \Delta t))(1+ \varepsilon(t + \Delta t))}{\exp(-\rho  t)(1+ \varepsilon(t))},$$
+%
+de forma análoga,
+$$\exp(-\rho \Delta t)(1+ \varepsilon(\Delta t))< \dfrac{\exp(-\rho t)\exp(-\rho \Delta t)(1+ \varepsilon(t + \Delta t))}{\exp(-\rho  t)(1+ \varepsilon(t))},$$
+%
+se opera algebraicamente,
+$$\dfrac{\exp(-\rho \Delta t)}{\exp(-\rho \Delta t)}(1+ \varepsilon(\Delta t))< \dfrac{\exp(-\rho t)}{\exp(-\rho t)}\dfrac{(1+ \varepsilon(t + \Delta t))}{(1+ \varepsilon(t))},$$
+%
+se simplifica y se obtiene
+\begin{equation}
+\label{fpfeqbias}
+1+ \varepsilon(\Delta t)< \dfrac{1+ \varepsilon(t + \Delta t)}{1+ \varepsilon(t)} \Rightarrow
+\varepsilon(\Delta t)<\frac{1+ \varepsilon(t+\Delta t)}{1+\varepsilon(t)}-1.
+\end{equation}
+%
+Si las inversiones de preferencia continúan en el límite a medida que $\Delta t \rightarrow 0$, se pueden dividir ambos lados de (\ref{fpfeqbias}) por $\Delta t$ y se mantiene la desigualdad, dado que es positivo
+
+$$\lim_{\Delta t \to 0} \dfrac{\varepsilon (\Delta t)}{\Delta t} \leq \lim_{\Delta t \to 0} \frac{1}{\Delta t} \left[ \dfrac{1+ \varepsilon(t+ \Delta t)}{1+ \varepsilon(t)}-1 \right],$$
+operando algebraicamente,
+% $$\lim_{\Delta t \to 0} \dfrac{\varepsilon (0+\Delta t)-\varepsilon (0)}{\Delta t} \leq \lim_{\Delta t \to 0} \frac{1}{\Delta t} \left[ \dfrac{1+ \varepsilon(t+ \Delta t)}{1+ \varepsilon(t)}- \dfrac{1+ \varepsilon(t)}{1+ \varepsilon(t)} \right],$$
+%
+$$\lim_{\Delta t \to 0} \dfrac{\varepsilon (0+\Delta t)-\varepsilon (0)}{\Delta t} \leq \lim_{\Delta t \to 0} \frac{1}{\Delta t} \left[ \dfrac{1+ \varepsilon(t+ \Delta t)-1- \varepsilon(t)}{1+ \varepsilon(t)} \right],$$
+simplificando,
+\begin{equation}
+\label{fpmeqbias}
+\varepsilon'(0)=\lim_{\Delta t \to 0} \dfrac{\varepsilon (0+\Delta t)-\varepsilon (0)}{\Delta t} \leq \lim_{\Delta t \to 0}  \left[ \dfrac{\varepsilon(t+ \Delta t)- \varepsilon(t)}{\Delta t} \right]\dfrac{1}{1+ \varepsilon(t)}= \dfrac{\varepsilon'(t)}{1+ \varepsilon(t)}.
+\end{equation}
+La condición (\ref{fpmeqbias}) indica que la tasa de incrementos de los factores de ponderación futuros marginales en 0 debe ser menor que la tasa de incremento en un tiempo $t$ dado dividido 1 más el factor de ponderación futuro en $t$. 
+
+Obsérvese que para un sesgo de futuro las inecuaciones (\ref{1eqbias}) y (\ref{fpmeqbias}) se invertirían. 
