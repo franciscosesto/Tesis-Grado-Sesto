@@ -1,0 +1,345 @@
+\chapter{Condición de Pareto} 
+\label{Pareto}
+\label{cap_3}
+
+En este capítulo, se analizarán las condiciones necesarias para que el plan que prevalezca entre todos los “yoes” sea el inicial, tal como se afirma en \parencite{feigenbaum2021deviation}. Esta solución es la habitualmente utilizada y propuesta en estudios anteriores, como los de \parencite{Laibson96,Laibson97,Laibson98,Laibson98b,ODonoghue99,ODonoghue00,ODonoghue01}.
+
+
+Como se explica en \parencite{feigenbaum2021deviation} una vez que se ha definido de manera precisa el contexto y desafío en el cual se encuentran los hogares con descuentos no exponenciales y se ha delineado su solución, es posible abordar las implicaciones políticas que surgen de esta problemática. Uno de los motivos fundamentales detrás del interés en la consideración del sesgo temporal, reside en la posibilidad de que justifique intervenciones gubernamentales.
+
+Desde una perspectiva intuitiva, si un hogar se encuentra constantemente ajustando sus planes futuros para incrementar ligeramente su consumo presente a expensas de una significativa reducción en el consumo futuro, podría argumentarse que muchos “yoes” preferirían tener la capacidad de comprometerse con el plan de consumo inicial a lo largo de todo su ciclo de vida. En tal caso, los responsables políticos tendrían “razones” sólidas para ayudar al hogar a mantenerse en esa senda inicial, independientemente de cómo un observador externo pueda evaluar las preferencias de los distintos “yoes”.
+
+Por otro lado, un hogar orientado hacia el futuro podría estar constantemente ajustando sus planes para posponer más su consumo futuro, lo que llevaría a todos los “yoes” a preferir la senda realizada en lugar de la de compromiso, a excepción del primer “yo”, que naturalmente preferiría el plan inicial.
+
+Ciertamente, es importante destacar que las medidas gubernamentales en este contexto pueden tener limitaciones en cuanto a su eficacia. Esto se debe a una noción fundamental explicada por \parencite{Lucas_1976}, que sugiere que cuando los agentes económicos, como los hogares, pueden anticipar las futuras medidas de política económica, ajustarán su comportamiento en consecuencia para mitigar los efectos de dichas medidas. En otras palabras, si los hogares pueden prever las acciones del gobierno en términos de políticas económicas, es probable que ajusten sus decisiones de consumo y ahorro en función de esas previsiones. Por lo tanto, para que las medidas gubernamentales sean realmente efectivas, deben ser impredecibles y comunicadas de manera inesperada. Estas sorpresas en las políticas públicas pueden tomar desprevenidos a los mercados y, en consecuencia, generar respuestas económicas más deseables.
+
+El estudio de \parencite{feigenbaum2021deviation} revela que, contrariamente a lo que podría suponerse, no es el sesgo presente o futuro el factor determinante que dicta si la estrategia de compromiso prevalece sobre la estrategia realizada, o viceversa. En cambio, lo crucial es como se desenvuelven los factores de ponderación futuros en un horizonte temporal más amplio. En este punto, se avanzará para establecer la condición que rige la función de descuento, bajo la cual comprometerse con el plan inicial resultará en un aumento de la función objetivo realizada para los múltiples “yoes” a lo largo de la vida. Este análisis, se llevará a cabo en un estado estacionario, caracterizado por una tasa de interés constante, es decir, $r(t) = r$.
+
+\section{Caso de lo realizado}
+\label{Sección 3.1} 
+Como se observa en (\ref{eq 30}), dado que $c(t) = m(t)W(t)$, la determinación de la senda realizada del consumo requiere previamente establecer la senda realizada de la riqueza total. Como se ha examinado previamente, la evolución de la riqueza se describe mediante (\ref{eq 34}).
+
+Si se define 
+\begin{equation}
+\label{eq 47}
+    M(t)= \exp \left( \ds \int_0^t m(s) ds \right),
+\end{equation}
+
+\noindent entonces
+$$\dfrac{d M(t)}{dt}= m(t) \exp\left( \ds \int_0^t m(s) ds \right)=m(t) M(t),$$
+
+\noindent y la tasa de crecimiento relativa de $M(t)$ será
+\begin{equation}
+\label{eq 48}
+    \dfrac{d \ln M(t)}{dt}= m(t), 
+\end{equation}
+
+\noindent De (\ref{eq 22}), (\ref{eq 34}) y (\ref{eq 48}) se obtiene
+\begin{equation}
+    \label{eq cap 3 condic riqueza}
+    \dfrac{d \ln W(t)}{dt}= \dfrac{d \ln R(t)}{dt}-    \dfrac{d \ln M(t)}{dt}= \dfrac{d}{dt} \ln \left( \dfrac{R(t)}{M(t)} \right).
+\end{equation}
+Como $R(0) = M(0) = 1$, se aplica integral a ambos lados de la ecuación (\ref{eq cap 3 condic riqueza}) diferencial de $0$ a $t$ 
+$$ \ds \int_0^t{\dfrac{d \ln W(t)}{dt} dt}=\ds \int_0^t{\dfrac{d}{dt} \ln \left( \dfrac{R(t)}{M(t)}\right) dt},$$
+se integra,
+$$\ln(W(t))- \ln(W(0))=\ln\left(\dfrac{R(t)}{M(t)}\right)-\ln(1),$$
+equivalentemente,
+$$\ln\left(\dfrac{W(t)}{W(0)}\right)=\ln\left(\dfrac{R(t)}{M(t)}\right),$$
+se aplica la función exponencial,
+$$\exp\left( \ln\left(\dfrac{W(t)}{W(0)}\right)\right)=\exp \left(\ln\left(\dfrac{R(t)}{M(t)}\right) \right),$$
+se simplifica,
+\begin{equation}
+\label{eq 49}
+    W(t) = \dfrac{1}{M(t)}R(t) W(0).
+\end{equation}
+Se utiliza (\ref{eq 30}), por lo que el consumo realizado en el momento $t$ será
+\begin{equation}
+\label{eq 50}
+    c(t) = \dfrac{m(t)R(t)}{M(t)}W(0).
+\end{equation}
+Se reescribe explícitamente $M(t)$ en términos de la función de descuento y se utilizan (\ref{eq 30}) y (\ref{eq 47}),
+$$c(t)=\dfrac{1}{\ds \int_0^{T-t} D(s) d s} \dfrac{R(t)}{\exp\left( \ds \int_0^t m(s) ds \right)}W(0),$$
+se reemplaza (\ref{eq 30}) dentro de la exponencial,
+\begin{equation}
+\label{eq 51}
+c(t)=\dfrac{1}{\ds \int_0^{T-t} D(s) d s} \exp \left(-\ds \int_0^t \dfrac{d s}{\ds \int_0^{T-s} D\left(s^{\prime}\right) d s^{\prime}}\right) R(t) W(0).
+\end{equation}
+
+En consecuencia, la utilidad realizada percibida por un hogar a la edad $\tau$ siendo la función de utilidad $u(c(t))=\ln(c(t))$ se obtiene reemplazando (\ref{eq 51}) en (\ref{eq 1}), es decir:
+\begin{equation}
+\label{eq 52}
+\begin{aligned}
+& U^*(\tau)= \\
+& \ds \int_\tau^T D(t-\tau) \ln \left[\dfrac{1}{\ds \int_0^{T-t} D(s) d s} \exp \left(-\ds \int_0^t \dfrac{d s}{\ds \int_0^{T-s} D\left(s^{\prime}\right) d s^{\prime}}\right) R(t) W(0)\right] d t.
+\end{aligned}
+\end{equation}
+
+\section{Caso del compromiso}
+Como se muestra en \parencite{feigenbaum2021deviation} cuando un hogar se compromete con el plan inicial del “yo” de $0$ años, su comportamiento se asemejará al de actuar bajo la suposición de que $D(t)$ es una función de descuento que se mantiene consistente en el tiempo. Se especifica que $c(t|0)$ es el consumo a la edad $t$ si se siguiera el plan inicial. En consecuencia, en la senda de compromiso, el hogar llevará a cabo la maximización de la siguiente manera:
+\begin{equation}
+\label{max comp}
+    \ds \int_0^T D(t) \ln c(t|0) dt,
+\end{equation}
+sujeto a la restricción presupuestaria (\ref{eq 27}) pero considerando que el consumo descontado sea igual a la riqueza en el momento 0 del siguiente modo
+\begin{equation}
+\label{rp comp}
+\ds \int_0^T \dfrac{R(0)}{R(t)}c(t|0)dt=W(0) \Rightarrow
+\ds \int_0^T \dfrac{c(t|0)}{R(t)}dt = W(0).
+\end{equation}
+
+\noindent El Lagrangiano del problema del hogar es
+$$\mathcal{L}=D(t) \ln c(t|0) - \lambda \dfrac{c(t|0)}{R(t)},$$
+y la condición de primer orden con respecto al consumo viene dada por
+$$\dfrac{\partial \mathcal{L}}{\partial c(t|0)}= \dfrac{D(t)}{c(t|0)}- \dfrac{\lambda}{R(t)}=0.$$
+
+
+\noindent Por tanto, dado que según \parencite{feigenbaum2021deviation} $c(t|0) = c(0) = \lambda^{-1}$ se tiene,
+$$\dfrac{D(t)}{c(t|0)}= \dfrac{\lambda}{R(t)}=
+ \dfrac{1}{R(t)c(0)},$$
+ o equivalentemente,
+\begin{equation}
+\label{eq 53}
+    c(t|0)=D(t)R(t)c(0).
+\end{equation}
+
+Se reemplaza (\ref{eq 53}) en la restricción presupuestaria (\ref{rp comp}),
+$$\ds \int_0^T \dfrac{D(t)R(t)c(0)}{R(t)}dt = W(0) \Rightarrow
+c(0) \ds \int_0^T D(t)dt=W(0).$$
+
+\noindent Se introduce de nuevo la solución para $c(0)$ en (\ref{eq 53}), luego el plan inicial de consumo es
+\begin{equation}
+\label{eq 54}
+    c(t|0)=\dfrac{D(t)R(t)W(0)}{\ds \int_0^T D(s)ds}=\dfrac{R(t)W(0)}{\ds \int_0^T \dfrac{D(s)}{D(t)}ds}. 
+\end{equation}
+
+Por consiguiente, la utilidad obtenida al aplicar la expresión (\ref{eq 54}) en (\ref{max comp}), a partir de la edad $t$, siguiendo la senda de consumo de compromiso según \parencite{feigenbaum2021deviation}, se expresa como:
+\begin{equation}
+\label{eq 55}
+U_c(\tau)=\ds \int_\tau^T D(t-\tau) \ln \left[\dfrac{D(t)}{\ds \int_t^T D(s) d s} \exp \left(-\ds \int_0^t \dfrac{D(s) d s}{\ds \int_s^T D\left(s^{\prime}\right) d s^{\prime}}\right) R(t) W(0)\right] d t.
+\end{equation}
+
+\noindent En \parencite{feigenbaum2021deviation}, se muestra que esto se simplifica a
+
+\begin{equation}
+\label{eq 56}
+U_c(\tau)=\ds \int_\tau^T D(t-\tau) \ln \left[\dfrac{D(t)}{\ds \int_0^T D(s) d s} R(t) W(0)\right] d t.
+\end{equation}
+
+
+\section{Contrastando acción y compromiso}
+Ahora el interés se centra en comparar estas expresiones para determinar las condiciones necesarias que hagan que la senda de compromiso con el plan inicial sea dominante en Pareto en relación con la senda realizada. Para llevar a cabo la comparación entre la utilidad realizada (\ref{eq 52}) y la utilidad del compromiso (\ref{eq 55}), se define la diferencia entre ambas de la siguiente manera:
+\begin{equation}
+\label{eq 57}
+\Delta U(\tau)=U_c(\tau)- U^*(\tau).    
+\end{equation}
+Si se encuentra que $\Delta U(\tau) > 0$, esto indica que comprometerse con la estrategia de consumo de tiempo cero aumentará la utilidad total que el hogar experimentaría en comparación con la utilidad que obtendría al seguir la estrategia realizada (o sea la actualmente implementada). Es importante destacar que si $\Delta U(\tau) \geq 0$ para todos los valores de $\tau$ en el intervalo $[0, T]$, y al menos en un caso se cumple la desigualdad de manera estricta, entonces la estrategia de compromiso superará a la estrategia actual en términos de dominio de Pareto. En otras palabras, la estrategia de compromiso resultará en una mejor situación para el hogar en todos los casos, y al menos en uno de esos casos, será significativamente mejor.
+ 
+Se pueden reemplazar las expresiones (\ref{eq 52}) y (\ref{eq 55}) en la ecuación (\ref{eq 57}) para obtener el siguiente resultado:
+
+\begin{equation*}
+    \begin{split}
+    \Delta U(\tau)=\ds \int_\tau^T D(t-\tau) \ln \left[\dfrac{\dfrac{D(t)}{\ds \int_0^T D\left(z^{\prime}\right) d z^{\prime}}R(t) W(0) }{\dfrac{1}{\ds \int_0^{T-t} D(z) d z} \exp \left(-\ds \int_0^t \dfrac{d s}{\ds \int_0^{T-s} D\left(s^{\prime}\right) d s^{\prime}}\right) R(t) W(0)}\right] dt 
+    \end{split}
+\end{equation*}
+o equivalentemente,
+\begin{equation}
+\label{eq 58}
+\Delta U(\tau)=\ds \int_\tau^T D(t-\tau) \ln \left[\dfrac{\dfrac{D(t)}{\ds \int_0^T D\left(z^{\prime}\right) d z^{\prime}}}{\dfrac{1}{\ds \int_0^{T-t} D(z) d z} \exp \left(-\ds \int_0^t \dfrac{d s}{\ds \int_0^{T-s} D\left(s^{\prime}\right) d s^{\prime}}\right)}\right] dt,
+\end{equation}
+que puede simplificarse en
+%
+\begin{equation*}
+\Delta U(\tau)=\ds \int_\tau^T D(t-\tau)\left[\ln \left(D(t) \dfrac{\ds \int_0^{T-t} D(z) d z}{\ds \int_0^T D\left(z^{\prime}\right) d z^{\prime}}\right)+ \ln \exp \left(\ds \int_0^t \dfrac{d s}{\ds \int_0^{T-s} D\left(s^{\prime}\right) d s^{\prime}} \right) \right] dt,
+\end{equation*}
+%
+se simplifica, nuevamente y se obtiene
+\begin{equation}
+\label{eq 59}
+\Delta U(\tau)=\ds \int_\tau^T D(t-\tau)\left[\ln \left(D(t) \dfrac{\ds \int_0^{T-t} D(z) d z}{\ds \int_0^T D\left(z^{\prime}\right) d z^{\prime}}\right)+\ds \int_0^t \dfrac{d s}{\ds \int_0^{T-s} D\left(s^{\prime}\right) d s^{\prime}}\right] d t.
+\end{equation}
+%
+En una función de descuento exponencial, la estrategia realizada es equivalente a la estrategia de compromiso debido a su consistencia a lo largo del tiempo. En una función de descuento exponencial, descontar un valor $\theta$ desde el momento $t$ hasta el momento 0 proporciona un valor $\theta^{\prime}$ que es equivalente a descontar $\theta$ desde el momento $t + \Delta t$ hasta el momento $\Delta t$. En otras palabras, descontar la misma cantidad por el mismo período de tiempo siempre resulta en el mismo valor, sin importar en qué punto del tiempo se esté situado. Por lo tanto, $\Delta U(\tau)$ debe ser igual a cero si $\varepsilon(t) = 0$ para todo $t \in [0, T]$. Esto significa que $\Delta U(\tau) = O(\varepsilon)$ para todo $\tau \in [0, T]$ y en términos de primer orden, $\Delta U(\tau)$ será una función lineal de $\varepsilon(t)$, que se expresa de la siguiente manera:
+%
+\begin{equation}
+\label{eq 60}
+    \Delta U (\tau)= \ds \int_\tau^T B(t,\tau) \varepsilon(t) dt + O(\varepsilon^2),
+\end{equation}
+%
+siendo 
+
+$$B(t,\tau)=\dfrac{D(t-\tau)}{\varepsilon(t)}\left[\ln \left(D(t) \dfrac{\ds \int_0^{T-t} D(z) d z}{\ds \int_0^T D\left(z^{\prime}\right) d z^{\prime}}\right)+\ds \int_0^t \dfrac{d s}{\ds \int_0^{T-s} D\left(s^{\prime}\right) d s^{\prime}}\right].$$
+
+En \parencite{feigenbaum2021deviation}, se demuestra que $B(z, \tau)$ es
+
+%En el apéndice \ref{Apendice_F}, demostramos que $B(z, \tau)$ es
+
+\begin{equation}
+\label{eq 61}
+\begin{aligned}
+B(z, \tau) & =\exp (-\rho(z-\tau))\Biggr[\Theta(z-\tau) \\
+& \left.+\ds \int_0^{T-z} \dfrac{\exp (-\rho t) \Theta(t-\tau)}{\ds \int_0^{T-t} \exp \left(-\rho z^{\prime}\right) d z^{\prime}} d t-\ds \int_\tau^T \exp (-\rho t) M(t, z) d t\right],
+\end{aligned}
+\end{equation}
+%
+\noindent con
+\begin{equation}
+\label{eq 62}
+M(t, z)=\dfrac{1}{\ds \int_0^T \exp \left(-\rho z^{\prime}\right) d z^{\prime}}+\ds \int_0^{\min \{t, T-z\}} \dfrac{d s}{\left(\ds \int_0^{T-s} \exp \left(-\rho z^{\prime}\right) d z^{\prime}\right)^2},
+\end{equation}
+%
+\noindent y $\Theta(z)$ es la función escalón de Heaviside definida por 
+%
+\begin{equation}
+\label{eq 63}
+    \Theta(z)=   \begin{cases} \begin{matrix} 0 & z<0, \\ 1 & z \geq 0.  \end{matrix}  \end{cases}
+\end{equation}
+%
+En el caso especial de $\tau = 0$ también se debe tener $\Delta U(0) \geq 0$ ya que la estrategia del compromiso es, por definición, la mejor estrategia posible desde la perspectiva del yo $\tau = 0$. Si $\Delta U(0)$ tuviera algún término de primer orden, el signo de $\Delta U(0)$ podría hacerse positivo cambiando el signo de $\varepsilon (t)$, por lo que es posible deducir que $\Delta U(0) = O(\varepsilon^2)$. En \parencite{feigenbaum2021deviation}, se presenta un cálculo directo que demuestra que $B(t, 0) = 0$ para todo $t \in [0, T]$.
+
+En el estudio realizado por \textcite{feigenbaum2021deviation} se muestra que la expresión encerrada entre paréntesis en (\ref{eq 59}) es al menos de primer orden en $\varepsilon(t)$. Por lo tanto, se puede reescribir (\ref{eq 59}) como:
+
+\begin{align*}
+\Delta U(\tau) &= \ds \int_{\tau}^T \exp (-\rho(t-\tau)) \left[ln \left(D(t) \dfrac{\ds \int_0^{T-t}D(z)dz}{\ds \int_0^{T}D(z')dz'} \right) + \ds \int_0^t \dfrac{ds}{\ds \int_s^T D(s'-s)ds'} \right] dt \\
+&+ O(\varepsilon^2).
+\end{align*}
+%
+\noindent En \parencite{feigenbaum2021deviation} se realiza la derivada y los autores obtienen,
+
+\begin{align*}
+\dfrac{d}{d \tau} \Delta U(\tau)= & \rho \ds \int_\tau^T \exp (-\rho(t-\tau))\left[\ln \left(D(t) \dfrac{\ds \int_0^{T-t} D(z) d z}{\ds \int_0^T D\left(z^{\prime}\right) d z^{\prime}}\right)+\ds \int_0^t \dfrac{d s}{\ds \int_s^T D\left(s^{\prime}-s\right) d s^{\prime}}\right] d t \\
+& -\ln \left(D(\tau) \dfrac{\ds \int_0^{T-\tau} D(z) d z}{\ds \int_0^T D\left(z^{\prime}\right) d z^{\prime}}\right)-\ds \int_0^\tau \dfrac{d s}{\ds \int_s^T D\left(s^{\prime}-s\right) d s^{\prime}}+O\left(\varepsilon^2\right) \\
+= & \rho \Delta U(\tau)-\ln \left(D(\tau) \dfrac{\ds \int_0^{T-\tau} D(z) d z}{\ds \int_0^T D\left(z^{\prime}\right) d z^{\prime}}\right)+\ds \int_0^\tau \dfrac{d s}{\ds \int_s^T D\left(s^{\prime}-s\right) d s^{\prime}}+O\left(\varepsilon^2\right).
+\end{align*}
+
+\noindent En conclusión
+
+\begin{equation}
+\label{eq 64}
+    \dfrac{d}{d\tau} \Delta U(0) = \rho \Delta U(0) - \ln \left( \dfrac{\ds \int_0^T D(z) dz}{\ds \int_0^T D(z') dz'} \right) + O(\varepsilon^2)=O(\varepsilon^2).
+\end{equation}
+
+\noindent 
+En el trabajo de \parencite{feigenbaum2021deviation}, se señala que este resultado es el equivalente en tiempo continuo de la conclusión en tiempo discreto que señala $\Delta U_1 = O(\varepsilon^2)$, como se mostró en su investigación anterior \parencite{Feigenbaum21}.
+%En el estudio anterior \parencite{Feigenbaum21}, se aprovechó el hecho de que $\Delta U(\tau)$ es una suma ordinaria en tiempo discreto para utilizar la función $B(z, \tau)$ y derivar una serie de límites inferiores para la ponderación futura terminal, asegurando que $\Delta U(\tau) > 0$. Esto implicó demostrar varias propiedades de la función $B(z, \tau)$. 
+En el contexto del tiempo continuo, explican que $\Delta U(\tau)$ es una integral, lo que significa que no se pueden aislar los efectos de $\varepsilon(T)$. Lo que se puede demostrar, no obstante, es que $B(T, \tau) > 0$ para todo $\tau \in (0, T)$.
+
+$$B(T,\tau)= \exp (-\rho T) \left[\exp (\rho T) - \ds \int_{\tau}^T \exp (- \rho (t- \tau)) M(t,T) dt \right]$$
+
+\noindent y utilizando que 
+$$ M(t,T)= \dfrac{1}{\ds \int_0^T \exp (- \rho z') dz'},$$
+
+\noindent se tiene
+$$B(T,\tau)= \exp (-\rho T) \left[\exp (\rho T) - \dfrac{\ds \int_{0}^{T- \tau} \exp (- \rho z) dz}{\ds \int_{0}^T \exp (- \rho z) dz} \right]>0,$$
+
+\noindent para $\tau>0$.
+
+%Se puede calcular numéricamente $\Delta U(\tau)$ para funciones de descuento aproximando integrales como sumas en una cuadrícula con un paso $\Delta \tau > 0$. 
+Como explican \parencite{feigenbaum2021deviation} es crucial notar que $\Delta U(T)$ es trivialmente cero y, por ende, no relevante para el análisis. Por lo tanto, el enfoque es en el caso terminal, donde el valor máximo de $\tau$ que se puede calcular es $T - \Delta \tau$. En este escenario, solo $\varepsilon(T)$ es relevante para $t > T - \Delta \tau$. Si se observa que $B(T, \tau) > 0$, se puede hacer $\Delta U(\tau)$ arbitrariamente grande y, por lo tanto, positivo para todo $\tau \in (0, T - \Delta \tau]$ aumentando suficientemente $\varepsilon(T)$.
+
+Para el caso terminal, se adopta un enfoque en tiempo continuo y se establece una cota inferior en $\varepsilon(T)$, asegurando que el yo terminal prefiera la estrategia de compromiso sobre la estrategia realizada ($c(T|0) > c(T)$). Esta comparación se vuelve fundamental, ya que lo que es óptimo para el yo inicial puede no serlo para el yo terminal, especialmente a medida que avanza el tiempo. Por tanto, al compararlo, se puede asegurar que se siga la senda de compromiso.
+
+En \parencite{Feigenbaum21} se proporcionan condiciones precisas para valores pequeños de $T$ (hasta 5), estableciendo las circunstancias bajo las cuales esta preferencia del yo terminal por la estrategia de compromiso es válida y óptima.
+
+La expresión (\ref{eq 51}) para la estrategia de consumo realizado no está definida en el límite a medida que $t \rightarrow T$. En \parencite{feigenbaum2021deviation} se obtiene una expresión equivalente
+
+$$c(t)= \dfrac{1}{\ds \int_0^T D(s) ds} \exp \left( - \ds \int_{T-t}^T \dfrac{(1-D(t'))}{\ds \int_0^{t'}D(s') ds' }dt'\right) R(t) W(0).$$
+%
+\noindent Por lo tanto, el consumo terminal en la estrategia realizada es
+%
+\begin{equation}
+\label{eq 65}
+    c(T)= \dfrac{1}{\ds \int_0^T D(s) ds} \exp \left( - \ds \int_{0}^T \dfrac{(1-D(t'))}{\ds \int_0^{t'}D(s') ds' }dt'\right) R(T) W(0).
+\end{equation}
+
+Mientras tanto, el consumo terminal a lo largo de la estrategia de compromiso, es decir siguiendo el plan del yo inicial está dado por (\ref{eq 54}),
+\begin{equation}
+\label{eq 66}
+c(T|0)= \dfrac{D(T) R(T) W(0)}{\ds \int_0^T D(s) ds}.
+\end{equation}
+
+\noindent Se divide (\ref{eq 65}) por (\ref{eq 66}) y se obtiene la siguiente relación
+$$\dfrac{c(T|0)}{c(T)}= D(T) \exp \left( \ds \int_0^T \dfrac{(1- D(t')) dt'}{\ds \int_0^{t'} D(s') ds'} \right).$$
+
+
+\noindent Luego, la condición exacta para $c(T|0) > c(T)$ es
+$$\dfrac{c(T|0)}{c(T)}>1,$$
+o expresado de otra manera
+\begin{equation}
+\label{eq 67}
+    D(T)> \exp \left( - \ds \int_0^T \dfrac{(1- D(t)) dt}{\ds \int_0^{t} D(s) ds}\right).
+\end{equation}
+
+Se puede reescribir (\ref{eq 67}) en términos de los factores de ponderación futuros (\ref{eq 2}) como
+
+$$\exp (- \rho T) (1+ \varepsilon(T))> \exp \left(- \ds \int_0^T \dfrac{(1- \exp (- \rho t) (1+ \varepsilon(t))}{\ds \int_0^t \exp (- \rho s) (1+ \varepsilon(s) ds)}dt \right).$$
+
+\noindent Utilizando (\ref{eq 39}) en el segundo paso, el argumento del exponente se puede reexpresar como
+$$
+\begin{aligned}
+\ds \int_0^T \dfrac{(1-\exp (-\rho t)(1+\varepsilon(t))}{\ds \int_0^t \exp (-\rho s)(1+\varepsilon(s)) d s} d t & =\ds \int_0^T \dfrac{(1-\exp (-\rho t))\left[1-\dfrac{\exp (-\rho t)}{1-\exp (-\rho t)} \varepsilon(t)\right]}{\ds \int_0^t \exp (-\rho s) d s\left[1+\dfrac{\ds \int_0^t \exp \left(-\rho s^{\prime}\right) \varepsilon\left(s^{\prime}\right) d s^{\prime}}{\ds \int_0^t \exp \left(-\rho s^{\prime \prime}\right) d s^{\prime \prime}}\right]} d t \\
+& =\rho \ds \int_0^T \dfrac{(1-\exp (-\rho t))\left[1-\dfrac{\exp (-\rho t)}{1-\exp (-\rho t)} \varepsilon(t)\right]}{(1-\exp (-\rho t))\left[1+\dfrac{\ds \int_0^t \exp \left(-\rho s^{\prime}\right) \varepsilon\left(s^{\prime}\right) d s^{\prime}}{\ds \int_0^t \exp \left(-\rho s^{\prime \prime}\right) d s^{\prime \prime}}\right]} d t.
+\end{aligned}
+$$
+%
+\noindent Así pues, la condición exacta se simplifica a
+$$\exp (-\rho T) (1+ \varepsilon(T)) > \exp \left( -\rho \ds \int_0^T \dfrac{1- \dfrac{\exp ( - \rho t)}{1- \exp ( - \rho t)} \varepsilon(t)}{1+ \dfrac{\ds \int_0^t \exp (- \rho s) \varepsilon(s)ds}{\ds \int_0^t \exp(- \rho s') ds'}} dt \right).$$
+%
+\noindent Reordenando, se obtiene
+\begin{equation}
+\label{eq 68} 
+\exp (T) > \exp \left( \rho \left[  T-\ds \int_0^T \dfrac{1- \dfrac{\exp ( - \rho t)}{1- \exp ( - \rho t)} \varepsilon(t)}{1+ \dfrac{\ds \int_0^t \exp (- \rho s) \varepsilon(s)ds}{\ds \int_0^t \exp(- \rho s') ds'}} dt \right] \right) -1.
+\end{equation}
+
+La expresión (\ref{eq 68}) establece un límite inferior en $\varepsilon(T)$ tal que $c(T|0) \geq c(T)$ si la ponderación futura terminal es suficientemente grande en relación con un agregado de los otras ponderaciones futuras. 
+%Es importante destacar que hasta este punto no hemos realizado aproximaciones. 
+Esta condición es exacta y necesaria (aunque no suficiente) para que la estrategia de consumo de compromiso con el plan inicial sea dominante en Pareto en comparación con la estrategia de consumo realizada.
+
+Para tener una mejor intuición sobre lo que implica esta condición, \parencite{feigenbaum2021deviation} aproximaron la integral con respecto a $t$ en (\ref{eq 68}) hasta el primer orden en $\varepsilon(t)$.
+\begin{equation*}
+    \begin{split}
+   &\ds \int_0^T \dfrac{1- \dfrac{\exp ( - \rho t)}{1- \exp ( - \rho t)} \varepsilon(t)}{1+ \dfrac{\ds \int_0^t \exp (- \rho s) \varepsilon(s)ds}{\ds \int_0^t \exp(- \rho s') ds'}} dt =\\ 
+   &= \ds \int_0^T \left[1- \dfrac{\exp ( - \rho t)}{1- \exp ( - \rho t)} \varepsilon(t) - \dfrac{\ds \int_0^t \exp (- \rho s) \varepsilon(s)ds}{\ds \int_0^t \exp(- \rho s') ds'}\right]dt + O(\varepsilon^2). 
+\end{split}
+\end{equation*}
+%
+\noindent En \parencite{feigenbaum2021deviation} se reexpresa la condición de primer orden para $c(T|0) > c(T)$ de la siguiente forma 
+\begin{equation}
+\label{eq 69}
+\varepsilon(T)> \rho \ds \int_0^T \left[\dfrac{\exp ( - \rho t)}{1- \exp ( - \rho t)} \varepsilon(t) + \dfrac{\ds \int_0^t \exp (- \rho s) \varepsilon(s)ds}{\ds \int_0^t \exp(- \rho s') ds'}\right]dt + O(\varepsilon^2) .
+\end{equation}
+%
+\noindent Utilizando de nuevo (\ref{eq 39}), se puede combinar las fracciones en el integrando para obtener
+%
+\begin{equation*}
+\varepsilon(T)> \ds \int_0^T \left[\dfrac{\rho \ds \int_0^t\exp ( - \rho s) \varepsilon(s) ds + \exp (- \rho t) \varepsilon(t)}{\ds \int_0^t \exp(- \rho s') ds'} \right]dt + O(\varepsilon^2) .
+\end{equation*}
+%
+\noindent Se integra por partes y se obtiene
+%
+\begin{equation}
+\label{eq 70}
+\rho \ds \int_0^t \exp (- \rho s) \varepsilon(s) ds  = - \exp (- \rho t) \varepsilon(t) + \ds \int_0^t \exp (- \rho s) \dfrac{d\varepsilon(s) }{ds} ds.
+\end{equation}
+%
+\noindent Así pues, (\ref{eq 69}) se simplifica en
+
+\begin{equation}
+\label{eq 71}
+\varepsilon(T)> \ds \int_0^T \left[\dfrac{ \ds \int_0^t\exp ( - \rho s) \dfrac{d\varepsilon(s) }{ds} ds }{\ds \int_0^t \exp(- \rho s') ds'} \right]dt + O(\varepsilon^2) .
+\end{equation}
+%
+\noindent
+Como se explica en \parencite{feigenbaum2021deviation}
+%Si se sustituyen las integrales por sumas y la derivada $\dfrac{d\epsilon(s)}{ds}$ por la diferencia $\epsilon(s+1)-\epsilon(s)$, esta condición es exactamente análoga a la condición de tiempo discreto desarrollada en \parencite{Feigenbaum21}.
+%
+se puede entender la intuición detrás de este resultado de primer orden de la siguiente manera. A partir de (\ref{eq 53}) se tiene que
+$$c(t|0)=(1+ \varepsilon(t)) \exp(-\rho t) R(t) c(0),$$
+%
+\noindent entonces
+%
+$$\ln c(t|0)= \varepsilon(t) - \rho + \ln (R(t)c(0))+ O(\varepsilon^2).$$
+%
+\noindent
+Por lo tanto, el factor de ponderación futuro $\epsilon(t)$ mide la desviación de primer orden de la estrategia de compromiso en comparación con la estrategia de consumo logarítmico que se aplicaría si la función de descuento fuera exactamente $\exp(-\rho t)$. Mientras tanto, el integrando del lado derecho de (\ref{eq 69}) es la contribución de primer orden a $d\ln c(t)/dt$, que se ha denotado como $G^1_c(t)$ según (\ref{eq 46}). La desigualdad (\ref{eq 71}) compara $\epsilon(t)$ con la integral $\ds \int_0^T G^1_c (t)dt$ de esta aproximación de la tasa de crecimiento del consumo a lo largo del ciclo de vida.
+
+En el capítulo siguiente, se llevará a cabo un análisis exhaustivo de las condiciones necesarias para que la función de consumo adquiera una forma de joroba.

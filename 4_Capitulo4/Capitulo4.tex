@@ -1,0 +1,73 @@
+\chapter{Forma del perfil de consumo} \label{cap_4}
+
+En este capítulo, se analizarán las condiciones necesarias y proposiciones según \parencite{feigenbaum2021deviation} para la concavidad (convexidad) del plan de consumo. Centrando el análisis principalmente en cómo cambia el consumo con el tiempo y estableciendo una regla para determinar si el patrón de consumo es cóncavo o convexo. La forma del perfil del consumo es un factor fundamental para describir con mayor precisión el comportamiento observado en las personas. Esta regla se basa en los factores de ponderación futuros y afecta a todos los momentos temporales, no solo al más lejano.
+
+\section{Primera condición}
+En \parencite{feigenbaum2021deviation} se deriva que el perfil del consumo logarítmico será cóncavo en $T - t$ en primer orden si y sólo si
+
+\begin{equation}
+\label{eq 78}
+    \varepsilon'(t) \geq \dfrac{\ds \int_0^t \exp (-\rho z) \varepsilon' (z) dz}{\ds \int_0^t \exp (- \rho z') dz'},
+\end{equation}
+
+\noindent y el perfil será estrictamente cóncavo si la desigualdad (\ref{eq 78}) es estricta. Es decir, el perfil de consumo logarítmico será cóncavo si la ponderación futura marginal en $t$ es mayor que una media ponderada de ponderaciones futuras marginales de $0$ a $t$.
+\hfill 
+
+\section{Segunda condición}
+En \parencite{feigenbaum2021deviation} se obtiene que el perfil de consumo logarítmico es cóncavo en $T - t$ si y sólo si
+
+\begin{equation}
+\label{eq 80}
+\varepsilon' (t) \geq \dfrac{\ds \int_0^t \exp (- \rho s) \varepsilon' (s) ds}{\ds \int_0^t \exp (-\rho s')(1+ \varepsilon(s')) ds'}(1+ \varepsilon(t)).
+\end{equation}
+
+\noindent Si la desigualdad (\ref{eq 80}) es estricta, la concavidad también será estricta.
+
+Se supone que el perfil de consumo logarítmico es cóncavo para todo $t \in [0, T]$, por lo que (\ref{eq 80}) se satisface para todo $t>0$. %Por definición se tiene $\varepsilon(0)=0$ sin embargo, mucho depende de $\varepsilon'(0)$. Si $\varepsilon'(0) > 0$, se debe tener $\varepsilon(t) > 0$ para $t$ en una vecindad positiva de cero. Usando inducción continua, si $\varepsilon(s) > 0$ para $s \in [0, t]$ y $\varepsilon'(s) > 0$ para $s \in [0, t)$, el lado derecho de (\ref{eq 80}) será positivo, por lo que $\varepsilon'(t) > 0$, y $\varepsilon(s) > 0$ en una vecindad de $t$ mayor que $t$. Por tanto, $\varepsilon(t) > 0$  para todo $t \in (0, T]$ y $\varepsilon'(t) > 0$ para todo $t \in [0, T]$. 
+
+% \section{Primera proposición de concavidad}
+% \begin{prop}\label{prop 3} Si $\varepsilon(t)$ es estrictamente creciente para $t > 0$ en una vecindad de $0$, una condición necesaria para que el perfil de consumo logarítmico sea estrictamente cóncavo es que la función de descuento presente una fuerte ponderación futura con ponderaciones $\varepsilon(t)$ que sean estrictamente crecientes en el plazo $t$. Por el contrario, si $\varepsilon(t)$ es estrictamente decreciente para $t > 0$ en una vecindad de $0$, una condición necesaria para que el perfil de consumo logarítmico sea estrictamente convexo es que la función de descuento presente una ligera ponderación futura con ponderaciones $\varepsilon(t)$ que sean estrictamente decrecientes en el plazo $t$. \end{prop}
+
+\section{Tercera condición}
+Según se ve en \parencite{feigenbaum2021deviation} el perfil de consumo logarítmico es cóncavo en $T - t$ si y sólo si
+
+\begin{equation}
+\label{eq 86}  
+\mu(t)= \dfrac{\varepsilon'(t)}{1+ \varepsilon(t)} \geq \dfrac{\ds \int_0^t \exp (-\rho s) \varepsilon'(s) ds}{\ds \int_0^t \exp (-\rho s') [1+\varepsilon(s')] ds'}= \dfrac{\ds  \int_0^t D(s) \mu(s) ds}{\ds \int_0^t D(s')ds'}.
+\end{equation}
+
+\noindent donde se emplea (\ref{eq 2}) para obtener la igualdad final. La concavidad (convexidad) estricta en $T - t$ resulta si la ponderación futura marginal ajustada es mayor (menor) que una media ponderada de las ponderaciones futuras marginales ajustadas en retrasos más cortos que $t$, donde las ponderaciones son la función de descuento exacta. %Esto es análogo a la condición de concavidad de primer orden (\ref{eq 78}) sin ajuste a una media ponderada de las ponderaciones marginales futuras a plazos más cortos. Sin embargo, este resultado en términos de las ponderaciones futuras marginales ajustadas es exacto. 
+
+% Recordemos que (\ref{eq 14})-(\ref{eq 15}) expresan respectivamente la condición de sesgo presente y futuro respecto a los desplazamientos del consumo por un retraso infinitesimal en términos de las ponderaciones futuras marginales ajustadas. Combinando estas definiciones con la condición (\ref{eq 86}) (o la inversa en caso de convexidad) se obtiene una proposición análoga a la Proposición \ref{prop 3}. La nueva proposición es también más limpia ya que no necesitamos hacer ninguna suposición adicional sobre el comportamiento de $\mu$ en $0$ como hicimos en la Proposición \ref{prop 3}. Dado que (\ref{eq 14}) es una condición más débil que (\ref{eq 86}), un sesgo presente es una condición necesaria pero no suficiente para un perfil de consumo logarítmico cóncavo. 
+
+\section{Primera proposición de concavidad }
+\begin{prop}\label{prop 6}
+Si $\varepsilon(t) > -1 $ y satisface (\ref{eq 80}) (o equivalentemente la condición (\ref{eq 86})) para todo $t \in (0, T]$, por lo que el perfil de consumo logarítmico es cóncavo, entonces la función de descuento estará continuamente sesgada hacia el presente. Por el contrario, si el perfil de consumo logarítmico es convexo y $\varepsilon(t) > -1 $ para todo $t \in (0, T]$, la función de descuento estará continuamente sesgada hacia el futuro.
+\end{prop}
+
+\section{Segunda proposición de concavidad }
+\begin{prop}\label{prop 7} Si $\varepsilon(t) > -1$ y $\mu(t)$ es creciente, entonces (\ref{eq 80}) (o equivalentemente (\ref{eq 86})) se cumplirá para todo $t$ y el perfil de consumo logarítmico será cóncavo. Si $\mu(t)$ es estrictamente creciente, estas desigualdades se cumplirán estrictamente y el perfil de consumo logarítmico será estrictamente cóncavo. Por el contrario, si $\mu(t)$ es decreciente, el perfil del consumo logarítmico será convexo. Si $\mu(t)$ es estrictamente decreciente, el perfil del consumo logarítmico será estrictamente convexo.  \end{prop}
+
+\section{Condiciones en el descuento hiperbólico}
+\begin{exmpl}\label{ex 8}
+Caso hiperbólico: El resultado bien establecido de que una función de descuento hiperbólica produce un perfil de consumo logarítmico estrictamente cóncavo se deduce inmediatamente de la proposición \ref{prop 6} o también de la proposición \ref{prop 7}.
+\noindent A partir de (\ref{eq 12}),
+$$\varepsilon'(t)= \dfrac{\eta \exp (\eta t)}{1+ \eta t} - \dfrac{\eta \exp (\eta t)}{(1+ \eta t)^2} = \dfrac{\eta (1+ \eta t)\exp (\eta t) -\eta \exp (\eta t)}{(1+ \eta t)^2}$$
+\noindent que equivale a
+\begin{equation}
+\label{eq 87}
+    \varepsilon'(t)= \dfrac{\eta^2 t \exp(\eta t)}{(1+ \eta t)^2}
+\end{equation}
+\noindent Así, el factor de ponderación marginal futuro ajustado para la función de descuento hiperbólica es
+\begin{align}
+\label{eq 88}
+    \mu(t) &= \dfrac{\varepsilon'(t)}{1+ \varepsilon(t)} = \dfrac{\dfrac{\eta^2 t \exp (\eta t)}{(1+ \eta t)^2}}{\dfrac{\exp(\eta t)}{1+ \eta t}} = \dfrac{\eta^2 t}{1+ \eta t}
+\end{align}
+%
+\noindent Puesto que
+
+$$\mu'(t) = \eta^2  \dfrac{1+ \eta t -t(\eta)}{(1+\eta t)^2}= \dfrac{\eta^2}{(1+\eta t)^2}>0,$$
+la ponderación futura marginal ajustada es estrictamente creciente y el perfil de consumo logarítmico es estrictamente cóncavo. En \parencite{feigenbaum2021deviation}, los autores muestran que directamente se satisface.
+\end{exmpl}
+
+En el capítulo próximo, se llevará a cabo una revisión en profundidad sobre el valor de la recompensa, las funciones de descuento existentes y se presentará una nueva función propuesta para su consideración.

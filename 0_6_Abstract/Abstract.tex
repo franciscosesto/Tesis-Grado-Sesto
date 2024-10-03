@@ -1,0 +1,38 @@
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+\markright{ABSTRACT}
+
+This thesis addresses the study of different inverse problems for a distributed parameter model of certain transport processes with two purposes. 
+On the one hand, it seeks to improve the model, obtain a better design that is more precise, appropriate for control and that better describes the physical problem of interest. On the other hand, it seeks to build different strategies to improve and facilitate measurement techniques or processes.
+
+
+Specifically, the heat transfer problem of a bar 
+embedded in a fluid (liquid or gaseous) moving with constant speed is considered. A Dirichlet-type condition indicating constant temperature is imposed on the left edge, and a Robin-type condition that models the convection phenomenon is applied on the right. 
+
+
+Two particular problems within the study model are analyzed here. In the first one, the transport process occurs along a bar of an isotropic and homogeneous material. This allows the exchange of heat at a constant rate with the surrounding environment. In addition, it is assume that the bar is affected by a set of sources that depend on position. In the second problem, a bar composed of two consecutive segments with a solid-solid interface is considered, where each section corresponds to an isotropic and homogeneous material.  In this case there is no heat generation (sources) and as it is totally isolated on its surface side, there are no dissipative terms. Finding a solution to these problems, knowing all the parameters of the model and the boundary conditions, is called a direct problem.
+In general, the analytical and numerical solutions of the direct problem can be
+obtained, using different Fourier techniques and finite difference methods,
+respectively. The thesis has not found in the bibliography an analytical expression or the demonstration of the existence and uniqueness for these problems. There are various works that address problems with similar characteristics to the first one mentioned; their solutions are included in this thesis in order to present a self-contained work.
+
+To obtain a more precise mathematical characterization of the studied phenomenon and develop criteria that improve measurement techniques;  to estimation of model parameters and / or identification of its sources can be addessed. These are called inverse problems and are related to the problem
+direct. In this thesis, four inverse probems are treated. Three of them are studied associated with the first direct problem, and the other one is associated with the second one.
+
+\begin{itemize}
+%
+\item The first inverse problem deals with the determination of the thermal diffusivity of the bar material. This is done using numerical optimization techniques, based on noisy temperature data, taken with three different criteria. It is studied under a under a numerical sensitivity analysis, in which positions and instants of time it is convenient to locate the temperature sensors to obtain a better estimate. 
+%
+\item The second inverse problem consists of estimating the transfer coefficient of heat. Usually, in the literature, it is considered as a constant parameter that depends on the stationary temperature of the dissipative wall. In this thesis  a new approach is proposed that takes into account the temporal variation of temperature on the wall. To analyze the performance of the new technique, temperature and elasticity analyzes are carried out through numerical experiments and the results obtained are compared with those of the traditional method.
+%
+\item The third inverse problem addresses the identification of the source, based on noisy measurements temperature taken at an arbitrary fixed time. The problem is solved analytically with Fourier techniques and it is shown that said solution turns out to be  unstable. The non-stability of the solution is treated by a family uni-parametric regularization operators, designed to compensate for the factor which causes the inverse operator instability. In addition, a rule is proposed for the choice of the regularization parameter and an optimal bound of H\"older type for the estimation error is obtained. The resolution presented here generalizes the ideas proposed by other authors for the heat equation to a complete parabolic equation where temperature measurements can be taken at any moment and the operator theory is used for its formalization. These differences give rise to a new proposal that allows it to be used more generally in other problems. 
+%
+\item	Finally, the inverse problem to the second direct problem consists of locating the point of contact between the two materials, from a single measurement of heat flow on the right edge of the bar. The problem is solve analytically and give a bound for the error made in the approximation. In addition, an elasticity analysis is carried out to know the local dependence of the parameter estimated with the data used.
+%
+\end{itemize}
+
+
+\hspace{1cm}
+
+\textbf{Key words:} Heat transfer, Inverse problem, Sensitivity, Elasticity, Regularization.
+
+\textbf{Mathematics Subject Classification 2010:} 80A20, 80A23, 80M20, 90C31.

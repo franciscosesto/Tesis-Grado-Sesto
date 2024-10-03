@@ -1,0 +1,76 @@
+
+
+%%%%%% CONCEPTOS PRELIMINARES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Conceptos Preliminares} \label{cap_1}
+\pagenumbering{arabic} % para empezar la numeración con números Arabigos
+
+Con la intención de ofrecer un trabajo autocontenido, en este capítulo se presentan una serie de conceptos fundamentales para una comprensión más profunda y completa del desarrollo realizado en esta tesis. La discusión de estos relevantes temas permitirá a los lectores que no están familiarizados con ellos entender mejor las problemáticas que se abordan en los siguientes capítulos.
+
+En cada sección de este capítulo, se proporciona una definición breve y/o clasificación del concepto que se presenta, lo que establece un marco teórico general para el desarrollo de este trabajo. Asimismo, se incluye bibliografía relevante para aquellos lectores interesados en profundizar en algunos de los temas tratados.
+
+
+Se analizan los \textit{\textbf{modelos de consumo intertemporal}} y sus principales características, los cuales son fundamentales en economía. Se estudian las \textit{\textbf{funciones de descuento}}, esenciales para evaluar la percepción del individuo sobre una recompensa futura en términos del valor presente. Se explora el \textit{\textbf{sesgo de presente}}, un fenómeno clave en la psicología económica. Se define el \textit{\textbf{óptimo de Pareto}}, crucial para evaluar políticas. Por último, se aborda la \textit{\textbf{propensión marginal a consumir}}, vital para entender cómo los cambios en los ingresos afectan el consumo.
+
+En resumen, este capítulo presenta una visión integral y detallada de conceptos esenciales en el ámbito de la economía y la teoría económica, brindando las bases necesarias para un análisis riguroso y académico en este campo de estudio.
+
+
+%%%%%% SISTEMAS DE PARAMETROS DISTRIBUIDOS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Modelos de consumo intertemporal} \label{Sec_spd}
+
+Un modelo de consumo intertemporal \parencite{fisher1930theory,Samuelson37,modigliani1954utility, Strotz55,Laibson97,feigenbaum2021deviation} es un enfoque teórico utilizado en la economía para analizar cómo las personas toman decisiones de consumo a lo largo del tiempo. Se basa en la idea de que las personas consideran tanto el consumo presente como el futuro al tomar decisiones sobre cómo gastar su dinero.
+
+En un modelo de consumo intertemporal, se tienen en cuenta varios factores, incluyendo:
+\begin{itemize}
+\item \textit{\textbf{Preferencias temporales:}} Las personas manifiestan preferencias en cuanto a la valoración del consumo en el presente en comparación con el consumo en el futuro. Un ejemplo simple de preferencia temporal se observa cuando una persona prefiere recibir \$100 hoy que \$200 dentro de 10 años. Esta elección refleja una clara preferencia por el dinero en el presente en lugar de esperar una cantidad mayor en el futuro. Este comportamiento se denomina preferencia temporal.
+
+\item \textit{\textbf{Restricciones presupuestarias:}} Las personas se enfrentan a la limitación de sus ingresos y deben tomar decisiones respecto a cómo distribuir su consumo a lo largo del tiempo. Esto implica considerar los trade-offs entre el consumo presente o desahorro y el consumo futuro o ahorro.
+
+\item \textit{\textbf{Tasas de interés:}} Las personas pueden ahorrar dinero en cuentas de ahorro o invertirlo en activos que generen intereses. Las tasas de interés influyen en las decisiones de ahorro y gasto, ya que determinan cuánto cuesta optar por gastar en lugar de guardar o invertir dinero.
+
+\end{itemize}
+
+\section{Funciones de descuento} 
+
+Las funciones de descuento \parencite{Samuelson37,madden2010delaydiscounting, mazur1987adjusting,myerson1995discounting}, son expresioness que permiten calcular el valor actual de una recompensa futura. Básicamente, indican que a medida que la recompensa se aleja en el tiempo, su valor disminuye. Son una herramienta utilizada para reflejar las preferencias temporales del individuo.
+
+\subsection{Función de descuento de Samuelson}
+La función más difundida es la propuesta en \parencite{Samuelson37} la cual se expresa de la siguiente manera
+$$V(t,\rho)= \dfrac{A}{1+\rho t},$$
+donde, $V(t,\rho)$ representa el valor presente de una cantidad $A$ que se encuentra en el período $t$ y está descontado a una tasa $\rho$. Es evidente que para cualquier valor de $t > 0$, el denominador será mayor que 1, lo que implica una disminución en el valor de $A$. 
+
+Suponiendo que $A=100$, que la tasa de descuento a 1 año es $\rho=1$ y que el individuo va a recibir $A$ dentro de 1 año. En este caso, claramente puede observarse que el valor presente de esa cantidad hoy se valuaría en 50.
+$$V(1,1)= \dfrac{100}{1+1}=50.$$
+
+%%%%%% PROBLEMAS INVERSOS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Sesgo de presente} \label{Sec_pi}
+El concepto de sesgo de presente hace referencia primero al concepto de preferencias inconsistentes. Se denominan preferencias inconsistenes cuando el valor que una persona asigna a consumir algo en el futuro depende de cuándo tome esa decisión. En \parencite{Strotz55} se demuestra que para cualquier función de descuento diferente de la exponencial planteada en \parencite{Samuelson37} este fenómeno ocurre. 
+
+El sesgo de presente es un tipo de preferencia inconsistente en la cual existe una inclinación por gastar más en el presente a medida que el individuo se acerca al punto de decisión en una compensación a lo largo del tiempo. Un ejemplo claro ilustrado en \parencite{feigenbaum2021deviation} es el siguiente; imaginesé que un individuo se enfrenta a la decisión de elegir entre dos opciones, recibir un extra de \$1.000 dólares dentro de diez años o un extra de \$1.100 dólares dentro de once años. Con un método de descuento no exponencial, es posible que inicialmente el individuo piense que la diferencia de un año entre recibir el dinero en diez años o en once años es insignificante y, por lo tanto, elija esperar y tomar los \$1.100 dólares. Sin embargo, cuando llegue el momento, es probable que considere que los \$1.000 dólares inmediatos son más valiosos que los \$1.100 dólares que recibirá dentro de un año.
+
+
+%%%%%% ESTIMACION DE PARAMETROS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Óptimo de pareto} \label{Sec_edp}
+El óptimo de Pareto es un concepto desarrollado por el economista Vilfredo Pareto utilizado en economía y en teoría de juegos, que también se aplica en la toma de decisiones. 
+
+Hace referencia a una situación en la que no es posible mejorar la posición de una persona o entidad sin empeorar la posición de otra. En otras palabras, se trata de un equilibrio en el que no se pueden hacer cambios que beneficien a una parte sin perjudicar a otra. 
+
+\subsection{Dominancia en pareto}
+La dominancia de Pareto es un concepto relacionado con el óptimo de Pareto y se utiliza para evaluar y comparar situaciones en un contexto de toma de decisiones. 
+
+Ocurre cuando una situación es considerada al menos tan buena como otra y mejor para al menos una persona, sin que la elección de tal situación perjudique a nadie. En otras palabras, una asignación domina a otra si mejora o deja igual el bienestar de todos los individuos involucrados, mejorando al menos a uno.
+
+%%%%%% PROBLEMAS MAL PLANTEADOS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Propensión marginal a consumir} \label{Sec_pmp}
+La propensión marginal a consumir (PMC) es un concepto fundamental en la teoría económica. Representa cuanto cambia el consumo en relación con un cambio en el ingreso disponible de una persona. En otras palabras, la PMC mide cuánto adicionalmente una persona está dispuesta a gastar cuando su ingreso aumenta en una unidad adicional.
+
+La PMC se expresa como un porcentaje o una fracción y se calcula dividiendo el cambio en el gasto de consumo entre el cambio en el ingreso disponible. Matemáticamente, se representa de la siguiente manera:
+%
+$$PMC = \dfrac{\Delta C}{\Delta Y},$$
+%
+donde $PMC$ es la propensión marginal a consumir, $\Delta C$ es el cambio en el gasto de consumo, $\Delta Y$ es el cambio en el ingreso disponible.

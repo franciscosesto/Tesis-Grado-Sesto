@@ -1,0 +1,555 @@
+\chapter{Entorno del modelo} \label{cap_2}
+En este capítulo se describirán las bases del modelo de consumo intertemporal descrito en \parencite{feigenbaum2021deviation}.  El problema del consumo intertemporal ha sido objeto de interés para los economistas desde la época de Irving Fisher. En su libro "The Theory of Interest" \,   \parencite{fisher1930theory} fue pionero en demostrar cómo los individuos toman decisiones de consumo en función de sus ingresos y riqueza a lo largo del tiempo; cómo estas elecciones influyen en las tasas de interés y la inversión en la economía.
+
+Por otra parte, el modelo de descuento exponencial propuesto por \textcite{Samuelson37} sugiere que todos los planes de consumo seleccionados en diferentes etapas de la vida coincidirán con el plan de consumo inicial. %No obstante, Samuelson reconoció que se centró en este modelo debido a la simplicidad matemática resultante y no por su respaldo empírico. De hecho, este modelo no se ajusta adecuadamente a las elecciones de consumo observadas en la realidad de las personas.
+
+El trabajo de Roy Harrod aportó también al desarrollo del problema del consumo intertemporal al reconocer que las decisiones de consumo y ahorro de los hogares están influenciadas por factores como el ingreso y las expectativas futuras \parencite{harrod1948towards}.
+
+Luego en \parencite{modigliani1954utility} se presentó un modelo del ciclo de vida en el que se propone que la tasa de consumo de una persona no solo depende de su ingreso actual, sino también de su ingreso esperado en el futuro, lo que se conoce como hipótesis del ciclo de vida. Según tal hipótesis, las personas intentan distribuir su consumo a lo largo de toda su vida en función de su ingreso esperado y no solo de su ingreso actual. Lo cual implica que pueden optar por endeudarse cuando son jóvenes y tienen ingresos bajos para luego ahorrar y disminuir el consumo cuando se acercan a la jubilación y sus ingresos suelen ser menores.
+
+En \parencite{Strotz55} se explora una variación del modelo de Samuelson, presentando una formulación distinta de la función de descuento. %En lugar de utilizar una función de descuento absoluta, como lo suponía Samuelson, Strotz introdujo una función de descuento relativa, que descuenta la utilidad del consumo futuro basándose en el tiempo que transcurre hasta que el individuo experimenta ese consumo. 
+En contraste, con el modelo original de Samuelson, donde el descuento se basaba en el tiempo absoluto del consumo futuro. En el modelo de Strotz, la tasa marginal de sustitución entre diferentes momentos de consumo depende del instante en el que el individuo evalúa la utilidad de esos consumos. %Es decir, el valor que una persona asigna a consumir algo en el futuro dependerá del tiempo exacto en el que esté tomando esa decisión. 
+Lo que luego dará lugar a las preferencias inconsistentes.
+
+
+Más tarde en \parencite{ando1963life}, los autores examinan las implicaciones agregadas de la hipótesis del ciclo de vida en términos de ahorro y consumo a nivel de toda la economía. La idea central es que, a nivel agregado, el patrón de ahorro y consumo de una economía seguirá una secuencia similar a la que se observa en la vida de un individuo. 
+
+Por su parte \textcite{modigliani86} destaca que dos de los supuestos incluidos en la versión simplificada del modelo de ciclo de vida (la duración determinista de la vida y la ausencia de un motivo de herencia) parecen, a la luz de la información disponible, llamativamente contra-fácticos. Existe evidencia de que en la vejez la riqueza decrece lentamente incluso luego de sopesar las fuentes de sesgo, lo que se traduce en que los hogares, en promedio, dejen herencias cuantiosas en relación con la riqueza máxima.
+
+Luego y en un contexto de tiempo continuo,  \textcite{Laibson97}  demostró que el uso del descuento hiperbólico, podría ofrecer una explicación para diversos enigmas encontrados en la literatura sobre el consumo y el ahorro. Entre estos interrogantes se encuentra el fenómeno conocido como la "joroba del consumo".
+
+El modelo de ciclo de vida, hasta este punto contemplaba que existen preferencias inconsistentes, lo que se puede interpretar como una multiplicidad de ``yoes''. Tener un modelo donde conviven varios ``yoes'' hace que el problema básico de la elección pública sea importante, para determinar   qué preferencias del yo deben utilizarse para evaluar el bienestar. Una solución frecuentemente utilizada en la bibliografía (al problema de evaluar el bienestar con preferencias inconsistentes en el tiempo) es utilizar las preferencias del yo inicial. (Véanse, por ejemplo, \parencite{Laibson96}, \parencite{Laibson97}, \parencite{Laibson98}, \parencite{Laibson98b}, \parencite{ODonoghue99}, \parencite{ODonoghue00}, \parencite{ODonoghue01}, entre muchos otros).
+
+Esta tesis se sitúa en el modelo de ciclo de vida abordado por \textcite{feigenbaum2021deviation} el cual está desarrollado en tiempo continuo con preferencias inconsistentes. La particularidad del modelo es la caracterización de la función de descuento en términos de un factor de ponderación futuro.
+
+Se centra particularmente en un modelo de ciclo de vida en tiempo continuo. Un hogar vive con seguridad hasta la edad $T$ y recibe una renta o ingreso exógeno $y(t)$ en una edad $t \in [0, T]$ que puede consumir $c(t)$ o ahorrar en forma de activos $k(t)$. Se toma de supuesto que los hogares son ignorantes en cuanto a la inconsistencia temporal de sus preferencias, no tienen noción de que van a cambiar sus preferencias dependiendo cuando analicen su consumo, por lo que no prevén que volverán a optimizar su plan de consumo y ahorro en el futuro.
+
+\section{Función de descuento}
+En la presente sección se definirá cuál es la utilidad en el modelo, que son los factores de ponderación futuros y cuál es la relación con la función de descuento.  
+
+La función de descuento dentro del modelo de consumo intertemporal es introducida por primera vez en \parencite{Samuelson37}, el autor trataba de reflejar la dinámica del paso del tiempo y la disminución del valor de la recompensar. No obstante, Samuelson reconoció que se centró en este modelo debido a la simplicidad matemática resultante y no por su respaldo empírico. De hecho, este modelo no se ajusta adecuadamente a las elecciones de consumo observadas en la realidad de las personas. 
+
+Sin embargo, en \parencite{Strotz55}, al explorar una variante de la función de descuento de Samuelson, se descubrió que la función propuesta en \parencite{Samuelson37} es la única que logra que los planes sean consistentes a lo largo del tiempo. Por lo tanto, cualquier otra función de descuento llevaría a la inconsistencia temporal y, por ende, a preferencias inconsistentes. En lugar de utilizar una función de descuento absoluta, como lo suponía \textcite{Samuelson37}, \textcite{Strotz55} introdujo una función de descuento relativa que ajusta la utilidad del consumo futuro en función del tiempo que transcurre hasta que el individuo experimenta ese consumo. Esto significa que el valor que una persona asigna al consumo futuro dependerá del momento preciso en que toma esa decisión.
+
+Posteriormente, tal como se mencionó previamente, \textcite{Laibson97} demostró que la función de descuento hiperbólica permitiría explicar con mayor precisión los fenómenos observados empíricamente.
+
+\subsection{Caso discreto}
+Se considera primero un hogar que vive en tiempo discreto de $0$ a $T$, con una edad $t \in [0, T] \subseteq  \mathbb{N}_0$. El hogar valora las asignaciones futuras de consumo $c(s)$ para $s \geq t$ según 
+\begin{equation*}
+  U(t)=\ds \sum_{s=t}^T{D(s-t)u(c(s))},
+\end{equation*}
+%
+siendo $u(\cdot)$ una función de utilidad y $D(\cdot)$ una función de descuento que trae un valor del futuro al presente del individuo para poder valuarlo, penalizando el tiempo de retraso para recibir la utilidad asociada a ese consumo. 
+%
+\begin{exmpl}\label{ex 1}
+Utilidad con función de descuento convencional 
+
+Para caracterizar esta utilidad, se supone que la función de descuento utilizada por el individuo es la misma que se presenta en \parencite{Samuelson37}.
+$$D(t)= \dfrac{1}{(1+r)^t},$$
+siendo $r$ la tasa de incremento y $t$ el retraso o momento en el futuro.
+%
+Por lo tanto, la utilidad podría reescribirse de la siguiente manera
+%
+\begin{align*}
+    U(t)&=\ds \sum_{s=t}^T{\dfrac{1}{(1+r)^{(s-t)}}u(c(s))} \\ 
+        &= \dfrac{1}{(1+r)^{0}}u(c(t))+\dfrac{1}{(1+r)^{1}}u(c(t+1))+...+\dfrac{1}{(1+r)^{T-t}}u(c(T)).
+\end{align*}
+
+Nótese que este tipo de descuento es el mismo utilizado para traer a valor presente el valor de un flujo de fondos en el futuro. El mismo supone que la tasa de descuento es constante.
+\end{exmpl}
+
+En la subsección siguiente, se llevará a cabo un análisis detallado del caso suponiendo la variable temporal continua y se profundizará en sus implicaciones con respecto a la función de utilidad.
+
+\subsection{Caso continuo}
+Siendo ahora el tiempo continuo en vez de discreto, las sumatorias se transforman en integrales, resultado de la suma de Riemman. El hogar entonces vive en tiempo continuo de $0$ a $T$ y con una edad $t \in [0, T]$ el hogar valora las asignaciones futuras de consumo $c(s)$ para $s \geq t$ según 
+%
+\begin{equation}
+\label{eq 1}
+  U(t)=\ds \int_t^T{D(s-t)u(c(s)) ds},  
+\end{equation}
+%
+para alguna función de utilidad $u(c)$ y una función de descuento $D(t) \geq 0$. Se normaliza $D(0) = 1$ y se supone $D(t) > 0$ en un entorno positivo de $0$. Para un parámetro específico $\rho > 0$ dado, se definen factores de ponderación futuros $\varepsilon(t) \geq -1$. Estos factores de ponderación futuros miden la desviación de la función de descuento de una función exponencial para todo $t \in [0, T]$ tales que
+\begin{equation}
+\label{eq 2}
+    D(t) = \exp( - \rho t)(1 + \varepsilon(t)).
+\end{equation}
+Nótese que $\varepsilon(0) = 0$ por definición.
+
+Se dice que una función de descuento $D(t)$ muestra una ponderación futura fuerte si existe un $\rho > 0$ tal que los $\varepsilon(t)$ definidos por (\ref{eq 2}) son todos no negativos.  Del mismo modo, una función de descuento exhibe una ponderación futura ligera si existe una $\rho > 0$ tal que los $\varepsilon(t)$ son todos no positivos. 
+
+Según indican \parencite{feigenbaum2021deviation} las ponderaciones futuras, fuertes o ligeras en el marco del tiempo discreto, brindaban la capacidad de identificar el sesgo hacia el presente o hacia el futuro. En cambio, en tiempo continuo el énfasis se desplaza desde la consideración exclusiva de los signos de los factores hacia la comprensión de su dinámica, dado que, el sesgo presente y futuro imponen condiciones sobre los factores marginales de ponderación futura.
+
+Nótese que si para $\rho > 0$
+\begin{equation}
+\label{eq 3}
+    \varepsilon_{\rho}(t) = \ds \dfrac{D(t)}{\exp(-\rho t)} -1 =\exp(\rho t) D(t) - 1 \geq 0,
+\end{equation}
+
+para todo $t \in [0, T]$, entonces se evidencia que la desigualdad (\ref{eq 3}) se cumpliría para cualquier $\rho^{'} > \rho$. Esto quiere decir que la desviación de la función de descuento de una función exponencial será mayor, o en otras palabras, la función de descuento será más grande que la exponencial para cualquier $\rho'>\rho>0$. Un aumento en $\rho$ afecta a la función exponencial haciendo que tienda más rápidamente a 0, o lo mismo que traiga los valores del futuro más rápido, por tanto, al buscar un $\rho$ mayor lo que hacemos es, en cierto sentido, acercar la exponencial al eje de abscisas, por lo cual la función de descuento original quedaría por encima de la misma. Ver en el Apéndice \ref{Apendice_A}. 
+
+Por tanto, en el caso de una ponderación futura fuerte, tiene sentido definir
+\begin{equation}
+\label{eq 4}
+    \rho^* = inf \{ \rho > 0 : ( \forall  t \in [0, T])[D(t) \geq \exp(- \rho t)] \}
+\end{equation}
+$\rho^*$  será el ínfimo del conjunto de $\rho>0$ tal que para todo $t$ dentro de la edad, la función de descuento sea mayor o igual a la exponencial. Es conocido que si $\rho \to \infty$ la función exponencial decrece más rápidamente por lo cual la función de descuento será mayor, pero no es de interés que se aproxime infinito sino encontrar cual es el $\rho$ más chico que cumpla la condición (que la función de descuento sea mayor o igual a la función exponencial), por ello se busca el ínfimo. Al ser siempre mayor o igual que la función exponencial, entonces los factores de ponderación futuros serán todos positivos. 
+
+Del mismo modo, en caso de ponderación ligera del futuro, tiene sentido definir
+
+\begin{equation}
+\label{eq 5}
+    \rho^* = sup \{ \rho > 0 : ( \forall  t \in [0, T])[D(t) \leq \exp(- \rho t)] \}
+\end{equation}
+
+$\rho^*$  será el supremo del conjunto de $\rho>0$ tal que para todo $t$ dentro de la edad, la función de descuento sea menor o igual a la exponencial. Al ser siempre menor o igual que la función exponencial, entonces los factores de ponderación futuros serán todos negativos.
+
+\begin{exmpl}\label{ex 2}
+La función hiperbólica de descuento
+
+Se considera que la función de utilidad es la siguiente
+\begin{equation}
+\label{eq 6}
+    D(t)=\dfrac{1}{1+\eta t}
+\end{equation}
+donde $ \eta > 0$. La función dada en (\ref{eq 6}) es la misma que se implementa en \parencite{feigenbaum2021deviation} fue desarrollada por \parencite{mazur1987adjusting} al estudiar el comportamiento de preferencias de las palomas. Esta función se deriva al ajustar los puntos de indiferencia de una recompensa dada en diferentes momentos, tanto después de un tiempo fijo como después de un tiempo variable. También es una función de descuento caracterizada por una ponderación futura fuerte.
+
+En este caso se puede observar que el $\rho$ óptimo es igual a $\eta$ o sea $\rho^* = \eta$ 
+%
+\begin{equation}
+\label{eq 7}
+    D(t) \geq \exp(-\eta t) \Rightarrow \dfrac{1}{1+\eta t}\geq \exp(-\eta t) \Rightarrow \exp(\eta t) \geq 1+ \eta t,
+\end{equation}
+la última desigualdad de (\ref{eq 7}) resulta evidente si se observa que en el momento 0 vale la igualdad. Si se comparan las tasas de crecimiento se puede apreciar que la de la función exponencial es mayor ya que
+    $$\left( \dfrac{d}{dt}  (\exp(\eta t)) = \eta  \exp(\eta t) \quad y \quad \dfrac{d}{dt} (1+ \eta t) = \eta \right) \Rightarrow \eta  \exp(\eta t) \geq \eta.$$
+
+Entonces ahora se evidencia que con $\rho= \eta$ la función de descuento es mayor que la exponencial pero es de interés buscar si existe algún número aún menor que $\eta$ que satisfaga la condición (\ref{eq 7}). Se supone que $\rho \in (0, \eta)$ y
+$$\dfrac{1}{1+\eta t} \geq \exp(- \rho t),$$
+para todo $t \geq 0$. Entonces la inversa multiplicativa de la exponencial es mayor que la inversa de la función de descuento debido a que
+\begin{equation}
+\label{eq 8}
+    \exp(\rho t) \geq 1+ \eta t,
+\end{equation}
+
+para todo $t \geq 0$. Se define $f(t, \rho)$ una función que mida la diferencia entre la inversa multiplicativa de la exponencial y de la inversa multiplicativa de la función de descuento. Es decir
+$$f(t, \rho)=\exp(\rho t) - \eta t -1.$$
+
+Entonces se tiene
+$$f(0, \rho)=0, \quad
+f'(t, \rho)=\rho \: \exp(\rho t) - \eta, \quad
+f''(t, \rho)=\rho^2 \: \exp(\rho t) >0,$$
+
+Dado que $f$ es convexa y su segunda derivada en $t$ es positiva, el punto crítico será un mínimo de $f$ en $t^*$, que satisface la siguiente ecuación
+$$ \rho \: \exp(\rho t) - \eta=0\Rightarrow
+\exp(\rho t^*)= \dfrac{\eta}{\rho}>1$$
+y es mayor a 1, pues es de común conocimiento $\rho$ está entra $0$ y $\eta$. El mínimo que se deduce es
+\begin{equation}
+\label{eq 9}
+    t^*=\dfrac{1}{\rho} \: \ln \left(\dfrac{\eta}{\rho} \right)>0.
+\end{equation}
+
+Por lo tanto, se obtiene
+\begin{equation}
+\label{f_t*}
+f(t^*, \rho)=\exp \left( \ln \left( \dfrac{\eta}{\rho}\right) \right) - \dfrac{\eta}{\rho} ln \left( \dfrac{\eta}{\rho} \right) -1 =\dfrac{\eta}{\rho} \left( 1-\ln \left( \dfrac{\eta}{\rho} \right) \right)-1,\end{equation}
+
+
+Sea $\delta=\dfrac{\eta}{\rho} -1 >0$, entonces se puede escribir (\ref{f_t*}) como
+\begin{equation}
+\label{eq 10}
+    f(t^*, \rho)= \delta - (1+\delta) \ln (1+ \delta).
+\end{equation}
+
+Para simplificar el análisis se desea ahora evaluar si la función, en términos de $\delta$, exhibe un carácter positivo o negativo para $\delta>0$. 
+
+Sea la función $g:\mathbb{R}^+ \rightarrow \mathbb{R}$ dada por, 
+$$f(t^*, \rho)=g(\delta)=\delta - (1+\delta) \ln (1+ \delta),$$
+satisface
+$$g(0)=0-(1-0) \ln(1+0)=0.$$
+Se busca determinar la tasa de cambio para discernir si la función exhibirá un comportamiento positivo o negativo.
+$$\dfrac{d}{d \delta}(\delta - (1+\delta) \ln (1+ \delta))=1-\left(\ln(1+ \delta)+(1+\delta) \dfrac{1}{1+ \delta} \right)=-\ln(1+\delta)<0.$$
+%
+De modo que 
+$$\delta - (1+\delta) \ln (1+ \delta)<0,$$
+equivalentemente,
+\begin{equation}
+\label{eq 11}
+    \delta < (1+ \delta) \ln(1+\delta),
+\end{equation}
+para $\delta>0$ se obtiene que $f(t^*, \rho)<0$, lo que contradice (\ref{eq 8}). Dado que la ecuación (\ref{eq 11}) se deriva al utilizar $\rho \in (0, \eta)$ y señala que la función de descuento es inferior a la función de descuento exponencial, lo cual contradice la condición (\ref{eq 7}) que se intentaba demostrar, se concluye que no existe ningún valor de $\rho$ menor que $\eta$ que cumpla con esta condición. Por lo tanto, el valor óptimo de $\rho$ es el ínfimo, que en este caso coincide con $\eta$, y así se tiene que $\rho^* = \eta$. Por tanto, para una función de descuento hiperbólica, una elección natural del factor de ponderación futuro es
+\begin{equation}
+\label{eq 12}
+    \varepsilon (t)= \dfrac{\exp(\eta t)}{1+ \eta t}-1 \geq 0,
+\end{equation}
+con igualdad solo si $t = 0$.
+\end{exmpl}
+
+%Como explican \parencite{feigenbaum2021deviation} contrariamente a lo esperado, la elección de la tasa de descuento no perturbada $\rho$ que se utilizará para definir los factores de ponderación futuros de acuerdo con (\ref{eq 3}) en realidad no importará para nada en lo que sigue. %Para ilustrar, imaginemos que tenemos una función de descuento $D(t)$ con una fuerte ponderación futura, es decir, con factores de ponderación futuros positivos. Para $\rho > \rho^*$, $D(t)$ estará por encima de $\exp(-\rho t)$ para todo $t$ mientras que para $\rho < \rho^*$ habrá algún $s$ tal que $D(s) < \exp(-\rho s)$. Por tanto, el factor de ponderación futuro $\varepsilon_\rho(s)$ será negativo. No obstante, nuestras proposiciones son válidas tanto para $\rho \geq \rho^*$ como para $\rho \leq \rho^*$. La historia inversa es cierta para funciones de descuento con  ponderación futura ligera. 
+
+\section{Sesgo de presente}
+En esta sección, se examinará el concepto de sesgo de presente y las condiciones que deben cumplirse para que este fenómeno se manifieste.
+
+Una idea más comúnmente abordada en la literatura relacionada con las funciones de descuento intertemporal es el “sesgo de presente” el cual modifica la percepción del “yo” induciéndolo a ser más impaciente a corto plazo y la función de descuento hiperbólica se considera un ejemplo paradigmático de este sesgo. Mientras que el signo de los factores de ponderación futuros depende de la elección de $\rho$, como se verá más adelante, $\rho$ no entra en la condición de sesgo presente en tiempo continuo. Por consiguiente, el único supuesto que se hace sobre $\rho$ en las proposiciones que se derivaron es que $\rho > 0$.
+
+Se dice que se manifiesta un sesgo de presente (futuro) cuando un hogar muestra preferencia por una retribución menor (mayor) en el presente en lugar de una retribución mayor (menor) que se recibiría en un momento posterior con un retraso, denotado como $\Delta t > 0$. No obstante, esta preferencia se invertiría si se efectuara una comparación entre un instante en el futuro, representado como $t$ y otro instante $t + \Delta t$. En otras palabras, si padece de sesgo de presente, entonces este hogar exhibe impaciencia en el momento presente y muestra una falta de disposición para postergar la obtención de una retribución más sustancial, prefiriendo una recompensa inmediata en su lugar. En el Apéndice \ref{Apendice_B}, se deduce la relación entre esta condición y los factores de ponderación futuros.
+
+A partir de ahora se nombrará a  $\varepsilon'(t)$ como el factor de ponderación futuro marginal en $t$. Sin embargo, si $\varepsilon(t) > -1$ también se puede definir
+\begin{equation}
+\label{eq 13}
+    \mu(t)= \dfrac{\varepsilon'(t)}{1+\varepsilon(t)},
+\end{equation}
+como el factor de ponderación futuro marginal ajustado en $t$. En primer orden en $\varepsilon(t)$, las ponderaciones futuras marginales y marginales ajustados son idénticos, pero la corrección en el denominador de (\ref{eq 13}) será importante para los resultados exactos, como muestran \parencite{feigenbaum2021deviation} y que se ve reflejado en el apéndice \ref{Apendice_B}. Específicamente, una condición necesaria para que las reversiones de preferencias basadas en el presente en $t > 0$ se mantengan en el límite a medida que $\Delta t \rightarrow 0$ es que
+\begin{equation}
+\label{eq 14}
+    \mu(0) \leq \mu(t),
+\end{equation}
+para todo $t>0$. En otras palabras que la tasa de incremento del factor de ponderación futuro ajustado en $t$ en el momento 0 sea menor que  la tasa de incremento en el momento $t$.
+
+A una función de descuento que satisface (\ref{eq 14}) con desigualdad estricta para todo $t > 0$ se la denominará continuamente sesgada al presente. Por el contrario, una función de descuento que satisface
+\begin{equation}
+\label{eq 15}
+    \mu(0) \geq \mu(t),
+\end{equation}
+para todo $t > 0$ se la denominará continuamente sesgada hacia el futuro. Cabe destacar, no obstante, que esta definición solo es aplicable si $\varepsilon(t) > -1$ para todo $t>0$.
+ 
+Es de interés identificar la tasa de descuento instantánea, notar que si el descuento fuera solo exponencial entonces la tasa sería $\rho$ y en este caso al definir la función de descuento como la desviación de una función de descuento exponencial para poder llegar a ella se debería usar la derivada del logaritmo natural de la exponencial.  Utilizando (\ref{eq 3}) y (\ref{eq 13}), se puede reescribir $\mu(t)$ en función de la tasa de descuento instantánea en el plazo $t$ del siguiente modo 
+%
+\begin{equation}
+\label{eq 16}
+\rho(t)= - \dfrac{d \ln D(t)}{dt} =- \dfrac{d}{dt} \ln(\exp(- \rho t)(1+\varepsilon(t))) =\rho - \dfrac{\varepsilon'(t)}{1+ \varepsilon(t)} = \rho - \mu(t).
+\end{equation}
+Se observa que la tasa de descuento instantánea, es la tasa de la función de descuento exponencial menos la ponderación futura marginal en $t$. Se puede entonces reescribir $\mu(t)$ como la tasa de descuento de la función exponencial menos la tasa de descuento instantánea. Si se utiliza esta idea en (\ref{eq 14})-(\ref{eq 15}), como $\rho$ es constante, desaparece de las condiciones para el sesgo continuo presente o futuro, que únicamente dependen de si $\rho(t)$ es mayor o menor que $\rho(0)$. Esto demuestra por qué la elección de $\rho$ es tan poco importante en lo que sigue. 
+
+Como explican \parencite{feigenbaum2021deviation}, lo que importa para la forma del perfil de consumo logarítmico es la dinámica de la rapidez con que decae la función de descuento y el factor de ponderación futuro marginal ajustado $\mu(t)$ capta esta dinámica. Dado que $\rho$ no contribuye a la dinámica, la elección de $\rho$ es inocua.
+ 
+Por otra parte, el hecho de que la trayectoria de compromiso  domine en Pareto a la trayectoria realizada y sea la que mejore el bienestar resultará estar asociado a una ponderación futura fuerte terminal, no a un sesgo presente. Existen funciones de descuento con sesgo de presente en las que el compromiso no mejora en Pareto porque la ponderación futura terminal no es lo suficientemente alta en relación con los demás factores de ponderación futuros. 
+
+\section{Problema del hogar}
+En esta sección, se introducirá la restricción presupuestaria, la cual agregará al modelo un conjunto adicional de condiciones que deben cumplirse para que pueda maximizarse.
+
+Siendo ahora más precisos sobre el problema que resolverá, un hogar con las preferencias (\ref{eq 1}). Se supone que el hogar obtiene un flujo de ingresos exógeno $y(t) \geq 0$ para $t \in [0, T]$ con $y(t)$ estrictamente positivo sobre algún subconjunto de medida positiva y que los ahorros $k(t)$ a la edad $t$ obtienen la rentabilidad instantánea $r(t)$. Por tanto, la restricción presupuestaria instantánea a la edad $t$ se expresa como
+\begin{equation}
+\label{eq 17}
+\dfrac{dk(t)}{dt}= y(t)+r(t)k(t)-c(t),
+\end{equation}
+\noindent en otras palabras, la variación en el nivel de ahorro debe ser equivalente a la diferencia entre el ingreso y el costo, además de los ahorros obtenidos mediante su rendimiento. Por lo tanto, si el ingreso aumenta, el ahorro debería incrementarse, mientras que si el costo se eleva, el ahorro debería reducirse. 
+
+Tal restricción presenta una condición terminal dada por
+\begin{equation}
+\label{eq 18}
+    k(T)=0.
+\end{equation}
+Es importante destacar que la premisa que subyace en esta condición da lugar a la expresión “la herencia es un error de cálculo”, que se atribuye a Modigliani. Esta idea se relaciona con su teoría del ciclo vital, que postula que las personas ahorran a lo largo de su vida laboral con el propósito de financiar su consumo durante la jubilación. Si una persona termina acumulando más ahorros de los necesarios para su propio consumo en la jubilación, esto se convierte en herencia. Desde esta perspectiva, la herencia podría interpretarse como un “error de cálculo”, en el sentido de que la persona ahorró más de lo requerido para satisfacer sus necesidades de consumo personal.
+
+Dado $k(t)$, el problema que enfrenta el hogar en la etapa $t$ se puede formular como la búsqueda de los niveles de consumo y ahorro que maximizan su utilidad, es decir:
+
+\begin{equation}
+\label{eq 19}
+    U(t)= \max_{c(s,t), k(s,t)} \ds \int_{t}^{T} D(s-t)u(c(s,t)) ds,
+\end{equation}
+\noindent tal que
+\begin{equation}
+\label{eq 20}
+    \dfrac{dk(s,t)}{ds}=y(s) + r(s) k(s,t) - c(s,t),
+\end{equation}
+donde
+\begin{equation}
+\label{eq 21}
+    k(T,t)=0.
+\end{equation}
+\noindent A lo largo del resto de esta tesis, se asumirá que la función de utilidad está representada por $u(c) = \ln(c)$ siguiendo el modelo propuesto en \parencite{feigenbaum2021deviation}. 
+
+Se revisarán algunos resultados relevantes de \parencite{Feigenbaum16}. Se define la rentabilidad bruta generada por la capitalización de intereses entre la edad $0$ y $t$ de la siguiente manera:
+\begin{equation}
+\label{eq 22}
+    R(t)=\exp \left(\ds \int_{0}^t r(s)ds\right).
+\end{equation}
+Notar que
+\begin{equation}
+\label{eq 23}
+    \dfrac{dR(t)}{dt}= r(t) \exp \left(\ds \int_{0}^t r(s)ds\right) = r(t) R(t).
+\end{equation}
+Esto permite reescribir la restricción presupuestaria (\ref{eq 17}) utilizando la rentabilidad bruta (\ref{eq 23})
+$$\dfrac{dk(t)}{dt}= y(t)+\dfrac{1}{R(t)}\dfrac{dR(t)}{dt} k(t)-c(t) \Rightarrow 
+\dfrac{dk(t)}{dt}-\dfrac{1}{R(t)}\dfrac{dR(t)}{dt} k(t)= y(t)-c(t),$$
+equivalentemente
+$$\dfrac{\dfrac{dk(t)}{dt} R(t)- k(t)\dfrac{dR(t)}{dt}}{R(t)}= y(t)-c(t)\Rightarrow
+\dfrac{\dfrac{dk(t)}{dt} R(t)- k(t)\dfrac{dR(t)}{dt}}{R^2(t)}= \dfrac{y(t)-c(t)}{R(t)},$$
+operando resulta
+\begin{equation}
+\label{eq 24}
+    \dfrac{d}{dt} \left( \dfrac{k(t)}{R(t)}\right)= \dfrac{y(t) - c(t)}{R(t)}.
+\end{equation}
+
+\noindent Se integra de $t$ a $T$ , se utiliza la condición terminal (\ref{eq 18}) y se obtiene
+
+$$\ds \int_t^T \dfrac{d}{ds} \left( \dfrac{k(s)}{R(s)}\right)ds= \left.\dfrac{k(s)}{R(s)} \right|_t^T = \dfrac{k(T)}{R(T)} - \dfrac{k(t)}{R(t)} = \dfrac{0}{R(T)} - \dfrac{k(t)}{R(t)}=- \dfrac{k(t)}{R(t)}, $$
+donde
+%
+\begin{equation}
+\label{eq 25}
+   \ds - \dfrac{k(t)}{R(t)}= \int_ t^T \dfrac{y(s) - c(s)}{R(s)} ds \Rightarrow
+   \ds k(t) = \ds \int_t^T \dfrac{R(t)}{R(s)} [c(s)-y(s)]ds.
+\end{equation}
+Este planteamiento implica que, si se dispone del plan de consumo y del de ingresos exógenos, se puede calcular el nivel de ahorro $k(t)$ en cualquier punto del tiempo $t$. 
+
+Es interesante comprender las funciones de $R(s)$ y $R(t)$. Mientras $R(s)$, al estar en el denominador, retrotrae cualquier valor a lo largo de la vida al momento $0$, $R(t)$, en el numerador, proyecta un valor hacia adelante en el tiempo $t$ momentos. Por lo tanto, la expresión $ \ds \int_t^T \dfrac{R(t)}{R(s)}ds$ transporta los valores desde su ubicación actual hasta el momento $t$.
+
+Si se define la riqueza durante la vida como
+\begin{equation}
+\label{eq 26}
+    W(t)= \left( \ds \int_t^T \dfrac{R(t)}{R(s)} y(s) ds \right) + k(t),
+\end{equation}
+esto permite reemplazar (\ref{eq 26}) en la restricción presupuestaria dada por (\ref{eq 25}) y reexpresarla de la siguiente manera:
+\begin{equation}
+\label{eq 27}
+     \ds \int_t^T \dfrac{R(t)}{R(s)} c(s) ds = W(t).
+\end{equation}
+La ecuación (\ref{eq 27}) encierra el conocido resultado de que el valor actual del plan de consumo a partir de cualquier edad $t$ debe ser igual a la riqueza durante la vida en $t$.
+
+Se continua con el procedimiento de \parencite{feigenbaum2021deviation}, las restricciones se expresan de la forma (\ref{eq 27}) y el Lagrangiano del problema del hogar en $t$ se representa como se muestra en (\ref{eq 19}): 
+%$$\mathcal{L} = D(s-t) \ln(c(s,t)) - \lambda(t) \dfrac{R(t)}{R(s)} c(s,t).$$
+$$\mathcal{L} = D(s-t) \ln(c(s,t)) - \lambda(t) \dfrac{R(t)}{R(s)} c(s,t).$$
+%
+\noindent La condición de primer orden con respecto al consumo es
+$$\dfrac{\partial \mathcal{L} }{\partial c(s,t)} = \dfrac{D(s-t)}{c(s,t)}- \dfrac{\lambda(t) R(t)}{R(s)}=0.$$
+%
+Por lo tanto,
+\begin{equation}
+\label{c_de_s_t}
+    c(s,t)= \dfrac{1}{\lambda(t)} \cdot \dfrac{D(s-t) \cdot R(s)}{R(t)}.
+\end{equation}
+%
+\noindent Se utiliza (\ref{c_de_s_t}) en la restricción presupuestaria de vida útil (\ref{eq 27}) y se obtiene
+$$\dfrac{1}{\lambda(t)} \ds \int_t^T D(s-t) ds = W(t) \Rightarrow
+\ds \dfrac{1}{\lambda(t)}  = \dfrac{W(t)}{ \ds \int_t^T D(s-t) ds}$$
+\noindent y el consumo del plan de edad $t$ del hogar a la edad $s$ es
+\begin{equation}
+\label{eq 28}
+    c(s,t) = \dfrac{R(s)}{R(t)} \cdot \dfrac{D(s-t)}{\ds \int_t^T D(s-t) ds} \cdot W(t).
+\end{equation}
+\noindent Pero el hogar sólo sigue este plan en $s = t$, para lo cual
+\begin{equation}
+\label{eq 29}
+    c(t)=\dfrac{1}{\ds \int_t^T D(s-t) ds}W(t).
+\end{equation}
+
+La propensión marginal al consumo (PMC) que ahora se denotará $m(t)$ hace referencia a la proporción de la riqueza que se consume, la cual se define tomando en consideración la acumulación total de riqueza a lo largo de toda la vida hasta el período de tiempo $t$, incluyendo los ingresos que se esperan en el futuro, de la siguiente manera:
+\begin{equation}
+\label{eq 30}
+    m(t)= \dfrac{c(t)}{W(t)}=\dfrac{1}{\ds \int_t^T D(s-t) ds}=\dfrac{1}{\ds \int_0^{T-t} D(s) ds}.
+\end{equation}
+
+El hecho de que la PMC varíe con $t$ indica que la fracción de riqueza consumida cambia a lo largo del ciclo de vida.
+
+\parencite{Feigenbaum16} muestra que una condición necesaria para que la solución del problema del hogar satisfaga las restricciones (\ref{eq 20}) y (\ref{eq 21}) es 
+\begin{equation}
+\label{eq 31}
+    \lim_{t \to T} m(t) (T-t) =1,
+\end{equation}
+lo que implica que el hogar consumirá toda su riqueza restante en el último instante de vida ya que la proporción marginal a consumir aumentaría al 100\% de la riqueza. Lo cual también está conectado con la observación que realizó Mogiliani.
+
+La tasa de crecimiento del consumo es
+$$  G_c(t) \equiv \dfrac{d \ln (c(t))}{dt}=\dfrac{d \ln(m(t)W(t))}{dt}$$
+que implica,
+\begin{equation}
+\label{eq 32}
+    G_c(t) \equiv \dfrac{d \ln (c(t))}{dt}=\dfrac{d \ln (m(t))}{dt}+\dfrac{d \ln (W(t))}{dt}.
+\end{equation}
+
+En el Apéndice \ref{Apendice_C}, se encuentra información detallada sobre la tasa de crecimiento y su relación con la derivada del logaritmo natural.
+
+A partir de (\ref{eq 30}), se tiene
+$$\dfrac{d \ln (m(t))}{dt}=\dfrac{m'(t)}{m(t)}=- \dfrac{D(T-t)\cdot (-1)}{\left( \ds \int_t^T D(s-t) ds \right)^2} \int_t^T D(s-t) ds,$$
+equivalentemente,
+\begin{equation}
+\label{eq 33}
+    \dfrac{d \ln (m(t))}{dt}= \dfrac{D(T-t)}{\ds \int_t^T D(s-t) ds}=m(t) D(T-t).
+\end{equation}
+
+\noindent Se deriva (\ref{eq 26}) y se obtiene
+$$\dfrac{dW(t)}{dt}= \ds \dfrac{d}{dt} \left( R(t) \int_t^T \dfrac{y(s)}{R(s)} ds \right) + \dfrac{dk(t)}{dt},$$
+se aplica la regla del producto de derivadas y se separa términos,
+$$\dfrac{dW(t)}{dt}= \ds \dfrac{d R(t)}{dt} \int_t^T \dfrac{y(s)}{R(s)} ds  + R(t) \dfrac{d}{dt} \left( \int_t^T \dfrac{y(s)}{R(s)} ds \right)+\dfrac{dk(t)}{dt},$$
+se expresa la derivada del segundo término,
+
+$$\dfrac{dW(t)}{dt}= \ds \dfrac{d R(t)}{dt} \int_t^T \dfrac{y(s)}{R(s)} ds  + R(t)  \left(  \dfrac{y(T)}{R(T)}\cdot \dfrac{dT}{dt} -   \dfrac{y(t)}{R(t)}\cdot \dfrac{dt}{dt}   \right)+\dfrac{dk(t)}{dt},$$
+al no depender de $t$ entonces $\dfrac{y(T)}{R(T)}\cdot \dfrac{dT}{dt}=0$ y se obtiene,
+$$ \dfrac{d W(t)}{dt}= \dfrac{d  R(t)}{dt} \ds  \int_t^T \dfrac{y(s)}{R(s)}ds - \dfrac{R(t)}{R(t)}y(t)+ \dfrac{dk(t)}{dt},$$
+se utiliza (\ref{eq 20}) y (\ref{eq 23}),
+$$ \dfrac{d W(t)}{dt}= r(t) R(t) \ds  \int_t^T \dfrac{y(s)}{R(s)}ds - y(t)+ y(t)+r(t)k(t)-c(t),$$
+se reexpresa la integral,
+$$ \dfrac{d W(t)}{dt}= r(t)  \ds  \int_t^T \dfrac{R(t)}{R(s)}y(s)ds +r(t)k(t)-c(t),$$
+se simplifica esta expresión, lo cual da lugar a
+$$\dfrac{d W(t)}{dt}=r(t) \left[ \ds \int_t^T \dfrac{R(t)}{R(s)}y(s) ds +k(t) \right]-c(t).$$
+
+\noindent Por lo tanto, si se utiliza (\ref{eq 25}), (\ref{eq 26}) y (\ref{eq 30}) se obtiene,
+$$\dfrac{d W(t)}{dt}=r(t) W(t)-c(t)
+=r(t) W(t)-m(t) W(t)
+= (r(t)-m(t))W(t)$$
+
+
+\noindent o de forma equivalente
+\begin{equation}
+\label{eq 34}
+    \dfrac{d \ln W(t)}{dt}= \dfrac{\dfrac{d W(t)}{dt}}{W(t)} = r(t)-m(t).
+\end{equation}
+
+\noindent Se utiliza (\ref{eq 32}), (\ref{eq 33}) y (\ref{eq 34}), la tasa de crecimiento del consumo es
+$$G_c(t)=m(t) D(T-t)+ r(t)-m(t)\Rightarrow
+G_c(t)=r(t)+ m(t) \left[D(T-t)-1 \right].$$
+
+\noindent Se sustituye $m(t)$ por (\ref{eq 30}) y reescribe el numerador como integral, se tiene
+
+\begin{equation}
+\label{eq 35}
+    G_c(t)=r(t)+ \dfrac{D(T-t)-1 }{\ds \int_t^T D(s-t) ds}
+    =r(t)+ \dfrac{\ds \int_t^T D'(s'-t) ds'}{\ds \int_t^T D(s-t) ds},
+\end{equation}
+
+Se destaca que para una función de descuento exponencial $D(t) = \exp(-\rho t)$, dado que $D'(t) = -\rho D(t)$, (\ref{eq 35}) se simplifica 
+\begin{equation}
+\label{eq 36}
+    G_c(t)=r(t)- \rho
+\end{equation}
+\noindent En este escenario que el consumo crezca va a depender de que el interés que se obtenga sea mayor al factor de descuento $\rho$. Con una función de descuento no exponencial, como la hiperbólica, la desviación de la tasa de crecimiento del consumo de (\ref{eq 36}) dependerá de
+\begin{equation}
+\label{eq 37}
+    Z(t)= \dfrac{\ds \int_t^T D'(s'-t) ds'}{\ds \int_t^T D(s-t) ds}= \dfrac{D(T-t)-1 }{\ds \int_t^T D(s-t) ds}.
+\end{equation}
+Como explican \parencite{feigenbaum2021deviation} los fenómenos que se estudian en las secciones siguientes se derivan de cómo la dinámica en (\ref{eq 37}) del numerador  $\ds \int_t^T D'(s-t) ds$ difiere de la dinámica del denominador $\ds \int_t^T D(s-t) ds$.
+%
+%Para una función de descuento exponencial, como una integral es proporcional a la otra, la dinámica es exactamente la misma, por lo que es el caso menos interesante. En términos más generales, el comportamiento de $Z(t)$ dependerá de si la función de descuento decae más rápida o más lentamente que una exponencial. 
+%
+Las preferencias de los distintos “yoes” por la senda de consumo realizada frente a la senda de consumo del yo inicial dependen principalmente de cómo se compara la función de descuento con una exponencial en los plazos más largos, que solo importan para $Z(t)$ cuando $t \approx 0$. La forma de la función de consumo depende de $Z(t)$ en todos los $t$ y, por tanto, de cómo se compara la función de descuento con una exponencial en todos los plazos.
+
+\textcite{feigenbaum2021deviation} introducen factores de ponderación futuros de (\ref{eq 2}). En primer lugar, se reescribe la propensión marginal a consumir PMC en (\ref{eq 30}) para esta función de descuento como
+
+\begin{equation}
+\label{eq 38}
+m(t)= \dfrac{1}{\ds \int_0^{T-t} \exp (- \rho s) [1+ \varepsilon(s)] ds}    
+\end{equation}
+o equivalentemente,
+$$m(t)= \dfrac{1}{\ds \int_0^{T-t} \exp (- \rho s)  ds + \int_0^{T-t} \exp (- \rho s)  \varepsilon(s) ds} . $$
+%
+\noindent Puesto que para $\rho \neq 0$
+%
+\begin{equation}
+\label{eq 39}
+    \ds \int_0^t \exp (- \rho s) ds = \left. \dfrac{\exp(-\rho s)}{-\rho} \right|^t_0 = \dfrac{\exp(-\rho t)}{-\rho} - \dfrac{1}{-\rho}=\dfrac{1}{\rho} [1 - \exp (- \rho t)],
+\end{equation}
+se tiene
+$$m(t)=\dfrac{1}{\dfrac{1}{\rho} [1 - \exp (-\rho (T-t))]+\ds \int_0^{T-t} \exp (- \rho s) \varepsilon(s) ds},   
+$$
+%
+se saca en el denominador $\dfrac{1}{\rho} [1 - \exp (-\rho (T-t))]$ como factor común
+$$m(t)=\dfrac{1}{\dfrac{1}{\rho} [1 - \exp (-\rho (T-t))]\left[1+\dfrac{\rho}{1- \exp(-\rho(T-t))}\ds \int_0^{T-t} \exp (- \rho s) \varepsilon(s) ds\right]}    
+$$
+$$=\dfrac{\rho}{1 - \exp (-\rho (T-t))} \left[ 1 + \dfrac{\rho}{1 - \exp (-\rho (T-t))} \ds \int_0^{T-t} \exp (- \rho s) \varepsilon(s) ds \right]^{-1} . 
+ $$
+%
+\noindent Se aproxima la PMC a primer orden en $\varepsilon(t)$, se obtiene
+%para ello se trabajará con el polinomio de Maclaurin de grado 1 y tomando a la PMC en función de  $\ds \int_0^{T-t} \exp (- \rho s) \varepsilon(s) ds$. Para simplificar la cuenta se harán algunas sustituciones 
+% $$\alpha=\dfrac{\rho}{1 - \exp (-\rho (T-t))},$$
+% $$\chi = \ds \int_0^{T-t} \exp (- \rho s) \varepsilon(s) ds,$$
+% $$m(t)=f(\chi)=\alpha  [1+ \alpha \chi]^{-1}. $$
+%
+% El polinomio de Maclaurin de grado 1 sería
+% $$P_1=f(0)+f'(0)(x-0),$$
+% $$f(0)=\alpha[1+\alpha \cdot0]^{-1}=\alpha,$$
+% $$f'(x)=-\alpha^2[1+\alpha  \chi]^{-2},$$
+% $$f'(0)=-\alpha^2[1+\alpha \cdot 0]^{-2}=-\alpha^2,$$
+% $$P_1=\alpha - \alpha^2 \chi = \alpha [1 - \alpha \chi]$$
+% por lo que entonces el PMC quedaría como el polinomio de Macalaurin de grado 1 más los errores cuadráticos $O(\epsilon^2)$
+\begin{multline}
+\label{eq 40}
+m(t)=\dfrac{\rho}{1 - \exp (-\rho (T-t))} \\ \left[ 1 - \dfrac{\rho}{1 - \exp (-\rho (T-t))}\ds  \int_0^{T-t} \exp (- \rho s) \varepsilon(s) ds \right]+ O(\varepsilon^2).    
+\end{multline}
+
+\noindent Se puede observar en el Apéndice \ref{Apendice_D} que, para un $W(t)$ dado, las ponderaciones futuras fuertes reducirán $c(t)$ mientras que las ponderaciones futuras ligeras aumentarán $c(t)$. 
+
+Se sustituye la función de descuento por (\ref{eq 2}), se puede reescribir $Z(t)$ dada por (\ref{eq 37}) como
+\begin{equation}
+\label{eq 41}
+    Z(t)=\dfrac{\exp(-\rho (T-t))[1+ \varepsilon(T-t)]-1}{\ds \int_0^{T-t} \exp (- \rho s) [1+\varepsilon(s)] ds}.
+\end{equation}
+
+\noindent Esto equivale a
+%\begin{equation}
+\begin{align}
+\label{eq 42}
+  Z(t)&=\dfrac{\exp(-\rho (T-t))[1+ \varepsilon(T-t)]-1}{\ds \int_0^{T-t} \exp (- \rho s)  ds+\ds \int_0^{T-t} \exp (- \rho s) \varepsilon(s) ds} \nonumber \\ 
+  &=\dfrac{\exp(-\rho (T-t))[1+ \varepsilon(T-t)]-1}{\dfrac{1-\exp (- \rho (T-t))}{\rho}+\ds \int_0^{T-t} \exp (- \rho s) \varepsilon(s) ds} \nonumber \\ 
+  &=- \dfrac{(1-\exp(-\rho (T-t))) \left[ 1- \dfrac{\exp(-\rho (T-t))}{1-\exp(-\rho (T-t))} \varepsilon(T-t)\right]}{\dfrac{1-\exp (- \rho (T-t))}{\rho} \left[1+ \dfrac{\rho}{1-\exp (- \rho (T-t))}\ds \int_0^{T-t} \exp (- \rho s) \varepsilon(s) ds \right]}  \nonumber \\ 
+  &=- \rho \dfrac{1- \dfrac{\exp(-\rho (T-t))}{1-\exp(-\rho (T-t))} \varepsilon(T-t)}{1+ \dfrac{\rho}{1-\exp (- \rho (T-t))}\ds \int_0^{T-t} \exp (- \rho s) \varepsilon(s) ds} .
+  \end{align}
+%\end{equation}
+
+%\begin{equation}
+ % =- \rho \dfrac{1- \dfrac{\exp(-\rho (T-t))}{1-\exp(-\rho (T-t))} \varepsilon(T-t)}{1+ \dfrac{\rho}{1-\exp (- \rho (T-t))}\int_0^{T-t} \exp (- \rho s) \varepsilon(s) ds}
+%\end{equation}
+
+\noindent Se reescribe (\ref{eq 42}) a primer orden en $\varepsilon(t)$, \begin{equation*}
+\begin{split}
+Z(t)= &- \rho \Biggr[1- \dfrac{\exp (-\rho (T-t))}{1-\exp (-\rho (T-t))} \varepsilon(T-t) \\
+&- \dfrac{\rho}{1-\exp (-\rho (T-t))} \ds \int_0^{T-t} \exp (- \rho s) \varepsilon(s) ds \Biggr] + O(\varepsilon^2).
+\end{split}
+\end{equation*}
+De manera equivalente,
+\begin{equation*}
+\begin{split}
+Z(t)=- \rho \Biggr[1- \dfrac{\exp (-\rho (T-t)) \varepsilon(T-t) - \rho \ds \int_0^{T-t} \exp (- \rho s) \varepsilon(s) ds}{1-\exp (-\rho (T-t))}   \Biggr] + O(\varepsilon^2),
+\end{split}
+\end{equation*}
+se distribuye multiplicando $\rho$ convenientemente y se obtiene,
+$$Z(t)=- \rho + \dfrac{\exp (-\rho (T-t)) \varepsilon(T-t) + \rho \ds \int_0^{T-t} \exp (- \rho s) \varepsilon(s) ds}{\dfrac{1}{\rho}[1-\exp (-\rho (T-t))]} + O(\varepsilon^2),   $$
+se reescribe el denominador,
+
+\begin{equation}
+\label{z_eq}
+Z(t)=- \rho + \dfrac{\exp (-\rho (T-t)) \varepsilon(T-t)+ \rho \ds  \int_0^{T-t} \exp (- \rho z) \varepsilon(z) dz }{\ds \int_0^{T-t} \exp (- \rho z') dz' }+ O(\varepsilon^2).    
+\end{equation}
+%
+\noindent Dado que
+$$\dfrac{d}{dt}(- \exp (-\rho t))= \rho \exp(- \rho t)$$
+%
+y que 
+$$\varepsilon(0)=0$$
+%
+\noindent se puede utilizar integración por partes
+\begin{equation}
+\label{eq 43}
+    \begin{split}
+        \rho &\ds \left.\int_0^{T-t} \exp (- \rho z) \varepsilon(z) dz = - \exp (- \rho z) \varepsilon(z) \right|^{T-t}_ 0 + \ds \int_0^{T-t} \exp (- \rho z) \varepsilon'(z) dz \\
+        &= - \exp(- \rho(T-t)) \varepsilon(T-t) + \ds \int_0^{T-t} \exp (- \rho z) \varepsilon'(z) dz,
+    \end{split}
+\end{equation}
+
+\noindent se reemplaza (\ref{eq 43}) en (\ref{z_eq}), esto permite expresar a $Z(t)$ como
+\begin{equation*}
+ \begin{split}
+    & Z(t)=  - \rho + \\ &\dfrac{\exp (-\rho (T-t)) \varepsilon(T-t)- \exp(- \rho(T-t)) \varepsilon(T-t) + \ds \int_0^{T-t} \exp (- \rho z) \varepsilon'(z) dz}{\ds \int_0^{T-t} \exp (- \rho z') dz' }+ O(\varepsilon^2)
+ \end{split}    
+\end{equation*}
+o equivalentemente
+\begin{equation}
+\label{eq 44}
+    Z(t)= - \rho + \dfrac{\ds \int_0^{T-t} \exp(- \rho z ) \varepsilon' (z) dz}{\ds \int_0^{T-t} \exp(- \rho z' )  dz'}+ O(\varepsilon^2),
+\end{equation}
+
+Así, considerando una función de descuento general con factor de ponderación futuro $\varepsilon(t)$, se puede obtener una expresión analítica para la tasa de crecimiento del consumo correspondiente a la estrategia implementada. Se utiliza la expresión (\ref{eq 44}) en (\ref{eq 37}) y (\ref{eq 35}), luego se obtiene,
+
+\begin{equation}
+\label{eq 45}
+G_c(t)= r(t) - \rho +  \dfrac{\ds \int_0^{T-t} \exp(- \rho z ) \varepsilon' (z) dz}{\ds \int_0^{T-t} \exp(- \rho z' )  dz'}+ O(\varepsilon^2).
+\end{equation}
+
+En el orden cero, es decir, cuando la función de descuento no se aleja de una forma exponencial, se recupera la tasa de crecimiento del consumo (\ref{eq 36}), debido a que $\varepsilon(t)$ será igual cero lo que hace que el numerador entero sea cero. Por otro lado la contribución de primer orden de una función de descuento no exponencial a la tasa de crecimiento del consumo se expresa del siguiente modo:
+\begin{equation}
+\label{eq 46}
+    G^1_c(t)= \dfrac{\ds \int_0^{T-t} \exp(- \rho z ) \varepsilon' (z) dz}{\ds \int_0^{T-t} \exp(- \rho z' )  dz'}.
+\end{equation}
+
+Como se explica detalladamente en el estudio de \parencite{feigenbaum2021deviation}, este resultado es análogo al obtenido por los mismos autores en el contexto del tiempo discreto, según se presenta en \parencite{Feigenbaum21}. En ese contexto, la contribución de primer orden a la tasa de crecimiento del consumo se interpreta como una media ponderada de las diferencias entre los factores de ponderación futuros. La clave para entender por qué un hogar con una función de descuento no exponencial se desvía de una senda exponencial de consumo, radica en la dinámica de estos factores de ponderación futuros. 
+Es importante destacar, que los cambios en $\varepsilon(t)$ tienen un mayor impacto en un período $t$ cercano a cero que en uno cercano a $T$. Esto se debe a que la media (\ref{eq 46}) está influenciada por la función de descuento de orden cero $\exp(-\rho z)$.
+
+En el próximo capítulo, se analizará la condición de Pareto, la cual es un requisito fundamental para que el plan inicial pueda considerarse como óptimo.
